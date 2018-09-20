@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!--<bean id="person" class="com.jianjieming.Test01.Person">-->
+    <!--<property name="name" value="张三"></property>-->
+    <!--</bean>-->
+    <!--
+    给属性注入值的时候,基本的引用类型使用value注入值,
+    如果属性是用户自定义的类型,也就是属性注入值得时候,需要依赖其他的bean,
+    使用ref.
+    给属性注入值的时候,需要依赖其他的bean的情况,称为依赖注入.
+    -->
+    <!--<bean id="dog" class="com.jianjieming.Test01.Dog">-->
+    <!--<property name="name" value="tom"></property>-->
+    <!--<property name="age" value="3"></property>-->
+    <!--<property name="host" ref="person"></property>-->
+    <!--<property name="list">-->
+    <!--<list>-->
+    <!--<value>jack</value>-->
+    <!--<value>rose</value>-->
+    <!--</list>-->
+    <!--</property>-->
+    <!--<property name="personList">-->
+    <!--<list>-->
+    <!--<ref bean="person"></ref>-->
+    <!--&lt;!&ndash;<null></null>&ndash;&gt;-->
+    <!--</list>-->
+    <!--</property>-->
+    <!--<property name="set">-->
+    <!--<set>-->
+    <!--<value>王五</value>-->
+    <!--<value>赵六</value>-->
+    <!--</set>-->
+    <!--</property>-->
+    <!--<property name="personSet">-->
+    <!--<set>-->
+    <!--<ref bean="person"></ref>-->
+    <!--</set>-->
+    <!--</property>-->
+    <!--<property name="map">-->
+    <!--<map>-->
+    <!--<entry key="first" value="one"></entry>-->
+    <!--<entry key="name" value="田七"></entry>-->
+    <!--</map>-->
+    <!--</property>-->
+    <!--<property name="personMap">-->
+    <!--<map>-->
+    <!--<entry key="name" value-ref="person"></entry>-->
+    <!--</map>-->
+    <!--</property>-->
+    <!--<property name="properties">-->
+    <!--<props>-->
+    <!--<prop key="size">5</prop>-->
+    <!--</props>-->
+    <!--</property>-->
+    <!--</bean>-->
+
+    <bean id="person" class="com.jianjieming.Test02.Person">
+        <property name="name" value="张三"></property>
+    </bean>
+
+    <bean id="class" class="com.jianjieming.Test02.ClassRoom">
+        <property name="name" value="三年级"></property>
+        <property name="num" value="1"></property>
+        <property name="personList">
+            <list>
+                <ref bean="person"></ref>
+            </list>
+        </property>
+        <property name="personMap">
+            <map>
+                <entry key="personName" value-ref="person"></entry>
+            </map>
+        </property>
+    </bean>
+
+</beans>

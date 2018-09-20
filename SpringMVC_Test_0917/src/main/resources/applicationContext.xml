@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+    <!--整合MyBatis配置-->
+    <!--把db的配置文件交给Spring加载-->
+    <context:property-placeholder location="classpath:db.properties"/>
+
+    <!--在Spring配置文件 装配SqlSessionFactoryBean-->
+    <!--c3p0连接池：class c3p0的驱动注册类-->
+    <!--dbcp连接池： org.apache.commons.dbcp.BasicDataSource-->
+    <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+        <property name="driverClass" value="${driver}"/>
+        <property name="jdbcUrl" value="${url}"/>
+        <property name="user" value="${username}"/>
+        <property name="password" value="${password}"/>
+        <property name="maxIdleTime" value="${db.maxIdleTime}"/>
+        <property name="maxPoolSize" value="${db.maxPoolSize}"/>
+        <property name="minPoolSize" value="${db.minPoolSize}"/>
+        <property name="acquireRetryDelay" value="${db.acquireRetryDelay}"/>
+        <property name="acquireIncrement" value="${db.acquireIncrement}"/>
+        <property name="acquireRetryAttempts" value="${db.acquireRetryAttempts}"/>
+        <property name="breakAfterAcquireFailure" value="${db.breakAfterAcquireFailure}"/>
+    </bean>
+
+    <!--装配SqlSessionFactory-->
+    <bean id="sqlSessionFactory"
+          class="org.mybatis.spring.SqlSessionFactoryBean">
+        <!--mybatis配置文件-->
+        <property name="configLocation" value="classpath:mybatis-config.xml"/>
+        <!--dataSource源数据-->
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+
+    <!--结合方式有三种-->
+
+    <!--第一种: 原生dao方式整合Spring开发-->
+    <bean id="personMapperImpl" class="com.luke.dao.PersonMapperImpl">
+        <!--原生dao方式-->
+        <property name="sqlSessionFactory" ref="sqlSessionFactory"/>
+    </bean>
+
+    <!--第二种: 使用Mapper结合Spring-->
+    <!--<bean id="personMapper" class="org.mybatis.spring.mapper.MapperFactoryBean">-->
+        <!--<property name="mapperInterface" value="com.luke.dao.PersonMapper"/>-->
+        <!--<property name="sqlSessionFactory" ref="sqlSessionFactory"/>-->
+    <!--</bean>-->
+
+    <!--第三种: spring自动扫描(批量扫描)-->
+    <bean id="mapperScannerConfigurer" class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <!-- 指定扫描的包名 ：如果扫描多个包，每个包使用逗号分隔 -->
+        <property name="basePackage" value="com.luke.dao"/>
+        <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
+    </bean>
+</beans>

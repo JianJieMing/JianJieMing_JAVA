@@ -1,0 +1,31 @@
+<!DOCTYPE web-app PUBLIC
+        "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+        "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+    <display-name>Archetype Created Web Application</display-name>
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+
+    <!--后台服务器通过DispatcherServlet进行调度,对所有的*.action的文件进行处理.-->
+    <servlet>
+        <servlet-name>springMVC</servlet-name>
+        <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+        <!--
+        通过参数contextConfigLocation可以配置springmvc配置文件的位置,
+        如果没有配置,默认会在web-inf下面查找"servlet-name"-servlet.xml,
+        只要服务器接收到*.action文件,DispatherServlet首先查找拦截器,
+        把请求的url拦截到springmvc的配置文件里.
+        -->
+        <!--<init-param>-->
+            <!--<param-name>contextConfigLocation</param-name>-->
+            <!--<param-value>classpath:</param-value>-->
+        <!--</init-param>-->
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>springMVC</servlet-name>
+        <url-pattern>*.action</url-pattern>
+    </servlet-mapping>
+
+</web-app>

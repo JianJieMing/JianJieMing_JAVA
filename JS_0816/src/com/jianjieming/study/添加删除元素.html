@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--
+    有一个输入框,有两个按钮,还有一个列表.
+    一个是添加按钮,一个是清空列表.
+    点击添加按钮的时候,将输入框中的内容添加到列表中.
+    点击清空列表,就清空列表.
+-->
+
+<label><input type="text" id="input"></label>
+<button id="btnAdd">添加</button>
+<button id="btnClear">清空</button>
+
+<ul id="list">
+    <li>Java</li>
+</ul>
+
+<script>
+    <!--获取三个标签-->
+    var input = document.getElementById('input');
+    var btnAdd = document.getElementById('btnAdd');
+    var btnClear = document.getElementById('btnClear');
+    var list = document.getElementById('list');
+    // 设置两个按钮的点击事件
+    btnAdd.onclick = function () {
+        // 获取文本框中的内容
+        var value = input.value;
+        // 创建一个li标签
+        var li = document.createElement('li');
+        // 把文本框中的内容输入到li中
+        li.innerText = value;
+        // 把li让如到ul中
+        list.appendChild(li);
+    };
+
+    btnClear.onclick = function () {
+        // 获取ul中的所有子元素
+        var children = list.children;
+        // for (var s of children) {
+        //     list.removeChild(s);
+        // }
+        var length = children.length;
+        for (var i = 0; i < length; i++) {
+            list.removeChild(children[0])
+        }
+
+    }
+
+</script>
+
+</body>
+</html>

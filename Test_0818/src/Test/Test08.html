@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../js/jquery-2.2.4.min.js"></script>
+    <script src="../js/jquery.validate.js"></script>
+    <script src="../js/messages_zh.js"></script>
+
+    <script>
+        $().ready(function () {
+            $('#validate').validate({
+                rules: {
+                    password1: {
+                        required: true,
+                        minlength: 6
+                    },
+                    password2: {
+                        required: true,
+                        minlength: 6,
+                        equalTo: '#word'
+                    }
+                },
+                messages: {
+                    password1: {
+                        required: '必须填写',
+                        minlength: '最少需要6个字符'
+                    },
+                    password2: {
+                        required: '必须填写',
+                        minlength: '最少需要6个字符',
+                        equalTo: '密码不一致'
+                    }
+                }
+            })
+        })
+    </script>
+
+    <style>
+        .error {
+            color: #ff0214;
+        }
+    </style>
+</head>
+<body>
+
+<form id="validate">
+
+    <table>
+        <tr>
+            <td><label>用户名:</label></td>
+            <td><input type="text" minlength="2" required></td>
+        </tr>
+        <tr>
+            <td><label>密码:</label></td>
+            <td><input id="word" type="password" name="password1"></td>
+        </tr>
+        <tr>
+            <td><label>确认密码:</label></td>
+            <td><input type="password" name="password2"></td>
+        </tr>
+        <tr>
+            <td><label>出生日期:</label></td>
+            <td><input type="dateISO" name="dateISO"></td>
+        </tr>
+        <tr>
+            <td><label>URL:</label></td>
+            <td><input type="url" name="url" required></td>
+        </tr>
+        <tr>
+            <td><label>Email:</label></td>
+            <td><input type="email" name="email" required></td>
+        </tr>
+    </table>
+    <input type="submit" value="验证">
+
+</form>
+
+</body>
+</html>

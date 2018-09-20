@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    <!--判断两个值是否相等-->
+    var x = 3;
+    var y = '3';
+    // == 比较的是两个值是否相等,忽略数据类型
+    // === 在==的基础上,也需要判断数据类型是否一致
+    if (x === y) {
+        document.write("<h1>两个值相等</h1>");
+    } else {
+        document.write('两个值不相等');
+    }
+
+    var flag = NaN;
+    // 在if中number类型的,只有0和NaN表示false,其他都是true
+    // string,只有放空字符串的时候是false,其他都是true
+    // null表示false
+    // undefined表示false
+    // 总结: 只要这个值,不正常,就表示false
+    if (NaN == NaN) {
+        document.write("<h1>true</h1>");
+    } else {
+        document.write("<h1>false</h1>");
+    }
+
+    // 在switch中,是使用===判断case的
+    switch (y) {
+        case 3:
+            break;
+        case '3':
+            break;
+        default:
+            break;
+    }
+
+    //    循环
+    for (var s = 0; s <= 10; s++) {
+        document.write(`<h1>${s}</h1>`)
+    }
+
+    //    数组
+    var arr = [1, 2, 'ss', false];
+    var length = arr.length;
+    document.write(length);
+    // arr.app() 栈的结构,弹出一个末尾的元素
+    // arr.push() 向栈中压入一个元素,添加在数组的末尾
+    // arr.join() 是把一个数组转成一个字符串,每个元素之间添加一个符号
+    // slice() 截取数组的一部分
+    var s = arr.join('-');
+    document.write('<br>' + s)
+
+
+</script>
+
+</body>
+</html>

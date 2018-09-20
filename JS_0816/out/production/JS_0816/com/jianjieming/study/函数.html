@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    <!--函数 相当于java中的方法-->
+    // function add(x, y) {
+    //     return x + y;
+    // }
+    //
+    // function f(sum) {
+    //     alert('函数fun1被调用,值为: ' + sum);
+    // }
+
+    // var sum = add(1, 10);
+    // 调用函数,将返回值赋值给某个变量
+    // var f = add();
+
+    // 将一个函数赋值给某个变量
+    // var h = add;
+    // sum = h(10, 20);
+
+    // 声明函数的第二种方式
+    // 将匿名对象赋值给某个对象
+    var minus = function (x, y) {
+        // 在一个函数中,如果直接给一个变量赋值,没有使用var关键字,
+        // 那么该变量就成为了全局变量
+        // ss = 10;
+        return x - y;
+    }
+    // 必须先赋值之后才能调用
+    var m = minus(10, 5);
+    document.write(m);
+
+    // 声明函数的第三种方式,使用 箭头函数(lambda表达式)
+    var add2 = (x, y) => x + y;
+    s = add2(10, 23);
+    document.write('<br>' + s);
+
+    // 对象
+    var p = {};
+    p.name = '高帅';
+    p.age = 18;
+    p.height = 1.73;
+    console.log(p);
+    p.say = () => console.log("我叫");
+    p.say();
+
+</script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表格</title>
+</head>
+<body>
+<table border="1" width="50%">
+    <caption style="color: #ff041f;font-size: 20px">成绩表</caption>
+    <thead>
+    <tr>
+        <td>学号</td>
+        <td>姓名</td>
+        <td>语文</td>
+        <td>数学</td>
+        <td>英语</td>
+        <td>总分</td>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>1</td>
+        <td>张三</td>
+        <td>77</td>
+        <td>45</td>
+        <td>33</td>
+        <td>155</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>李四</td>
+        <td>100</td>
+        <td>100</td>
+        <td>100</td>
+        <td>300</td>
+    </tr>
+    </tbody>
+</table>
+
+<!-- 跨列:colspan="2" 跨行:rowspan="2"-->
+
+<table border="1" width="50%">
+    <caption>成绩表</caption>
+    <thead>
+    <tr>
+        <th rowspan="2">学号</th>
+        <th rowspan="2">姓名</th>
+        <th colspan="3">分数</th>
+        <th rowspan="2">总分</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>1</td>
+        <td>张三</td>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+        <td>3</td>
+    </tr>
+    </tbody>
+</table>
+
+</body>
+</html>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	   xmlns:context="http://www.springframework.org/schema/context"
+	   xsi:schemaLocation="http://www.springframework.org/schema/beans
+	   http://www.springframework.org/schema/beans/spring-beans.xsd
+	   http://www.springframework.org/schema/context
+	   http://www.springframework.org/schema/context/spring-context.xsd">
+						
+	<!--进来的是url，出去的是view 。 -->
+	<!-- handlermapping，把url解析成数据对象 -->
+	<!--<bean id="simpleUrlHandlerMapping" class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">-->
+		<!--<property name="mappings">-->
+			<!--<props>-->
+				<!--<prop key="/login.action">loginController</prop>-->
+				<!--<prop key="/success.action">successController</prop>-->
+			<!--</props>-->
+		<!--</property>-->
+	<!--</bean>-->
+	
+	
+	<!-- 使用controller进行数据处理，生成ModelAndView -->
+	<!--<bean id="/login.action" class="org.springframework.web.servlet.mvc.ParameterizableViewController">-->
+		<!--<property name="viewName" value="login"></property>-->
+	<!--</bean>-->
+	<!--<bean id="/success.action" class="com.jianjieming.spingmvc.controller.LoginAction"></bean>-->
+
+
+	<context:component-scan base-package="com.jianjieming.spingmvc.controller"></context:component-scan>
+
+
+	<!-- 使用ViewResolver进行视图解析，生成对应的view -->
+	<bean id="internalResourceViewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<property name="prefix" value="/WEB-INF/jsp/"></property>
+		<property name="suffix" value=".jsp"></property>
+	</bean>
+	
+</beans>

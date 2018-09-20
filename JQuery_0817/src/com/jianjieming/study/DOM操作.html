@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../js/jquery-2.2.4.min.js"></script>
+    <style>
+        div {
+            width: 300px;
+            height: 200px;
+        }
+
+        .light {
+            border: 5px solid cyan;
+            background-color: #16ff04;
+        }
+
+        .dark {
+            border: 5px solid fuchsia;
+            background-color: #fff507;
+        }
+    </style>
+    <script>
+        $(function () {
+            // 1.append
+            // const list = $('#list');
+            const lic = $('<li></li>').text('C++');
+            // list.append(lic);
+            // 2.prepend
+            const lik = $('<li></li>').html('<a href="#">Kotlin</a>');
+            // list.prepend(lik);
+            // 3.before
+            const btn = $('<button></button>').text('点我');
+            // list.before(btn);
+            // 4.after
+            const p = $('<p></p>').text('大美女');
+            // list.after(p);
+
+            $('#list').append(lic).prepend(lik).before(btn).after(p);
+
+            btn.click(function () {
+                // $('div').removeClass('light').addClass('dark');
+                $('div').toggleClass('dark');
+                $('p').css({
+                    color: 'fuchsia',
+                    'background-color': 'cyan'
+                })
+            });
+
+            $('li:odd').css('background-color','#fff507');
+            $('li:even').css('background-color','cyan');
+
+        })
+    </script>
+</head>
+<body>
+
+<!--before-->
+<ul id="list">
+    <!--prepend-->
+    <li>Java</li>
+    <li>JavaScript</li>
+    <li>Html</li>
+    <!--append 把元素添加到该位置-->
+</ul>
+<!--after-->
+
+<div class="light"></div>
+
+</body>
+</html>

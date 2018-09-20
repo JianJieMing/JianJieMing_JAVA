@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="MySQL - @localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.10">
+    <root id="1"/>
+    <schema id="2" parent="1" name="bookstore">
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="code_jdbc"/>
+    <schema id="4" parent="1" name="customers"/>
+    <schema id="5" parent="1" name="hello_world"/>
+    <schema id="6" parent="1" name="information_schema"/>
+    <schema id="7" parent="1" name="JianJieMing">
+      <Visible>1</Visible>
+    </schema>
+    <schema id="8" parent="1" name="lanou2"/>
+    <schema id="9" parent="1" name="lanou3"/>
+    <schema id="10" parent="1" name="lanou4"/>
+    <schema id="11" parent="1" name="lanou5"/>
+    <schema id="12" parent="1" name="lan_ou"/>
+    <schema id="13" parent="1" name="lesson1db"/>
+    <schema id="14" parent="1" name="mybatis"/>
+    <schema id="15" parent="1" name="mysql"/>
+    <schema id="16" parent="1" name="my_db"/>
+    <schema id="17" parent="1" name="new_db"/>
+    <schema id="18" parent="1" name="performance_schema"/>
+    <schema id="19" parent="1" name="sys"/>
+    <table id="20" parent="2" name="book"/>
+    <table id="21" parent="2" name="cart"/>
+    <table id="22" parent="2" name="category"/>
+    <table id="23" parent="2" name="orders"/>
+    <table id="24" parent="2" name="tb_user"/>
+    <table id="25" parent="7" name="Course"/>
+    <table id="26" parent="7" name="SC"/>
+    <table id="27" parent="7" name="Student"/>
+    <table id="28" parent="7" name="Teacher"/>
+    <table id="29" parent="7" name="tb_code"/>
+    <table id="30" parent="7" name="tb_code_type"/>
+    <column id="31" parent="20" name="bid">
+      <DataType>char(32)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="32" parent="20" name="bname">
+      <DataType>varchar(100)|0s</DataType>
+    </column>
+    <column id="33" parent="20" name="price">
+      <DataType>decimal(5,1 digit)|0s</DataType>
+    </column>
+    <column id="34" parent="20" name="author">
+      <DataType>varchar(20)|0s</DataType>
+    </column>
+    <column id="35" parent="20" name="image">
+      <DataType>varchar(200)|0s</DataType>
+    </column>
+    <column id="36" parent="20" name="cid">
+      <DataType>char(32)|0s</DataType>
+    </column>
+    <column id="37" parent="20" name="del">
+      <DataType>tinyint(1)|0s</DataType>
+    </column>
+    <index id="38" parent="20" name="cid">
+      <ColNames>cid</ColNames>
+    </index>
+    <key id="39" parent="20" name="PRIMARY">
+      <ColNames>bid</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="40" parent="20" name="book_ibfk_1">
+      <ColNames>cid</ColNames>
+      <RefTableName>category</RefTableName>
+      <RefKeyName>PRIMARY</RefKeyName>
+      <RefColNames>cid</RefColNames>
+      <OnUpdate>restrict</OnUpdate>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <column id="41" parent="21" name="uid">
+      <DataType>varchar(99)|0s</DataType>
+    </column>
+    <column id="42" parent="21" name="bid">
+      <DataType>varchar(111)|0s</DataType>
+    </column>
+    <column id="43" parent="21" name="count">
+      <DataType>varchar(111)|0s</DataType>
+    </column>
+    <column id="44" parent="22" name="cid">
+      <DataType>char(32)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="45" parent="22" name="cname">
+      <DataType>varchar(100)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="46" parent="22" name="PRIMARY">
+      <ColNames>cid</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="47" parent="23" name="oid">
+      <DataType>char(32)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="48" parent="23" name="ordertime">
+      <DataType>datetime|0s</DataType>
+    </column>
+    <column id="49" parent="23" name="total">
+      <DataType>varchar(222)|0s</DataType>
+    </column>
+    <column id="50" parent="23" name="state">
+      <DataType>varchar(200)|0s</DataType>
+    </column>
+    <column id="51" parent="23" name="uid">
+      <DataType>char(32)|0s</DataType>
+    </column>
+    <column id="52" parent="23" name="address">
+      <DataType>varchar(200)|0s</DataType>
+    </column>
+    <index id="53" parent="23" name="uid">
+      <ColNames>uid</ColNames>
+    </index>
+    <key id="54" parent="23" name="PRIMARY">
+      <ColNames>oid</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="55" parent="23" name="orders_ibfk_1">
+      <ColNames>uid</ColNames>
+      <RefTableName>tb_user</RefTableName>
+      <RefKeyName>PRIMARY</RefKeyName>
+      <RefColNames>uid</RefColNames>
+      <OnUpdate>restrict</OnUpdate>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <column id="56" parent="24" name="uid">
+      <DataType>char(32)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="57" parent="24" name="username">
+      <DataType>varchar(50)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="58" parent="24" name="password">
+      <DataType>varchar(50)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="59" parent="24" name="email">
+      <DataType>varchar(50)|0s</DataType>
+    </column>
+    <column id="60" parent="24" name="code">
+      <DataType>char(64)|0s</DataType>
+    </column>
+    <column id="61" parent="24" name="state">
+      <DataType>tinyint(1)|0s</DataType>
+    </column>
+    <key id="62" parent="24" name="PRIMARY">
+      <ColNames>uid</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="63" parent="25" name="CID">
+      <DataType>varchar(10)|0s</DataType>
+    </column>
+    <column id="64" parent="25" name="Cname">
+      <DataType>varchar(10)|0s</DataType>
+    </column>
+    <column id="65" parent="25" name="TID">
+      <DataType>varchar(10)|0s</DataType>
+    </column>
+    <column id="66" parent="26" name="SID">
+      <DataType>varchar(10)|0s</DataType>
+    </column>
+    <column id="67" parent="26" name="CID">
+      <DataType>varchar(10)|0s</DataType>
+    </column>
+    <column id="68" parent="26" name="score">
+      <DataType>decimal(18,1 digit)|0s</DataType>
+    </column>
+    <column id="69" parent="27" name="SID">
+      <DataType>varchar(10)|0s</DataType>
+    </column>
+    <column id="70" parent="27" name="Sname">
+      <DataType>varchar(10)|0s</DataType>
+    </column>
+    <column id="71" parent="27" name="Sage">
+      <DataType>datetime|0s</DataType>
+    </column>
+    <column id="72" parent="27" name="Ssex">
+      <DataType>varchar(10)|0s</DataType>
+    </column>
+    <column id="73" parent="28" name="TID">
+      <DataType>varchar(10)|0s</DataType>
+    </column>
+    <column id="74" parent="28" name="Tname">
+      <DataType>varchar(10)|0s</DataType>
+    </column>
+    <column id="75" parent="29" name="code_id">
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="76" parent="29" name="code_type_Id">
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="77" parent="29" name="code_name">
+      <DataType>varchar(100)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="78" parent="29" name="des">
+      <DataType>varchar(200)|0s</DataType>
+    </column>
+    <column id="79" parent="29" name="crt_user_id">
+      <DataType>bigint(20)|0s</DataType>
+    </column>
+    <column id="80" parent="29" name="crt_time">
+      <DataType>timestamp|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <column id="81" parent="29" name="upd_user_id">
+      <DataType>bigint(20)|0s</DataType>
+    </column>
+    <column id="82" parent="29" name="upd_time">
+      <DataType>timestamp|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <column id="83" parent="29" name="delete_flag">
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <key id="84" parent="29" name="PRIMARY">
+      <ColNames>code_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="85" parent="30" name="code_type_id">
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="86" parent="30" name="code_type_name">
+      <DataType>varchar(20)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="87" parent="30" name="des">
+      <DataType>varchar(200)|0s</DataType>
+    </column>
+    <index id="88" parent="30" name="code_type_name">
+      <ColNames>code_type_name</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="89" parent="30" name="PRIMARY">
+      <ColNames>code_type_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="90" parent="30" name="code_type_name">
+      <ColNames>code_type_name</ColNames>
+      <UnderlyingIndexName>code_type_name</UnderlyingIndexName>
+    </key>
+  </database-model>
+</dataSource>

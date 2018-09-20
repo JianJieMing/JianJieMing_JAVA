@@ -1,0 +1,1545 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="43889add-b865-404d-b667-e64b18313964" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/copyright/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/课堂代码.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AOP_0918/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AOP_0918/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AOP_0918/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AOP_0918/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AOP_0918/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AOP_0918/AOP_0918.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AOP_0918/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Abstract_0713/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Abstract_0713/.idea/copyright/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Abstract_0713/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Abstract_0713/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Abstract_0713/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Abstract_0713/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Abstract_0713/Abstract_0713.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Abstract_0713/out/production/Abstract_0713/com/jianjieming/robot/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Abstract_0713/out/production/Abstract_0713/com/jianjieming/robot/Robot.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Abstract_0713/out/production/Abstract_0713/com/jianjieming/robot/WoodRobot.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Abstract_0713/out/production/Abstract_0713/com/jianjieming/test/ADC.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Abstract_0713/out/production/Abstract_0713/com/jianjieming/test/Assassin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Abstract_0713/out/production/Abstract_0713/com/jianjieming/test/Hero.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Abstract_0713/out/production/Abstract_0713/com/jianjieming/test/Mage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Abstract_0713/out/production/Abstract_0713/com/jianjieming/test/Main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Abstract_0713/out/production/Abstract_0713/com/jianjieming/test/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Abstract_0713/out/production/Abstract_0713/com/jianjieming/test/Manito.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Abstract_0713/out/production/Abstract_0713/com/jianjieming/test/Player.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Abstract_0713/out/production/Abstract_0713/com/jianjieming/test/Warrior.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Abstract_0713/out/production/Abstract_0713/com/jianjieming/test01/AD.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Abstract_0713/out/production/Abstract_0713/com/jianjieming/test01/AP.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Abstract_0713/out/production/Abstract_0713/com/jianjieming/test01/Hero.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Abstract_0713/out/production/Abstract_0713/com/jianjieming/test01/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Abstract_0713/out/production/Abstract_0713/com/jianjieming/test01/Manito.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Abstract_0713/out/production/Abstract_0713/com/jianjieming/test01/Player.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Abstract_0713/out/production/Abstract_0713/com/jianjieming/test02/Cook.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Abstract_0713/out/production/Abstract_0713/com/jianjieming/test02/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Abstract_0713/out/production/Abstract_0713/com/jianjieming/test02/PCook.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Abstract_0713/out/production/Abstract_0713/com/jianjieming/zoo/Animal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Abstract_0713/out/production/Abstract_0713/com/jianjieming/zoo/GrassAnimal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Abstract_0713/out/production/Abstract_0713/com/jianjieming/zoo/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Abstract_0713/out/production/Abstract_0713/com/jianjieming/zoo/Sheep.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Abstract_0713/src/com/jianjieming/robot/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Abstract_0713/src/com/jianjieming/robot/Robot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Abstract_0713/src/com/jianjieming/robot/WoodRobot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Abstract_0713/src/com/jianjieming/test/ADC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Abstract_0713/src/com/jianjieming/test/Assassin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Abstract_0713/src/com/jianjieming/test/Hero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Abstract_0713/src/com/jianjieming/test/Mage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Abstract_0713/src/com/jianjieming/test/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Abstract_0713/src/com/jianjieming/test/Manito.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Abstract_0713/src/com/jianjieming/test/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Abstract_0713/src/com/jianjieming/test/Warrior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Abstract_0713/src/com/jianjieming/test01/AD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Abstract_0713/src/com/jianjieming/test01/AP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Abstract_0713/src/com/jianjieming/test01/Hero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Abstract_0713/src/com/jianjieming/test01/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Abstract_0713/src/com/jianjieming/test01/Manito.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Abstract_0713/src/com/jianjieming/test01/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Abstract_0713/src/com/jianjieming/test02/Cook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Abstract_0713/src/com/jianjieming/test02/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Abstract_0713/src/com/jianjieming/test02/PCook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Abstract_0713/src/com/jianjieming/zoo/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Abstract_0713/src/com/jianjieming/zoo/GrassAnimal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Abstract_0713/src/com/jianjieming/zoo/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Abstract_0713/src/com/jianjieming/zoo/Sheep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ajax_0824/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ajax_0824/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ajax_0824/src/com/jianjieming/Test/Ajax2Servlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ajax_0824/src/com/jianjieming/study/AjaxServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ajax_0824/web/WEB-INF/lib/c3p0-0.9.5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ajax_0824/web/WEB-INF/lib/commons-dbcp-1.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ajax_0824/web/WEB-INF/lib/commons-dbutils-1.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ajax_0824/web/WEB-INF/lib/commons-io-2.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ajax_0824/web/WEB-INF/lib/commons-pool-1.5.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ajax_0824/web/WEB-INF/lib/gson-2.8.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ajax_0824/web/WEB-INF/lib/mchange-commons-java-0.2.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ajax_0824/web/WEB-INF/lib/mysql-connector-java-6.0.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ajax_0824/web/ajax.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ajax_0824/web/ajax2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ajax_0824/web/js/canvas-particle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ajax_0824/web/js/easying.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ajax_0824/web/js/jQueryRotate3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ajax_0824/web/js/jquery-2.2.4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ajax_0824/web/js/jquery-3.2.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ajax_0824/web/js/jquery.validate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ajax_0824/web/js/messages_zh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ajax_0824/web/js/messages_zh_TW.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BookStore_0831/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BookstoreSpring_0912/src/main/java/com/jianjieming/Test01/Modle/dao/PersonDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BookstoreSpring_0912/src/main/java/com/jianjieming/Test01/Modle/dao/PersonDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BookstoreSpring_0912/src/main/java/com/jianjieming/Test01/Modle/service/PersonService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BookstoreSpring_0912/src/main/java/com/jianjieming/Test01/Modle/vo/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BookstoreSpring_0912/src/main/java/com/jianjieming/Test01/Modle/vo/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BookstoreSpring_0912/src/main/java/com/jianjieming/Test01/controller/PersonAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BookstoreSpring_0912/src/main/java/com/jianjieming/study/Modle/dao/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BookstoreSpring_0912/src/main/java/com/jianjieming/study/Modle/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BookstoreSpring_0912/src/main/java/com/jianjieming/study/Modle/vo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BookstoreSpring_0912/src/main/java/com/jianjieming/study/controller/UserAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CSS_0815/src/com/jianjieming/study/CSS/outer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CSS_0815/src/com/jianjieming/study/CSS/spigPet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CSS_0815/src/com/jianjieming/study/HTML/Test01.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CSS_0815/src/com/jianjieming/study/HTML/Test02.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CSS_0815/src/com/jianjieming/study/HTML/京东导航菜单.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CSS_0815/src/com/jianjieming/study/HTML/内联样式.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CSS_0815/src/com/jianjieming/study/HTML/内部样式.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CSS_0815/src/com/jianjieming/study/HTML/外部样式.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CSS_0815/src/com/jianjieming/study/HTML/樱花雨背景.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CSS_0815/src/com/jianjieming/study/imgs/109951163079930963.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CSS_0815/src/com/jianjieming/study/imgs/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CSS_0815/src/com/jianjieming/study/imgs/spig.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CSS_0815/src/com/jianjieming/study/imgs/ss.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CSS_0815/src/com/jianjieming/study/imgs/ss2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CSS_0815/src/com/jianjieming/study/imgs/ss3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CSS_0815/src/com/jianjieming/study/imgs/tel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CSS_0815/src/com/jianjieming/study/imgs/xxb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CSS_0815/src/com/jianjieming/study/imgs/表情.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CSS_0815/src/com/jianjieming/study/js/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CSS_0815/src/com/jianjieming/study/js/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CSS_0815/src/com/jianjieming/study/js/js/canvas-particle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CSS_0815/src/com/jianjieming/study/js/js/easying.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CSS_0815/src/com/jianjieming/study/js/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CSS_0815/src/com/jianjieming/study/js/js/jQueryRotate3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CSS_0815/src/com/jianjieming/study/js/js/jquery-1.11.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CSS_0815/src/com/jianjieming/study/js/js/jquery-1.4.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CSS_0815/src/com/jianjieming/study/js/js/jquery-3.2.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CSS_0815/src/com/jianjieming/study/js/js/jquery-3.3.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CSS_0815/src/com/jianjieming/study/js/js/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CSS_0815/src/com/jianjieming/study/js/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CSS_0815/src/com/jianjieming/study/js/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CSS_0815/src/com/jianjieming/study/js/js/prefixfree.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CSS_0815/src/com/jianjieming/study/js/js/spig.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CSS_0815/src/com/jianjieming/study/js/js/yinghua.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class_0710/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class_0710/.idea/copyright/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class_0710/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class_0710/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class_0710/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class_0710/Class_0710.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class_0710/out/production/Class_0710/com/jianjieming/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class_0710/out/production/Class_0710/com/jianjieming/Test01.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class_0710/out/production/Class_0710/com/jianjieming/Test02.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class_0710/out/production/Class_0710/com/jianjieming/homework/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class_0710/out/production/Class_0710/com/jianjieming/homework/Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class_0710/out/production/Class_0710/com/jianjieming/homework/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class_0710/out/production/Class_0710/com/jianjieming/homework/Test02.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class_0710/src/com/jianjieming/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class_0710/src/com/jianjieming/Test01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class_0710/src/com/jianjieming/Test02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class_0710/src/com/jianjieming/homework/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class_0710/src/com/jianjieming/homework/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class_0710/src/com/jianjieming/homework/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class_0710/src/com/jianjieming/homework/Test02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class_0710/常用类.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Code_0716/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Code_0716/.idea/copyright/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Code_0716/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Code_0716/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Code_0716/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Code_0716/Code_0716.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Code_0716/out/production/Code_0716/com/jianjieming/test/Goods.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Code_0716/out/production/Code_0716/com/jianjieming/test/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Code_0716/src/com/jianjieming/test/Goods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Code_0716/src/com/jianjieming/test/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Code_0716/src/com/jianjieming/test/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConnectionPool_0809/.idea/libraries/blis__2_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConnectionPool_0809/.idea/libraries/blis__3_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConnectionPool_0809/blis/c3p0-0.9.5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConnectionPool_0809/blis/commons-dbcp-1.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConnectionPool_0809/blis/commons-pool-1.5.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConnectionPool_0809/blis/mchange-commons-java-0.2.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConnectionPool_0809/src/c3p0-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConnectionPool_0809/src/com/jianjieming/Test/Test01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConnectionPool_0809/src/com/jianjieming/study/common/C3p0DataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConnectionPool_0809/src/com/jianjieming/study/common/ConnectionSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConnectionPool_0809/src/com/jianjieming/study/common/CustomDataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConnectionPool_0809/src/com/jianjieming/study/common/DbcpDataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConnectionPool_0809/src/com/jianjieming/study/db/LanouDataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConnectionPool_0809/src/com/jianjieming/study/db/LanouRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConnectionPool_0809/src/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Constructor_0710/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Constructor_0710/.idea/copyright/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Constructor_0710/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Constructor_0710/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Constructor_0710/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Constructor_0710/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Constructor_0710/Constructor_0710.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Constructor_0710/out/production/Constructor_0710/com/jianjieming/learning/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Constructor_0710/out/production/Constructor_0710/com/jianjieming/learning/shopping/Goods.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Constructor_0710/out/production/Constructor_0710/com/jianjieming/test/Math.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Constructor_0710/out/production/Constructor_0710/com/jianjieming/test/Test01.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Constructor_0710/out/production/Constructor_0710/com/jianjieming/test/Test02.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Constructor_0710/src/com/jianjieming/learning/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Constructor_0710/src/com/jianjieming/learning/shopping/Goods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Constructor_0710/src/com/jianjieming/test/Math.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Constructor_0710/src/com/jianjieming/test/Test01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Constructor_0710/src/com/jianjieming/test/Test02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CookieSession_0829/src/com/jianjieming/login/GameListServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CookieSession_0829/src/com/jianjieming/login/LoginResultServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CookieSession_0829/src/com/jianjieming/login/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CookieSession_0829/src/com/jianjieming/study/CookieServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CookieSession_0829/src/com/jianjieming/study/DisplayServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CookieSession_0829/web/game-list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CookieSession_0829/web/js/jquery-3.2.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CookieSession_0829/web/login-result.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CookieSession_0829/web/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cycle_0704/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cycle_0704/.idea/copyright/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cycle_0704/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cycle_0704/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cycle_0704/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cycle_0704/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cycle_0704/Cycle_0704.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cycle_0704/out/production/Cycle_0704/com/jianjieming/ArrayDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cycle_0704/out/production/Cycle_0704/com/jianjieming/ForDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cycle_0704/out/production/Cycle_0704/com/jianjieming/Test/Test01.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cycle_0704/out/production/Cycle_0704/com/jianjieming/Test/Test02.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cycle_0704/out/production/Cycle_0704/com/jianjieming/Test/Test03.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cycle_0704/out/production/Cycle_0704/com/jianjieming/Test/Test04.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cycle_0704/out/production/Cycle_0704/com/jianjieming/Test/Test05.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cycle_0704/out/production/Cycle_0704/com/jianjieming/Test/Test06.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cycle_0704/out/production/Cycle_0704/com/jianjieming/Test/Test07.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cycle_0704/out/production/Cycle_0704/com/jianjieming/Test/Test08.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cycle_0704/out/production/Cycle_0704/com/jianjieming/Test/Test09.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cycle_0704/out/production/Cycle_0704/com/jianjieming/Test/Test10.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cycle_0704/out/production/Cycle_0704/com/jianjieming/homework/Test01.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cycle_0704/out/production/Cycle_0704/com/jianjieming/homework/Test02.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cycle_0704/out/production/Cycle_0704/com/jianjieming/homework/Test03.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cycle_0704/out/production/Cycle_0704/com/jianjieming/homework/Test05.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cycle_0704/out/production/Cycle_0704/com/jianjieming/homework/Test06.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cycle_0704/out/production/Cycle_0704/com/jianjieming/homework/Test07.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cycle_0704/out/production/Cycle_0704/com/jianjieming/homework/Test08.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cycle_0704/out/production/Cycle_0704/com/jianjieming/homework/Test09.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cycle_0704/out/production/Cycle_0704/com/jianjieming/homework/Test10.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cycle_0704/out/production/Cycle_0704/com/jianjieming/homework/Test11.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cycle_0704/out/production/Cycle_0704/com/jianjieming/homework/Test12.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cycle_0704/out/production/Cycle_0704/com/jianjieming/homework/Test13.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cycle_0704/out/production/Cycle_0704/com/jianjieming/homework/Test14.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cycle_0704/out/production/Cycle_0704/com/jianjieming/homework/Test15.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cycle_0704/src/com/jianjieming/ArrayDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cycle_0704/src/com/jianjieming/ForDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cycle_0704/src/com/jianjieming/Test/Test01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cycle_0704/src/com/jianjieming/Test/Test02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cycle_0704/src/com/jianjieming/Test/Test03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cycle_0704/src/com/jianjieming/Test/Test04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cycle_0704/src/com/jianjieming/Test/Test05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cycle_0704/src/com/jianjieming/Test/Test06.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cycle_0704/src/com/jianjieming/Test/Test07.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cycle_0704/src/com/jianjieming/Test/Test08.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cycle_0704/src/com/jianjieming/Test/Test09.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cycle_0704/src/com/jianjieming/Test/Test10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cycle_0704/src/com/jianjieming/homework/Test01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cycle_0704/src/com/jianjieming/homework/Test02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cycle_0704/src/com/jianjieming/homework/Test03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cycle_0704/src/com/jianjieming/homework/Test04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cycle_0704/src/com/jianjieming/homework/Test05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cycle_0704/src/com/jianjieming/homework/Test06.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cycle_0704/src/com/jianjieming/homework/Test07.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cycle_0704/src/com/jianjieming/homework/Test08.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cycle_0704/src/com/jianjieming/homework/Test09.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cycle_0704/src/com/jianjieming/homework/Test10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cycle_0704/src/com/jianjieming/homework/Test11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cycle_0704/src/com/jianjieming/homework/Test12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cycle_0704/src/com/jianjieming/homework/Test13.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cycle_0704/src/com/jianjieming/homework/Test14.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cycle_0704/src/com/jianjieming/homework/Test15.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cycle_0704/循环结构.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cycle_0704/数组.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exception/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exception/.idea/copyright/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exception/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exception/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exception/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exception/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exception/Exception.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exception/out/production/Exception/com/jianjieming/FileDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exception/out/production/Exception/com/jianjieming/IOTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exception/out/production/Exception/com/jianjieming/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exception/out/production/Exception/com/jianjieming/test/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exception/out/production/Exception/com/jianjieming/不能是负数傻逼.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exception/src/com/jianjieming/FileDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exception/src/com/jianjieming/IOTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exception/src/com/jianjieming/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exception/src/com/jianjieming/test/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exception/src/com/jianjieming/不能是负数傻逼.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exception/异常.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FileUpload_0827/src/com/jianjieming/Test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FileUpload_0827/src/com/jianjieming/Test/UUIDTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FileUpload_0827/src/com/jianjieming/study/FileUploadServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FileUpload_0827/web/WEB-INF/lib/c3p0-0.9.5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FileUpload_0827/web/WEB-INF/lib/commons-dbutils-1.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FileUpload_0827/web/WEB-INF/lib/commons-fileupload-1.3.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FileUpload_0827/web/WEB-INF/lib/commons-io-2.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FileUpload_0827/web/WEB-INF/lib/dom4j-1.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FileUpload_0827/web/WEB-INF/lib/gson-2.8.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FileUpload_0827/web/WEB-INF/lib/mchange-commons-java-0.2.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FileUpload_0827/web/WEB-INF/lib/mysql-connector-java-5.1.46.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FileUpload_0827/web/js/boot-games.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FileUpload_0827/web/js/canvas-particle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FileUpload_0827/web/js/easying.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FileUpload_0827/web/js/games2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FileUpload_0827/web/js/jQueryRotate3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FileUpload_0827/web/js/jquery-2.2.4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FileUpload_0827/web/js/jquery-3.2.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FileUpload_0827/web/js/jquery.validate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FileUpload_0827/web/js/messages_zh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FileUpload_0827/web/js/messages_zh_TW.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FileUpload_0827/web/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FilterLisetener_0830/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FilterLisetener_0830/src/com/jianjieming/filter/EncodingFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FilterLisetener_0830/src/com/jianjieming/filter/HttpFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FilterLisetener_0830/src/com/jianjieming/filter/LoginFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FilterLisetener_0830/src/com/jianjieming/filter/TestFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FilterLisetener_0830/src/com/jianjieming/study/HomeServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FilterLisetener_0830/web/validate/game-list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstHtml_0813/blis/c3p0-0.9.5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstHtml_0813/blis/commons-dbcp-1.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstHtml_0813/blis/commons-dbutils-1.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstHtml_0813/blis/commons-pool-1.5.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstHtml_0813/blis/gson-2.8.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstHtml_0813/blis/mchange-commons-java-0.2.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstHtml_0813/blis/mysql-connector-java-6.0.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstHtml_0813/blis/okhttp-3.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstHtml_0813/blis/okio-1.13.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstHtml_0813/src/c3p0-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstHtml_0813/src/com/jianjieming/Test/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstHtml_0813/src/com/jianjieming/Test/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstHtml_0813/src/com/jianjieming/Test/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstHtml_0813/src/com/jianjieming/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstHtml_0813/src/com/jianjieming/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstHtml_0813/src/com/jianjieming/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstHtml_0813/src/com/jianjieming/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstHtml_0813/src/com/jianjieming/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstHtml_0813/src/com/jianjieming/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstHtml_0813/src/com/jianjieming/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstHtml_0813/src/com/jianjieming/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstHtml_0813/src/com/jianjieming/css/yinghua.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstHtml_0813/src/com/jianjieming/css2/spigPet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstHtml_0813/src/com/jianjieming/dev/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstHtml_0813/src/com/jianjieming/dev/bean/Score.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstHtml_0813/src/com/jianjieming/dev/db/C3p0DataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstHtml_0813/src/com/jianjieming/dev/db/ConnectionSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstHtml_0813/src/com/jianjieming/dev/db/LanouDataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstHtml_0813/src/com/jianjieming/dev/db/LanouRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstHtml_0813/src/com/jianjieming/dev/db/UnderlineProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstHtml_0813/src/com/jianjieming/dev/html/Body.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstHtml_0813/src/com/jianjieming/dev/html/Cell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstHtml_0813/src/com/jianjieming/dev/html/Head.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstHtml_0813/src/com/jianjieming/dev/html/Row.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstHtml_0813/src/com/jianjieming/dev/html/TD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstHtml_0813/src/com/jianjieming/dev/html/TH.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstHtml_0813/src/com/jianjieming/dev/html/Table.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstHtml_0813/src/com/jianjieming/homework/homework02.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstHtml_0813/src/com/jianjieming/homework/homework03.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstHtml_0813/src/com/jianjieming/homework/homework04.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstHtml_0813/src/com/jianjieming/homework/homework05.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstHtml_0813/src/com/jianjieming/homework/homework06.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstHtml_0813/src/com/jianjieming/homework/homework07.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstHtml_0813/src/com/jianjieming/homework/homework08.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstHtml_0813/src/com/jianjieming/homework/核桃信息.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstHtml_0813/src/com/jianjieming/img/JD.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstHtml_0813/src/com/jianjieming/img/JD2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstHtml_0813/src/com/jianjieming/img/JD3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstHtml_0813/src/com/jianjieming/img/d1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstHtml_0813/src/com/jianjieming/img/d2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstHtml_0813/src/com/jianjieming/img/d3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstHtml_0813/src/com/jianjieming/img/d4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstHtml_0813/src/com/jianjieming/img/d5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstHtml_0813/src/com/jianjieming/img/e04a0b178508b8c1eb8be09aa8f0a273.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstHtml_0813/src/com/jianjieming/img/faq01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstHtml_0813/src/com/jianjieming/img/faq02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstHtml_0813/src/com/jianjieming/img/faq03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstHtml_0813/src/com/jianjieming/img/hetao.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstHtml_0813/src/com/jianjieming/img/进入箭头小.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstHtml_0813/src/com/jianjieming/java/TXKT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstHtml_0813/src/com/jianjieming/java/Test01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstHtml_0813/src/com/jianjieming/java/Test02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstHtml_0813/src/com/jianjieming/java/Test03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstHtml_0813/src/com/jianjieming/java/Test04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstHtml_0813/src/com/jianjieming/java/Test05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstHtml_0813/src/com/jianjieming/java/Test06.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstHtml_0813/src/com/jianjieming/java/Test07.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstHtml_0813/src/com/jianjieming/java/Test08.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstHtml_0813/src/com/jianjieming/java/UnderlineProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstHtml_0813/src/com/jianjieming/java/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstHtml_0813/src/com/jianjieming/js/jquery-3.3.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstHtml_0813/src/com/jianjieming/js/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstHtml_0813/src/com/jianjieming/js/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstHtml_0813/src/com/jianjieming/js/js/canvas-particle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstHtml_0813/src/com/jianjieming/js/js/easying.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstHtml_0813/src/com/jianjieming/js/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstHtml_0813/src/com/jianjieming/js/js/jQueryRotate3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstHtml_0813/src/com/jianjieming/js/js/jquery-1.11.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstHtml_0813/src/com/jianjieming/js/js/jquery-3.2.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstHtml_0813/src/com/jianjieming/js/js/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstHtml_0813/src/com/jianjieming/js/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstHtml_0813/src/com/jianjieming/js/js/prefixfree.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstHtml_0813/src/com/jianjieming/js/js/yinghua.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstHtml_0813/src/com/jianjieming/mp3/英雄联盟 - Get Jinxed.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstHtml_0813/src/com/jianjieming/study/Form表单.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstHtml_0813/src/com/jianjieming/study/HelloWorld.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstHtml_0813/src/com/jianjieming/study/asas.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstHtml_0813/src/com/jianjieming/study/樱花雨背景.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstHtml_0813/src/com/jianjieming/study/表格.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Future_0810/.idea/libraries/libs__2_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Future_0810/.idea/libraries/libs__3_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Future_0810/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Future_0810/libs/okhttp-3.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Future_0810/libs/okio-1.13.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Future_0810/src/com/jianjieming/Test/RandomCallable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Future_0810/src/com/jianjieming/Test/RandomMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Future_0810/src/com/jianjieming/Test/Test01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Future_0810/src/com/jianjieming/Test/Test03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Future_0810/src/com/jianjieming/Test/Test04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Future_0810/src/com/jianjieming/Test/Test05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Future_0810/src/com/jianjieming/Test/Test06.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Future_0810/src/com/jianjieming/study/AddCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Future_0810/src/com/jianjieming/study/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Future_0810/src/com/jianjieming/study/DownloadDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Future_0810/src/com/jianjieming/study/HttpDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Future_0810/src/com/jianjieming/study/IceCallable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Future_0810/src/com/jianjieming/study/Java8Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Future_0810/src/com/jianjieming/study/JoinRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Future_0810/src/com/jianjieming/study/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Future_0810/src/com/jianjieming/study/MinusCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Future_0810/src/com/jianjieming/study/RandomMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gather_0717/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gather_0717/.idea/copyright/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gather_0717/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gather_0717/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gather_0717/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gather_0717/Gather_0717.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gather_0717/out/production/Gather_0717/com/jianjieming/test/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gather_0717/out/production/Gather_0717/com/jianjieming/test/Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gather_0717/集合.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloServlet_0821/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloServlet_0821/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloServlet_0821/.idea/libraries/commons_fileupload_1_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloServlet_0821/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloServlet_0821/.idea/libraries/libs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloServlet_0821/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloServlet_0821/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloServlet_0821/src/com/jianjieming/Test/AServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloServlet_0821/src/com/jianjieming/Test/BServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloServlet_0821/src/com/jianjieming/Test/CServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloServlet_0821/src/com/jianjieming/Test/Test01.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloServlet_0821/src/com/jianjieming/Test/Test02Servlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloServlet_0821/src/com/jianjieming/Test/TestServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloServlet_0821/src/com/jianjieming/entity/Image.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloServlet_0821/src/com/jianjieming/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloServlet_0821/src/com/jianjieming/homework/HomeworkServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloServlet_0821/src/com/jianjieming/js/canvas-particle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloServlet_0821/src/com/jianjieming/js/easying.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloServlet_0821/src/com/jianjieming/js/jQueryRotate3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloServlet_0821/src/com/jianjieming/js/jquery-2.2.4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloServlet_0821/src/com/jianjieming/js/jquery-3.2.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloServlet_0821/src/com/jianjieming/js/jquery.validate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloServlet_0821/src/com/jianjieming/js/messages_zh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloServlet_0821/src/com/jianjieming/js/messages_zh_TW.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloServlet_0821/src/com/jianjieming/login/Ajax1Servlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloServlet_0821/src/com/jianjieming/login/Ajax2Servlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloServlet_0821/src/com/jianjieming/login/CodeServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloServlet_0821/src/com/jianjieming/login/EnterServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloServlet_0821/src/com/jianjieming/login/RegisterServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloServlet_0821/src/com/jianjieming/study/BaseServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloServlet_0821/src/com/jianjieming/study/ContextServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloServlet_0821/src/com/jianjieming/study/DownloadServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloServlet_0821/src/com/jianjieming/study/FormServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloServlet_0821/src/com/jianjieming/study/HelloServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloServlet_0821/src/com/jianjieming/study/HomeServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloServlet_0821/src/com/jianjieming/study/LogiServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloServlet_0821/src/com/jianjieming/study/RedirectServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloServlet_0821/src/com/jianjieming/utils/UnderlineProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloServlet_0821/src/com/jianjieming/utils/ValidateCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloServlet_0821/web/WEB-INF/classes/c3p0-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloServlet_0821/web/WEB-INF/lib/c3p0-0.9.5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloServlet_0821/web/WEB-INF/lib/commons-dbcp-1.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloServlet_0821/web/WEB-INF/lib/commons-dbutils-1.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloServlet_0821/web/WEB-INF/lib/commons-fileupload-1.3.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloServlet_0821/web/WEB-INF/lib/commons-io-1.3.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloServlet_0821/web/WEB-INF/lib/commons-pool-1.5.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloServlet_0821/web/WEB-INF/lib/gson-2.8.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloServlet_0821/web/WEB-INF/lib/mchange-commons-java-0.2.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloServlet_0821/web/WEB-INF/lib/mysql-connector-java-6.0.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloServlet_0821/web/a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloServlet_0821/web/js/canvas-particle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloServlet_0821/web/js/easying.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloServlet_0821/web/js/jQueryRotate3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloServlet_0821/web/js/jquery-2.2.4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloServlet_0821/web/js/jquery-3.2.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloServlet_0821/web/js/jquery.validate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloServlet_0821/web/js/messages_zh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloServlet_0821/web/js/messages_zh_TW.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloServlet_0821/web/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloServlet_0821/web/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloServlet_0821/web/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloTomCat_0821/.idea/artifacts/HelloTomCat_0821_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloTomCat_0821/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloTomCat_0821/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloTomCat_0821/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloTomCat_0821/HelloTomCat_0821.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloTomCat_0821/src/com/jianjieming/Test/TestServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloTomCat_0821/src/com/jianjieming/imgs/109951163215268270.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloTomCat_0821/src/com/jianjieming/study/HelloServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloTomCat_0821/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloWorld_0702/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloWorld_0702/.idea/copyright/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloWorld_0702/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloWorld_0702/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloWorld_0702/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloWorld_0702/HelloWorld_0702.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloWorld_0702/out/production/HelloWorld_0702/com/jianjieming/DataType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloWorld_0702/out/production/HelloWorld_0702/com/jianjieming/HelloWorld.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloWorld_0702/out/production/HelloWorld_0702/com/jianjieming/数据类型.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloWorld_0702/src/com/jianjieming/DataType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloWorld_0702/src/com/jianjieming/HelloWorld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloWorld_0702/数据类型.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IO_0720/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interface_0716/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interface_0716/.idea/copyright/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interface_0716/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interface_0716/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interface_0716/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interface_0716/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interface_0716/Interface_0716.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interface_0716/out/production/Interface_0716/com/jianjieming/homework/Duck.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interface_0716/out/production/Interface_0716/com/jianjieming/homework/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interface_0716/out/production/Interface_0716/com/jianjieming/homework/call/Call.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interface_0716/out/production/Interface_0716/com/jianjieming/homework/call/Call2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interface_0716/out/production/Interface_0716/com/jianjieming/homework/call/DuckCall.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interface_0716/out/production/Interface_0716/com/jianjieming/homework/duck/FilghtDuck.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interface_0716/out/production/Interface_0716/com/jianjieming/homework/duck/RubberDucks.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interface_0716/out/production/Interface_0716/com/jianjieming/homework/duck/WildDuck.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interface_0716/out/production/Interface_0716/com/jianjieming/homework/flight/DuckFlight.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interface_0716/out/production/Interface_0716/com/jianjieming/homework/flight/DuckFlight2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interface_0716/out/production/Interface_0716/com/jianjieming/homework/flight/Flight.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interface_0716/out/production/Interface_0716/com/jianjieming/homework/flight/NoFlight.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interface_0716/out/production/Interface_0716/com/jianjieming/test/AddComputer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interface_0716/out/production/Interface_0716/com/jianjieming/test/Computable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interface_0716/out/production/Interface_0716/com/jianjieming/test/DivisionComputer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interface_0716/out/production/Interface_0716/com/jianjieming/test/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interface_0716/out/production/Interface_0716/com/jianjieming/test/MultiplicationComputer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interface_0716/out/production/Interface_0716/com/jianjieming/test/SubtractComputer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interface_0716/out/production/Interface_0716/com/jianjieming/test/game/Attackable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interface_0716/out/production/Interface_0716/com/jianjieming/test/game/BlinkWalk.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interface_0716/out/production/Interface_0716/com/jianjieming/test/game/Hero.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interface_0716/out/production/Interface_0716/com/jianjieming/test/game/HorseMove.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interface_0716/out/production/Interface_0716/com/jianjieming/test/game/KnifeAttack.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interface_0716/out/production/Interface_0716/com/jianjieming/test/game/Knight.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interface_0716/out/production/Interface_0716/com/jianjieming/test/game/Mage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interface_0716/out/production/Interface_0716/com/jianjieming/test/game/MagicAttack.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interface_0716/out/production/Interface_0716/com/jianjieming/test/game/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interface_0716/out/production/Interface_0716/com/jianjieming/test/game/Moveable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interface_0716/out/production/Interface_0716/com/jianjieming/test/game/NormalMove.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interface_0716/out/production/Interface_0716/com/jianjieming/test/game/Pastor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interface_0716/out/production/Interface_0716/com/jianjieming/test/game/Warrior.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interface_0716/src/com/jianjieming/homework/Duck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interface_0716/src/com/jianjieming/homework/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interface_0716/src/com/jianjieming/homework/call/Call.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interface_0716/src/com/jianjieming/homework/call/Call2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interface_0716/src/com/jianjieming/homework/call/DuckCall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interface_0716/src/com/jianjieming/homework/duck/FilghtDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interface_0716/src/com/jianjieming/homework/duck/RubberDucks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interface_0716/src/com/jianjieming/homework/duck/WildDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interface_0716/src/com/jianjieming/homework/flight/DuckFlight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interface_0716/src/com/jianjieming/homework/flight/DuckFlight2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interface_0716/src/com/jianjieming/homework/flight/Flight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interface_0716/src/com/jianjieming/homework/flight/NoFlight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interface_0716/src/com/jianjieming/test/AddComputer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interface_0716/src/com/jianjieming/test/Computable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interface_0716/src/com/jianjieming/test/DivisionComputer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interface_0716/src/com/jianjieming/test/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interface_0716/src/com/jianjieming/test/MultiplicationComputer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interface_0716/src/com/jianjieming/test/SubtractComputer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interface_0716/src/com/jianjieming/test/game/Attackable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interface_0716/src/com/jianjieming/test/game/BlinkWalk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interface_0716/src/com/jianjieming/test/game/Hero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interface_0716/src/com/jianjieming/test/game/HorseMove.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interface_0716/src/com/jianjieming/test/game/KnifeAttack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interface_0716/src/com/jianjieming/test/game/Knight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interface_0716/src/com/jianjieming/test/game/Mage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interface_0716/src/com/jianjieming/test/game/MagicAttack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interface_0716/src/com/jianjieming/test/game/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interface_0716/src/com/jianjieming/test/game/Moveable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interface_0716/src/com/jianjieming/test/game/NormalMove.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interface_0716/src/com/jianjieming/test/game/Pastor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interface_0716/src/com/jianjieming/test/game/Warrior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interface_0716/接口.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JDBC_0807/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JQuery_0817/src/com/jianjieming/Test/Test01.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JQuery_0817/src/com/jianjieming/Test/坦克.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JQuery_0817/src/com/jianjieming/imgs/bom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JQuery_0817/src/com/jianjieming/imgs/tank_down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JQuery_0817/src/com/jianjieming/imgs/tank_left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JQuery_0817/src/com/jianjieming/imgs/tank_right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JQuery_0817/src/com/jianjieming/imgs/tank_up.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSP_0828/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSP_0828/src/com/jianjieming/Test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSP_0828/src/com/jianjieming/Test/Test01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSP_0828/src/com/jianjieming/Test/Test02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSP_0828/src/com/jianjieming/bean/HeaderImageBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSP_0828/src/com/jianjieming/bean/UserBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSP_0828/src/com/jianjieming/jsp/Login2Servlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSP_0828/src/com/jianjieming/jsp/LoginView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSP_0828/src/com/jianjieming/study/Ajax1Servlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSP_0828/src/com/jianjieming/study/Ajax2Servlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSP_0828/src/com/jianjieming/study/CodeServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSP_0828/src/com/jianjieming/study/HeaderImageServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSP_0828/src/com/jianjieming/study/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSP_0828/src/com/jianjieming/study/RegisterServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSP_0828/src/com/jianjieming/study/TestServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSP_0828/src/com/jianjieming/study/ValidateCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSP_0828/web/WEB-INF/classes/c3p0-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSP_0828/web/WEB-INF/hint.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSP_0828/web/WEB-INF/lib/c3p0-0.9.5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSP_0828/web/WEB-INF/lib/commons-dbutils-1.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSP_0828/web/WEB-INF/lib/commons-fileupload-1.3.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSP_0828/web/WEB-INF/lib/commons-io-2.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSP_0828/web/WEB-INF/lib/dom4j-1.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSP_0828/web/WEB-INF/lib/gson-2.8.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSP_0828/web/WEB-INF/lib/mchange-commons-java-0.2.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSP_0828/web/WEB-INF/lib/mysql-connector-java-5.1.46.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSP_0828/web/WEB-INF/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSP_0828/web/WEB-INF/result.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSP_0828/web/js/boot-games.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSP_0828/web/js/canvas-particle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSP_0828/web/js/easying.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSP_0828/web/js/games2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSP_0828/web/js/jQueryRotate3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSP_0828/web/js/jquery-2.2.4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSP_0828/web/js/jquery-3.2.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSP_0828/web/js/jquery.validate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSP_0828/web/js/messages_zh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSP_0828/web/js/messages_zh_TW.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSP_0828/web/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSP_0828/web/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JS_0816/src/com/jianjieming/Test/game/GameUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JS_0816/src/com/jianjieming/Test/game/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JS_0816/src/com/jianjieming/Test/game/MyGameFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JS_0816/src/com/jianjieming/homework/homework.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JS_0816/src/com/jianjieming/study/事件.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JS_0816/src/com/jianjieming/study/函数.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JS_0816/src/com/jianjieming/study/分支.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JS_0816/src/com/jianjieming/study/判断邮箱.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JS_0816/src/com/jianjieming/study/基本数据类型.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JS_0816/src/com/jianjieming/study/添加删除元素.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Listener_0831/src/com/jianjieming/study/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Listener_0831/src/com/jianjieming/study/button/Button.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Listener_0831/src/com/jianjieming/study/listener/AttributeListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Listener_0831/src/com/jianjieming/study/listener/MySessionListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Listener_0831/src/com/jianjieming/study/listener/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Listener_0831/src/com/jianjieming/study/observe/BMW.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Listener_0831/src/com/jianjieming/study/observe/DragonMan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Listener_0831/src/com/jianjieming/study/observe/Knife.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Listener_0831/src/com/jianjieming/study/observe/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Listener_0831/src/com/jianjieming/study/observe/People.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Listener_0831/src/com/jianjieming/study/observe/Servant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Listener_0831/src/com/jianjieming/study/observe/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Listener_0831/web/META-INF/context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Map_0718/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Map_0718/.idea/copyright/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Map_0718/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Map_0718/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Map_0718/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Map_0718/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Map_0718/Map_0718.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Map_0718/out/production/Map_0718/com/jianjieming/learning/Main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Map_0718/out/production/Map_0718/com/jianjieming/learning/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Map_0718/out/production/Map_0718/com/jianjieming/learning/MyCollection.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Map_0718/out/production/Map_0718/com/jianjieming/learning/MyComparable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Map_0718/out/production/Map_0718/com/jianjieming/learning/MyComparator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Map_0718/out/production/Map_0718/com/jianjieming/learning/Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Map_0718/out/production/Map_0718/com/jianjieming/learning/demo/Main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Map_0718/out/production/Map_0718/com/jianjieming/learning/demo/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Map_0718/out/production/Map_0718/com/jianjieming/learning/demo/MapMain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Map_0718/out/production/Map_0718/com/jianjieming/learning/demo/Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Map_0718/out/production/Map_0718/com/jianjieming/learning/demo/compare/MyCollections.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Map_0718/out/production/Map_0718/com/jianjieming/learning/demo/compare/MyComparable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Map_0718/out/production/Map_0718/com/jianjieming/learning/demo/compare/MyComparator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Map_0718/out/production/Map_0718/com/jianjieming/learning/demo/music/Album.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Map_0718/out/production/Map_0718/com/jianjieming/learning/demo/music/Music.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Map_0718/out/production/Map_0718/com/jianjieming/learning/demo/music/MusicMain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Map_0718/out/production/Map_0718/com/jianjieming/learning/map/MapMain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Map_0718/out/production/Map_0718/com/jianjieming/test/LOL.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Map_0718/out/production/Map_0718/com/jianjieming/test/英雄.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Map_0718/out/production/Map_0718/com/jianjieming/test/英雄联盟.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Map_0718/src/com/jianjieming/learning/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Map_0718/src/com/jianjieming/learning/MyCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Map_0718/src/com/jianjieming/learning/MyComparable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Map_0718/src/com/jianjieming/learning/MyComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Map_0718/src/com/jianjieming/learning/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Map_0718/src/com/jianjieming/learning/demo/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Map_0718/src/com/jianjieming/learning/demo/MapMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Map_0718/src/com/jianjieming/learning/demo/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Map_0718/src/com/jianjieming/learning/demo/compare/MyCollections.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Map_0718/src/com/jianjieming/learning/demo/compare/MyComparable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Map_0718/src/com/jianjieming/learning/demo/compare/MyComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Map_0718/src/com/jianjieming/learning/demo/music/Album.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Map_0718/src/com/jianjieming/learning/demo/music/Music.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Map_0718/src/com/jianjieming/learning/demo/music/MusicMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Map_0718/src/com/jianjieming/learning/map/MapMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Map_0718/src/com/jianjieming/test/LOL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Map_0718/src/com/jianjieming/test/英雄.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Map_0718/src/com/jianjieming/test/英雄联盟.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Map_0718/泛型.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Maven_Test01/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Maven_Test01/src/main/java/com/jianjieming/study/TestDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Maven_Test01/src/main/java/com/jianjieming/study/bean/PersonBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Maven_Test01/src/main/java/com/jianjieming/study/bean/TestBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Maven_Test01/src/main/java/com/jianjieming/study/dao/PersonDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Maven_Test01/src/main/java/com/jianjieming/study/test/Test01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Maven_Test01/src/main/java/com/jianjieming/study/test/Test02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Maven_Test01/src/main/resources/PersonMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Maven_Test01/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Maven_Test01/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Maven_Test01/test.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Method_0709/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Method_0709/.idea/copyright/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Method_0709/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Method_0709/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Method_0709/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Method_0709/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Method_0709/Code_0709.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Method_0709/out/production/Code_0709/com/jianjieming/learning/Calculator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Method_0709/out/production/Code_0709/com/jianjieming/learning/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Method_0709/out/production/Code_0709/com/jianjieming/learning/Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Method_0709/out/production/Code_0709/com/jianjieming/test/Father.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Method_0709/out/production/Code_0709/com/jianjieming/test/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Method_0709/out/production/Code_0709/com/jianjieming/test/Test1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Method_0709/src/com/jianjieming/learning/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Method_0709/src/com/jianjieming/learning/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Method_0709/src/com/jianjieming/learning/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Method_0709/src/com/jianjieming/test/Father.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Method_0709/src/com/jianjieming/test/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Method_0709/src/com/jianjieming/test/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Object-Oriented_0706/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Object-Oriented_0706/.idea/copyright/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Object-Oriented_0706/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Object-Oriented_0706/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Object-Oriented_0706/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Object-Oriented_0706/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Object-Oriented_0706/Object-Oriented_0706.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Object-Oriented_0706/out/production/Object-Oriented/com/jianjieming/LearningPackage/Cashier.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Object-Oriented_0706/out/production/Object-Oriented/com/jianjieming/LearningPackage/Consumer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Object-Oriented_0706/out/production/Object-Oriented/com/jianjieming/LearningPackage/Goods.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Object-Oriented_0706/out/production/Object-Oriented/com/jianjieming/LearningPackage/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Object-Oriented_0706/out/production/Object-Oriented/com/jianjieming/Test/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Object-Oriented_0706/out/production/Object-Oriented/com/jianjieming/Test/Test01.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Object-Oriented_0706/out/production/Object-Oriented/com/jianjieming/Test/Test02.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Object-Oriented_0706/out/production/Object-Oriented/com/jianjieming/TheSpeetOfDieOrLive/ThePlayer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Object-Oriented_0706/out/production/Object-Oriented/com/jianjieming/homework/Consumer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Object-Oriented_0706/out/production/Object-Oriented/com/jianjieming/homework/Goods.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Object-Oriented_0706/out/production/Object-Oriented/com/jianjieming/homework/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Object-Oriented_0706/out/production/Object-Oriented/com/jianjieming/homework/Shopping.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Object-Oriented_0706/out/production/Object-Oriented/com/jianjieming/homework/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Object-Oriented_0706/out/production/Object-Oriented_0706/com/jianjieming/LearningPackage/Cashier.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Object-Oriented_0706/out/production/Object-Oriented_0706/com/jianjieming/LearningPackage/Consumer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Object-Oriented_0706/out/production/Object-Oriented_0706/com/jianjieming/LearningPackage/Goods.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Object-Oriented_0706/out/production/Object-Oriented_0706/com/jianjieming/LearningPackage/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Object-Oriented_0706/out/production/Object-Oriented_0706/com/jianjieming/Test/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Object-Oriented_0706/out/production/Object-Oriented_0706/com/jianjieming/Test/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Object-Oriented_0706/out/production/Object-Oriented_0706/com/jianjieming/Test/Test01.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Object-Oriented_0706/out/production/Object-Oriented_0706/com/jianjieming/Test/Test02.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Object-Oriented_0706/out/production/Object-Oriented_0706/com/jianjieming/Test/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Object-Oriented_0706/out/production/Object-Oriented_0706/com/jianjieming/TheSpeetOfDieOrLive/CustomsPass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Object-Oriented_0706/out/production/Object-Oriented_0706/com/jianjieming/TheSpeetOfDieOrLive/Game.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Object-Oriented_0706/out/production/Object-Oriented_0706/com/jianjieming/TheSpeetOfDieOrLive/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Object-Oriented_0706/out/production/Object-Oriented_0706/com/jianjieming/TheSpeetOfDieOrLive/ThePlayer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Object-Oriented_0706/out/production/Object-Oriented_0706/com/jianjieming/demo/Main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Object-Oriented_0706/out/production/Object-Oriented_0706/com/jianjieming/demo/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Object-Oriented_0706/out/production/Object-Oriented_0706/com/jianjieming/demo/iterable/Cart1$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Object-Oriented_0706/out/production/Object-Oriented_0706/com/jianjieming/demo/iterable/Cart1$ArrayIterator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Object-Oriented_0706/out/production/Object-Oriented_0706/com/jianjieming/demo/iterable/Cart1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Object-Oriented_0706/out/production/Object-Oriented_0706/com/jianjieming/demo/iterable/Cart2$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Object-Oriented_0706/out/production/Object-Oriented_0706/com/jianjieming/demo/iterable/Cart2$ListIterator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Object-Oriented_0706/out/production/Object-Oriented_0706/com/jianjieming/demo/iterable/Cart2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Object-Oriented_0706/out/production/Object-Oriented_0706/com/jianjieming/demo/iterable/IteratorMain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Object-Oriented_0706/out/production/Object-Oriented_0706/com/jianjieming/demo/iterable/MyIterable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Object-Oriented_0706/out/production/Object-Oriented_0706/com/jianjieming/demo/iterable/MyIterator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Object-Oriented_0706/out/production/Object-Oriented_0706/com/jianjieming/demo/shop/CashierDesk.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Object-Oriented_0706/out/production/Object-Oriented_0706/com/jianjieming/demo/shop/DefaultDiscount.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Object-Oriented_0706/out/production/Object-Oriented_0706/com/jianjieming/demo/shop/Discountable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Object-Oriented_0706/out/production/Object-Oriented_0706/com/jianjieming/demo/shop/EightDiscount.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Object-Oriented_0706/out/production/Object-Oriented_0706/com/jianjieming/demo/shop/Goods.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Object-Oriented_0706/out/production/Object-Oriented_0706/com/jianjieming/demo/shop/ShoppingCart.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Object-Oriented_0706/out/production/Object-Oriented_0706/com/jianjieming/homework/CashierDesk.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Object-Oriented_0706/out/production/Object-Oriented_0706/com/jianjieming/homework/Consumer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Object-Oriented_0706/out/production/Object-Oriented_0706/com/jianjieming/homework/Discount.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Object-Oriented_0706/out/production/Object-Oriented_0706/com/jianjieming/homework/Discount2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Object-Oriented_0706/out/production/Object-Oriented_0706/com/jianjieming/homework/Discount3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Object-Oriented_0706/out/production/Object-Oriented_0706/com/jianjieming/homework/Goods.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Object-Oriented_0706/out/production/Object-Oriented_0706/com/jianjieming/homework/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Object-Oriented_0706/out/production/Object-Oriented_0706/com/jianjieming/homework/Money.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Object-Oriented_0706/src/com/jianjieming/LearningPackage/Cashier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Object-Oriented_0706/src/com/jianjieming/LearningPackage/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Object-Oriented_0706/src/com/jianjieming/LearningPackage/Goods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Object-Oriented_0706/src/com/jianjieming/LearningPackage/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Object-Oriented_0706/src/com/jianjieming/Test/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Object-Oriented_0706/src/com/jianjieming/Test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Object-Oriented_0706/src/com/jianjieming/Test/Test01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Object-Oriented_0706/src/com/jianjieming/Test/Test02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Object-Oriented_0706/src/com/jianjieming/Test/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Object-Oriented_0706/src/com/jianjieming/TheSpeetOfDieOrLive/CustomsPass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Object-Oriented_0706/src/com/jianjieming/TheSpeetOfDieOrLive/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Object-Oriented_0706/src/com/jianjieming/TheSpeetOfDieOrLive/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Object-Oriented_0706/src/com/jianjieming/TheSpeetOfDieOrLive/ThePlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Object-Oriented_0706/src/com/jianjieming/demo/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Object-Oriented_0706/src/com/jianjieming/demo/iterable/Cart1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Object-Oriented_0706/src/com/jianjieming/demo/iterable/Cart2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Object-Oriented_0706/src/com/jianjieming/demo/iterable/IteratorMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Object-Oriented_0706/src/com/jianjieming/demo/iterable/MyIterable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Object-Oriented_0706/src/com/jianjieming/demo/iterable/MyIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Object-Oriented_0706/src/com/jianjieming/demo/shop/CashierDesk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Object-Oriented_0706/src/com/jianjieming/demo/shop/DefaultDiscount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Object-Oriented_0706/src/com/jianjieming/demo/shop/Discountable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Object-Oriented_0706/src/com/jianjieming/demo/shop/EightDiscount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Object-Oriented_0706/src/com/jianjieming/demo/shop/Goods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Object-Oriented_0706/src/com/jianjieming/demo/shop/ShoppingCart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Object-Oriented_0706/src/com/jianjieming/homework/CashierDesk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Object-Oriented_0706/src/com/jianjieming/homework/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Object-Oriented_0706/src/com/jianjieming/homework/Discount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Object-Oriented_0706/src/com/jianjieming/homework/Discount2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Object-Oriented_0706/src/com/jianjieming/homework/Discount3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Object-Oriented_0706/src/com/jianjieming/homework/Goods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Object-Oriented_0706/src/com/jianjieming/homework/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Object-Oriented_0706/src/com/jianjieming/homework/Money.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Object-Oriented_0706/面向对象.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Operator_0703/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Operator_0703/.idea/copyright/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Operator_0703/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Operator_0703/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Operator_0703/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Operator_0703/Operator_0703.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Operator_0703/out/production/Operator_0703/com/jianjieming/Test01.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Operator_0703/out/production/Operator_0703/com/jianjieming/Test02.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Operator_0703/out/production/Operator_0703/com/jianjieming/Test03.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Operator_0703/out/production/Operator_0703/com/jianjieming/Test04.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Operator_0703/out/production/Operator_0703/com/jianjieming/Test05.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Operator_0703/out/production/Operator_0703/com/jianjieming/Test06.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Operator_0703/out/production/Operator_0703/com/jianjieming/homework/Test01.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Operator_0703/out/production/Operator_0703/com/jianjieming/homework/Test02.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Operator_0703/out/production/Operator_0703/com/jianjieming/homework/Test03.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Operator_0703/out/production/Operator_0703/com/jianjieming/homework/Test04.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Operator_0703/out/production/Operator_0703/com/jianjieming/homework/Test05.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Operator_0703/out/production/Operator_0703/com/jianjieming/homework/Test06.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Operator_0703/out/production/Operator_0703/com/jianjieming/homework/Test07.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Operator_0703/src/com/jianjieming/Test01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Operator_0703/src/com/jianjieming/Test02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Operator_0703/src/com/jianjieming/Test03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Operator_0703/src/com/jianjieming/Test04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Operator_0703/src/com/jianjieming/Test05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Operator_0703/src/com/jianjieming/Test06.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Operator_0703/src/com/jianjieming/homework/Test01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Operator_0703/src/com/jianjieming/homework/Test02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Operator_0703/src/com/jianjieming/homework/Test03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Operator_0703/src/com/jianjieming/homework/Test04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Operator_0703/src/com/jianjieming/homework/Test05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Operator_0703/src/com/jianjieming/homework/Test06.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Operator_0703/src/com/jianjieming/homework/Test07.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Operator_0703/运算符分支结构.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pageable_0825/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pageable_0825/src/com/jianjieming/study/GameServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pageable_0825/src/com/jianjieming/study/bean/GameBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pageable_0825/src/com/jianjieming/study/common/Pageable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pageable_0825/src/com/jianjieming/study/common/ResultWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pageable_0825/src/com/jianjieming/study/controller/GameController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pageable_0825/src/com/jianjieming/study/controller/GameControllerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pageable_0825/src/com/jianjieming/study/controller/TestGameController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pageable_0825/src/com/jianjieming/study/dao/GameDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pageable_0825/src/com/jianjieming/study/dao/GameDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pageable_0825/src/com/jianjieming/study/filter/HttpCacheResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pageable_0825/src/com/jianjieming/study/filter/HttpFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pageable_0825/src/com/jianjieming/study/filter/JsonCacheFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pageable_0825/src/com/jianjieming/study/servIce/GameService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pageable_0825/src/com/jianjieming/study/servIce/IGameService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pageable_0825/web/MyPage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pageable_0825/web/WEB-INF/classes/c3p0-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pageable_0825/web/WEB-INF/lib/c3p0-0.9.5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pageable_0825/web/WEB-INF/lib/commons-dbcp-1.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pageable_0825/web/WEB-INF/lib/commons-dbutils-1.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pageable_0825/web/WEB-INF/lib/commons-io-1.3.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pageable_0825/web/WEB-INF/lib/commons-pool-1.5.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pageable_0825/web/WEB-INF/lib/gson-2.8.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pageable_0825/web/WEB-INF/lib/mchange-commons-java-0.2.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pageable_0825/web/WEB-INF/lib/mysql-connector-java-6.0.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pageable_0825/web/boot-games.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pageable_0825/web/form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pageable_0825/web/games.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pageable_0825/web/games2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pageable_0825/web/js/boot-games.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pageable_0825/web/js/canvas-particle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pageable_0825/web/js/easying.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pageable_0825/web/js/games2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pageable_0825/web/js/jQueryRotate3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pageable_0825/web/js/jquery-2.2.4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pageable_0825/web/js/jquery-3.2.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pageable_0825/web/js/jquery.validate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pageable_0825/web/js/messages_zh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pageable_0825/web/js/messages_zh_TW.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Procedure_0808/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Procedure_0808/blis/gson-2.8.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Procedure_0808/src/com/jianjieming/bean/ScoreBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Procedure_0808/src/com/jianjieming/bean/StudentBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Procedure_0808/src/com/jianjieming/homework/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Procedure_0808/src/com/jianjieming/study/ApacheDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Procedure_0808/src/com/jianjieming/study/UnderlineProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Request_0823/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Request_0823/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Request_0823/src/com/jianjieming/study/ErrorServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Request_0823/src/com/jianjieming/study/ForwardServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Request_0823/src/com/jianjieming/study/HomeServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Request_0823/src/com/jianjieming/study/ImageServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Request_0823/src/com/jianjieming/study/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Request_0823/src/com/jianjieming/study/ValidateServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Request_0823/src/com/jianjieming/utils/ValidateCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Request_0823/web/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Request_0823/web/WEB-INF/image/ff.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Request_0823/web/WEB-INF/image/ss.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Request_0823/web/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpingMVC_0913/src/main/java/com/jianjieming/spingmvc/controller/LoginAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpingMVC_0913/src/main/java/com/jianjieming/spingmvc/controller/LoginAction2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpingMVC_0913/src/main/webapp/WEB-INF/jsp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpingMVC_0913/src/main/webapp/WEB-INF/jsp/success.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpingMVC_0913/src/main/webapp/WEB-INF/springMVC-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sping_0911/src/main/java/com/jianjieming/sping/test1/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sping_0911/src/main/java/com/jianjieming/sping/test1/Paper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sping_0911/src/main/java/com/jianjieming/sping/test1/PaperFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sping_0911/src/main/java/com/jianjieming/sping/test1/TestDog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sping_0911/src/main/java/com/jianjieming/sping/test2/Dog2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sping_0911/src/main/java/com/jianjieming/sping/test2/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sping_0911/src/main/java/com/jianjieming/sping/test2/TestDog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sping_0911/src/main/java/com/jianjieming/sping/test2/TestStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sping_0911/src/main/java/com/jianjieming/sping/test3/Dog3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sping_0911/src/main/resources/META-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sping_0911/src/main/resources/META-INF/applicationContext3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sping_0911/src/test/java/com/jianjieming/sping/study/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC_02_0914/src/main/webapp/WEB-INF/jsp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC_02_0914/src/main/webapp/WEB-INF/springMVC-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC_0914/src/main/java/com/jianjieming/study/controller/UserAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC_0914/src/main/java/com/jianjieming/study/model/vo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC_0914/src/main/webapp/WEB-INF/jsp/first.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC_0914/src/main/webapp/WEB-INF/jsp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC_0914/src/main/webapp/WEB-INF/jsp/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC_0914/src/main/webapp/WEB-INF/jsp/success.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC_0914/src/main/webapp/WEB-INF/springMVC-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC_0917/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC_0917/src/main/java/com/jianjieming/study/controller/PersonController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC_0917/src/main/java/com/jianjieming/study/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC_0917/src/main/java/com/jianjieming/study/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC_0917/src/main/resources/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC_Test_0913/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC_Test_0913/src/main/java/com/jianjieming/Test01/LoginAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC_Test_0913/src/main/java/com/jianjieming/Test01/LoginAction2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC_Test_0913/src/main/java/com/jianjieming/Test01/LoginAction3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC_Test_0913/src/main/java/com/jianjieming/Test01/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC_Test_0913/src/main/java/com/jianjieming/Test01/RegisterAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC_Test_0913/src/main/webapp/WEB-INF/jsp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC_Test_0913/src/main/webapp/WEB-INF/jsp/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC_Test_0913/src/main/webapp/WEB-INF/jsp/success.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC_Test_0913/src/main/webapp/WEB-INF/springMVC-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC_Test_0917/src/main/java/com/jianjieming/test/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC_Test_0917/src/main/java/com/jianjieming/test/PersonController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC_Test_0917/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC_Test_0917/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC_Test_0917/src/main/resources/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC_Test_0917/src/main/webapp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringTest_0913/src/main/java/com/jianjieming/Test01/LoginAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringTest_0913/src/main/java/com/jianjieming/Test01/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringTest_0913/src/main/java/com/jianjieming/Test01/RegisterAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringTest_0913/src/main/webapp/WEB-INF/jsp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringTest_0913/src/main/webapp/WEB-INF/jsp/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringTest_0913/src/main/webapp/WEB-INF/jsp/success.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringTest_0913/src/main/webapp/WEB-INF/springMVC-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_0912/src/main/java/com/jianjieming/Test01/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_0912/src/main/java/com/jianjieming/Test01/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_0912/src/main/java/com/jianjieming/Test01/TestDog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_0912/src/main/java/com/jianjieming/Test02/ClassRoom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_0912/src/main/java/com/jianjieming/Test02/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_0912/src/main/java/com/jianjieming/Test02/TestDog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_0912/src/main/java/com/jianjieming/Test02/TestPersonClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_0912/src/main/java/com/jianjieming/bookstore/controller/BookAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_0912/src/main/java/com/jianjieming/bookstore/controller/UserAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_0912/src/main/java/com/jianjieming/bookstore/model/dao/BookDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_0912/src/main/java/com/jianjieming/bookstore/model/dao/BookDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_0912/src/main/java/com/jianjieming/bookstore/model/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_0912/src/main/java/com/jianjieming/bookstore/model/dao/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_0912/src/main/java/com/jianjieming/bookstore/model/service/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_0912/src/main/java/com/jianjieming/bookstore/model/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_0912/src/main/java/com/jianjieming/bookstore/model/vo/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_0912/src/main/java/com/jianjieming/bookstore/model/vo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_0912/src/main/java/com/jianjieming/inter/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_0912/src/main/java/com/jianjieming/inter/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_0912/src/main/java/com/jianjieming/inter/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_0912/src/main/java/com/jianjieming/inter/TestPerson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_0912/src/main/resources/applicationContext(1).xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_0912/src/main/resources/applicationContext(2).xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_0912/src/main/resources/applicationContext(4).xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_0912/src/main/resources/applicationContext(5).xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../String_0709/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../String_0709/.idea/copyright/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../String_0709/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../String_0709/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../String_0709/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../String_0709/String.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../String_0709/String_0709.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../String_0709/out/production/String_0709/com/jianjieming/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../String_0709/out/production/String_0709/com/jianjieming/homework/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../String_0709/out/production/String_0709/com/jianjieming/homework/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../String_0709/out/production/String_0709/com/jianjieming/homework/Teacher.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../String_0709/out/production/String_0709/com/jianjieming/homework/Test01.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../String_0709/out/production/String_0709/com/jianjieming/homework/Test02.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../String_0709/src/com/jianjieming/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../String_0709/src/com/jianjieming/homework/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../String_0709/src/com/jianjieming/homework/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../String_0709/src/com/jianjieming/homework/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../String_0709/src/com/jianjieming/homework/Test01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../String_0709/src/com/jianjieming/homework/Test02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestJunit_0910/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestJunit_0910/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestJunit_0910/lib/junit-4.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestJunit_0910/src/com/jianjieming/study/Test01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test_0818/.idea/libraries/libs__2_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test_0818/.idea/libraries/libs__3_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test_0818/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test_0818/libs/commons-io-2.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test_0818/libs/commons-validator.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test_0818/src/Test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test_0818/src/Test/Test01.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test_0818/src/Test/Test02.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test_0818/src/Test/Test03.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test_0818/src/Test/Test04.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test_0818/src/Test/Test05.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test_0818/src/Test/Test06.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test_0818/src/Test/Test07.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test_0818/src/Test/Test08.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test_0818/src/Test/Test09.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test_0818/src/Test/Test10.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test_0818/src/Test/坦克.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test_0818/src/img/bom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test_0818/src/img/tank_down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test_0818/src/img/tank_left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test_0818/src/img/tank_right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test_0818/src/img/tank_up.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test_0818/src/js/canvas-particle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test_0818/src/js/easying.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test_0818/src/js/jQueryRotate3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test_0818/src/js/jquery-2.2.4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test_0818/src/js/jquery-3.2.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test_0818/src/js/jquery.validate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test_0818/src/js/messages_zh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test_0818/src/js/messages_zh_TW.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test_0826/src/com/jianjieming/test/Test01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test_0826/web/cookie.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test_0826/web/lasttime.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test_0826/web/test01.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test_0901/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test_0901/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test_0901/src/homework/bean/GameBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test_0901/src/homework/bean/Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test_0901/src/homework/bean/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test_0901/src/homework/filter/UserFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test_0901/src/homework/page/Ajax2Servlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test_0901/src/homework/page/AjaxServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test_0901/src/homework/page/GameServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test_0901/src/homework/user/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test_0901/src/homework/user/RegisterServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test_0901/web/WEB-INF/classes/c3p0-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test_0901/web/WEB-INF/lib/c3p0-0.9.5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test_0901/web/WEB-INF/lib/commons-dbutils-1.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test_0901/web/WEB-INF/lib/commons-fileupload-1.3.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test_0901/web/WEB-INF/lib/commons-io-2.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test_0901/web/WEB-INF/lib/dom4j-1.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test_0901/web/WEB-INF/lib/gson-2.8.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test_0901/web/WEB-INF/lib/mchange-commons-java-0.2.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test_0901/web/WEB-INF/lib/mysql-connector-java-5.1.46.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test_0901/web/game-list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test_0901/web/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test_0901/web/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../inheritance_0711/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../inheritance_0711/.idea/copyright/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../inheritance_0711/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../inheritance_0711/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../inheritance_0711/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../inheritance_0711/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../inheritance_0711/inheritance_0711.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../inheritance_0711/out/production/inheritance_0711/com/jianjieming/homework/Child.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../inheritance_0711/out/production/inheritance_0711/com/jianjieming/homework/Family.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../inheritance_0711/out/production/inheritance_0711/com/jianjieming/homework/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../inheritance_0711/out/production/inheritance_0711/com/jianjieming/homework/Man.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../inheritance_0711/out/production/inheritance_0711/com/jianjieming/homework/Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../inheritance_0711/out/production/inheritance_0711/com/jianjieming/homework/Woman.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../inheritance_0711/out/production/inheritance_0711/com/jianjieming/learning/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../inheritance_0711/out/production/inheritance_0711/com/jianjieming/learning/zoo/Animal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../inheritance_0711/out/production/inheritance_0711/com/jianjieming/learning/zoo/Feeder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../inheritance_0711/out/production/inheritance_0711/com/jianjieming/learning/zoo/Mouse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../inheritance_0711/out/production/inheritance_0711/com/jianjieming/learning/zoo/Penguin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../inheritance_0711/out/production/inheritance_0711/com/jianjieming/lol/AD.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../inheritance_0711/out/production/inheritance_0711/com/jianjieming/lol/AP.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../inheritance_0711/out/production/inheritance_0711/com/jianjieming/lol/Hero.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../inheritance_0711/out/production/inheritance_0711/com/jianjieming/lol/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../inheritance_0711/out/production/inheritance_0711/com/jianjieming/lol/Manito.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../inheritance_0711/out/production/inheritance_0711/com/jianjieming/lol/Newbie.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../inheritance_0711/out/production/inheritance_0711/com/jianjieming/lol/Player.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../inheritance_0711/out/production/inheritance_0711/com/jianjieming/test/GameLauncher.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../inheritance_0711/out/production/inheritance_0711/com/jianjieming/test/GuessGame.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../inheritance_0711/out/production/inheritance_0711/com/jianjieming/test/Player.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../inheritance_0711/src/com/jianjieming/homework/Child.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../inheritance_0711/src/com/jianjieming/homework/Family.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../inheritance_0711/src/com/jianjieming/homework/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../inheritance_0711/src/com/jianjieming/homework/Man.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../inheritance_0711/src/com/jianjieming/homework/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../inheritance_0711/src/com/jianjieming/homework/Woman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../inheritance_0711/src/com/jianjieming/learning/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../inheritance_0711/src/com/jianjieming/learning/zoo/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../inheritance_0711/src/com/jianjieming/learning/zoo/Feeder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../inheritance_0711/src/com/jianjieming/learning/zoo/Mouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../inheritance_0711/src/com/jianjieming/learning/zoo/Penguin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../inheritance_0711/src/com/jianjieming/lol/AD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../inheritance_0711/src/com/jianjieming/lol/AP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../inheritance_0711/src/com/jianjieming/lol/Hero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../inheritance_0711/src/com/jianjieming/lol/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../inheritance_0711/src/com/jianjieming/lol/Manito.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../inheritance_0711/src/com/jianjieming/lol/Newbie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../inheritance_0711/src/com/jianjieming/lol/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../inheritance_0711/src/com/jianjieming/lol/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../inheritance_0711/src/com/jianjieming/test/GameLauncher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../inheritance_0711/src/com/jianjieming/test/GuessGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../inheritance_0711/src/com/jianjieming/test/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../inheritance_0711/src/com/jianjieming/test/Test01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../inheritance_0711/多态.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../inheritance_0711/继承.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../moven_test01/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../moven_test01/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../moven_test01/src/main/java/com/lanou/test/BookBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../moven_test01/src/main/java/com/lanou/test/BookDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../moven_test01/src/main/java/com/lanou/test/BookDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testMaven/src/test/java/com/TestJunitDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../设计模式/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../设计模式/src/策略模式/flight/FlyRocketPowered.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1803783141">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="xml" value="52" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="XML" value="52" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="xml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-2112989251">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application-servlet.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/application-servlet.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../../Tomcat/apache-maven-3.5.4" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="4" />
+    <option name="y" value="32" />
+    <option name="width" value="1617" />
+    <option name="height" value="977" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="SpringHomework_0918" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringHomework_0918" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringHomework_0918" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringHomework_0918" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringHomework_0918" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringHomework_0918" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringHomework_0918" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringHomework_0918" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringHomework_0918" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringHomework_0918" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.861" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="SpringHomework_0918:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_SpringHomework_0918" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="53779" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="SpringHomework_0918:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="43889add-b865-404d-b667-e64b18313964" name="Default Changelist" comment="" />
+      <created>1537268149979</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1537268149979</updated>
+      <workItem from="1537268153152" duration="483000" />
+      <workItem from="1537402825917" duration="51000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="534000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="4" y="32" width="1617" height="977" extended-state="0" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Capture Tool" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2776699" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Web" order="2" side_tool="true" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3297491" />
+      <window_info anchor="bottom" id="Application Servers" order="13" weight="0.3297491" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="53" column="16" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

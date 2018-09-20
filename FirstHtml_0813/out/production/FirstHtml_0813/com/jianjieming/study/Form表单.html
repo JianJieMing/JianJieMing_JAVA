@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form表单</title>
+    <style>
+        .a {
+            color: #ff010d;
+        }
+
+        label {
+            color: #ff010d;
+        }
+    </style>
+</head>
+<body>
+<!--表单,是用来向服务器提交数据的.-->
+<!--实际上就是在发送Http请求.-->
+<form action="http://www.baidu.com/s" method="get">
+    <input type="text" name="wd">
+    <input type="submit" value="百度一下" style="color: #ff010d">
+</form>
+
+<hr>
+
+<form action="http://localhost" method="get">
+    <!--输入框-->
+    <!--label的for属性,填id,作用点击文字也可以选择-->
+    <label for="input-username">用户名:</label>
+    <input id="input-username" type="text" name="account"><br>
+    <label for="input-password">密码:&nbsp&nbsp&nbsp</label>
+    <input id="input-password" type="password" name="password"><br>
+    <!--单选框 radio-->
+    <!--name 表示提交数据时的key值-->
+    <!--value表示提交数据key所对应的具体的值-->
+    <!--checked表示默认选中-->
+    <!--把input放入到label标签中,那么点击文字的时候也会选中该radio-->
+    <fieldset class="a">
+        <legend>选择性别</legend>
+        <label>
+            <input type="radio" name="gender" value="1">男
+        </label>
+        <label>
+            <input type="radio" name="gender" value="2" checked>女
+        </label>
+    </fieldset>
+
+    <fieldset class="a">
+        <legend>爱好选择</legend>
+        <label>吃饭 <input type="checkbox" name="hobbies" value="1001"></label>
+        <label>睡觉 <input type="checkbox" name="hobbies" value="1002"></label>
+        <label>打豆豆 <input type="checkbox" name="hobbies" value="1003"></label>
+    </fieldset>
+
+    <fieldset>
+        <legend>出生日期</legend>
+        <select name="year">
+            <option>1985</option>
+            <option>1986</option>
+            <option>1987</option>
+            <option>1988</option>
+            <option>1989</option>
+        </select>年
+        <select name="month">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+        </select>月
+    </fieldset>
+
+    <!--文本域-->
+    <textarea name="info" cols="30" rows="10"></textarea>
+
+    <input type="submit" value="提交">
+    <input type="reset" value="重置">
+
+</form>
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/cache http://www.springframework.org/schema/cache/spring-cache.xsd http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <context:component-scan base-package="com.jianjieming.study"/>
+
+    <aop:aspectj-autoproxy />
+    <!--<mvc:annotation-driven />-->
+
+    <!--<bean id="loggerAspect" class="com.jianjieming.study.aop.LoggerAspect"></bean>-->
+    <!--<aop:config>-->
+        <!--&lt;!&ndash;配置切点表达式&ndash;&gt;-->
+        <!--<aop:pointcut id="allMethod" expression="execution(* com.jianjieming.study.service.UserService.*(..))"/>-->
+        <!--&lt;!&ndash;将上面创建出来的bean配置为切面类&ndash;&gt;-->
+        <!--<aop:aspect id="logger" ref="loggerAspect">-->
+            <!--<aop:before method="logBefore" pointcut-ref="allMethod"/>-->
+            <!--<aop:after method="logAfter" pointcut-ref="allMethod"/>-->
+            <!--<aop:after-returning method="logAfterReturn" pointcut-ref="allMethod"/>-->
+            <!--<aop:after-throwing method="logAfterThrow" pointcut-ref="allMethod"/>-->
+            <!--<aop:around method="around" pointcut-ref="allMethod"/>-->
+        <!--</aop:aspect>-->
+    <!--</aop:config>-->
+
+</beans>

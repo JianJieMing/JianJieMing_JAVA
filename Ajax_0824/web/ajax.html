@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ajax练习</title>
+    <script src="js/jquery-3.2.1.js"></script>
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <style>
+        .left {
+            width: 40%;
+            border: 1px solid red;
+            float: left;
+        }
+
+        .right {
+            width: 50%;
+            border: 1px solid chartreuse;
+            float: right;
+        }
+    </style>
+</head>
+<body>
+
+<!--AJAX Async Javascript And Xml-->
+<!--
+在html中使用js异步发送网络请求,
+将请求的结果通过dom操作显示到页面中.
+这样一来,页面整体不需要刷新,也可以更新局部的页面.
+-->
+
+<div class="left">
+
+    <h4>GET请求</h4>
+    <button id="btn1" class="btn btn-default">GET</button>
+    <h4>POST请求</h4>
+    <button id="btn2" class="btn btn-default">POST-JSON</button>
+    <h4>GET-简单请求</h4>
+    <button id="btn3" class="btn btn-default">GET-简单请求</button>
+    <h4>POST-简单请求</h4>
+    <button id="btn4" class="btn btn-default">POST-简单请求</button>
+
+</div>
+
+<div class="right">
+    <table class="table">
+        <thead>
+        <tr>
+            <th>#</th>
+            <th>姓名</th>
+            <th>年龄</th>
+        </tr>
+        </thead>
+        <tbody id="tbody">
+
+        </tbody>
+    </table>
+</div>
+
+<script>
+    <!--文档就绪事件-->
+    $(function () {
+        // 添加btn1的点击事件
+        $('#btn1').click(function () {
+            // 保存的是请求相关的配置.
+            var setting = {
+                url: 'http://localhost:8080/ajax',
+                method: 'post',
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded'
+                },
+                data: {
+                    username: 'risky',
+                    password: 'pass78990'
+                }
+            };
+            // done()中传递一个回调函数.
+            // 请求发送之后,接收到响应,该函数就会执行.
+            $.ajax(setting).done(requestFinished);
+        });
+
+
+        // 添加btn2的点击事件
+        $('#btn2').click(function () {
+            // 保存的是请求相关的配置.
+            var data = {
+                username: 'risky2313dsa23',
+                password: 'pass789dsad90'
+            };
+            var setting = {
+                url: 'http://localhost:8080/ajax',
+                method: 'post',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                // 把对象转出json数据.
+                data: JSON.stringify(data)
+            };
+            $.ajax(setting).done(requestFinished);
+        });
+
+
+        // 添加btn3的点击事件
+        $('#btn3').click(function () {
+            let url = "http://localhost:8080/ajax";
+            $.get(url, requestFinished);
+        });
+
+
+        // 添加btn4的点击事件
+        $('#btn4').click(function () {
+            let url = "http://localhost:8080/ajax";
+            let data = {
+                id: 1,
+                username: '李四',
+                password: '666666'
+            };
+            $.post(url, JSON.stringify(data), requestFinished);
+        })
+
+
+    });
+
+    /*
+        第一个参数: 表示网络请求的结果.
+        第二个参数: 便是网络请求是否成功.
+     */
+    function requestFinished(resp, success) {
+        console.log(resp, success);
+        if (success == 'success') {
+            var body = $('#tbody');
+            // 清除body原有的数据
+            body.empty();
+            for (var item of resp) {
+                var tr = $('<tr></tr>');
+                var id = $('<td></td>').text(item.id);
+                var name = $('<td></td>').text(item.name);
+                var age = $('<td></td>').text(item.age);
+                tr.append(id);
+                tr.append(name);
+                tr.append(age);
+                body.append(tr);
+            }
+        }
+    }
+</script>
+
+</body>
+</html>

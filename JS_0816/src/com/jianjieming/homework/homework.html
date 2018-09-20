@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<!--
+    四个输入框,id,name,出生日期,gender.
+    一个添加按钮
+    点击按钮的时候,将四个输入添加到table中.
+
+    扩展: 每一行都有一个删除按钮
+-->
+
+<label>id<input type="text" id="s1"></label>
+<label>姓名<input type="text" id="s2"></label>
+<label>性别<input type="text" id="s3"></label>
+<label>生日<input type="text" id="s4"></label>
+<button id="submit">添加</button>
+
+<table id="list1" border="1px" width="50%" style="color: #ff03ee">
+    <thead>
+    <tr>
+        <td>id</td>
+        <td>姓名</td>
+        <td>性别</td>
+        <td>出生日期</td>
+        <td>删除数据</td>
+    </tr>
+    </thead>
+</table>
+<script>
+
+    var s1 = document.getElementById('s1');
+    var s2 = document.getElementById('s2');
+    var s3 = document.getElementById('s3');
+    var s4 = document.getElementById('s4');
+    var list1 = document.getElementById('list1');
+    var submit = document.getElementById('submit');
+
+    submit.onclick = function () {
+        const value1 = s1.value;
+        const value2 = s2.value;
+        const value3 = s3.value;
+        const value4 = s4.value;
+        const tr = document.createElement('tr');
+        const td1 = document.createElement('td');
+        const td2 = document.createElement('td');
+        const td3 = document.createElement('td');
+        const td4 = document.createElement('td');
+        const td5 = document.createElement('td');
+        const td6 = document.createElement('tbody');
+        const Erase = document.createElement('button');
+        Erase.innerHTML = '删除';
+        Erase.style.color = '#ff0515';
+        td5.appendChild(Erase);
+        td1.innerText = value1;
+        td2.innerText = value2;
+        td3.innerText = value3;
+        td4.innerText = value4;
+        tr.appendChild(td1);
+        tr.appendChild(td2);
+        tr.appendChild(td3);
+        tr.appendChild(td4);
+        tr.appendChild(td5);
+        td6.appendChild(tr);
+        list1.appendChild(td6);
+        Erase.onclick = function () {
+            // 如果需要在点击事件中使用this获取到被点击的元素.
+            // 那么点击事件需要使用匿名函数的方式.
+            // 因为在箭头函数中,this指向的是外层的对象.
+            this.parentElement.parentElement.remove();
+        }
+    };
+
+
+</script>
+
+
+</body>
+</html>

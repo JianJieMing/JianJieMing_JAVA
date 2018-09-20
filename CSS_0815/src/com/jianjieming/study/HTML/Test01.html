@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../js/js/jquery-3.2.1.js"></script>
+    <script src="../js/js/canvas-particle.js"></script>
+    <script src="../js/js/spig.js"></script>
+    <link rel="stylesheet" href="../CSS/spigPet.css">
+    <script type="text/javascript">
+        var isindex = true;
+        var visitor = true;
+    </script>
+    <style>
+        iframe {
+            position: absolute;
+            z-index: -1;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+<div id="spig" class="spig">
+    <div id="message">正在加载中……</div>
+    <div id="mumu" class="mumu"></div>
+</div>
+<div style="text-align:center;clear:both"></div>
+<div id="mydiv">
+    <script type="text/javascript">
+        window.onload = function () {
+            //配置
+            var config = {
+                vx: 4,	//小球x轴速度,正为右，负为左
+                vy: 4,	//小球y轴速度
+                height: 2,	//小球高宽，其实为正方形，所以不宜太大
+                width: 2,
+                count: 500,		//点个数
+                color: "121, 162, 185", 	//点颜色
+                stroke: "130,255,255", 		//线条颜色
+                dist: 6000, 	//点吸附距离
+                e_dist: 20000, 	//鼠标吸附加速距离
+                max_conn: 10 	//点到点最大连接数
+            };
+            //调用
+            CanvasParticle(config);
+        }
+    </script>
+    <script type="text/javascript" src="canvas-particle.js"></script>
+    <iframe src="樱花雨背景.html"></iframe>
+
+</div>
+</body>
+</html>

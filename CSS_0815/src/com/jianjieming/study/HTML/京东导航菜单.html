@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            /*去掉所有间距*/
+            padding: 0;
+            margin: 0;
+        }
+
+        ul li {
+            /*让列表横向排列*/
+            display: inline;
+            /*列表中的每个元素都加一个左外边距*/
+            margin-left: 10px;
+        }
+
+        a {
+            /*去掉所有a标签中的文字下划线*/
+            text-decoration: none;
+            /*文字颜色*/
+            color: #666666;
+        }
+
+        a:visited {
+            color: #666666;
+        }
+
+        a:hover {
+            color: #b0060f;
+        }
+
+        a:active {
+            color: #b0060f;
+        }
+
+        .box {
+            /*菜单的背景色*/
+            background-color: #f1f1f1;
+            /*一个值: 四周的内边距*/
+            /*两个值: 上下的内边距 左右的内边距*/
+            /*三个值: 上 左右 下*/
+            /*四个之: 上 右 下 左*/
+            padding: 10px 0;
+        }
+
+        .line {
+            border: 1px solid #dddddd;
+        }
+
+        #reg {
+            color: #b0060f;
+        }
+
+        .tel {
+            background-image: url("../imgs/tel.png");
+            background-repeat: no-repeat;
+            padding-left: 20px;
+        }
+
+        .tel:hover {
+            background-position-y: -25px;
+        }
+
+        .tel {
+            background-position-y: 0;
+        }
+
+        .fixed {
+            border: 5px solid springgreen;
+            width: 200px;
+            height: 100px;
+            position: fixed;
+        }
+
+        .relative {
+            border: 5px solid springgreen;
+            width: 200px;
+            height: 100px;
+            /*相对位置,相对于元素本身的位置*/
+            position: relative;
+            /*left: 相当于原来的位置左边有100px的距离,
+              也就是元素会右移100px.
+            */
+            left: 100px;
+        }
+
+        .absolute {
+            border: 5px solid springgreen;
+            width: 200px;
+            height: 100px;
+            position: absolute;
+            left: 200px;
+        }
+
+        .sticky {
+            border: 5px solid springgreen;
+            width: 200px;
+            height: 100px;
+            /*是给safari浏览器的配置*/
+            position: -webkit-sticky;
+            /*普通浏览器的*/
+            position: sticky;
+            top: 0;
+        }
+
+        .float{
+            border: 5px solid springgreen;
+            width: 200px;
+            height: 100px;
+            float: right;
+        }
+    </style>
+</head>
+<body>
+
+<div class="box">
+    <ul>
+        <li><a href="#">你好,请登录</a>&nbsp&nbsp&nbsp<a href="#" id="reg">免费注册</a></li>
+        <li class="line"></li>
+        <li><a href="#">我的订单</a></li>
+        <li class="line"></li>
+        <li><a href="#">我的京东</a></li>
+        <li class="line"></li>
+        <li><a href="#">京东会员</a></li>
+        <li class="line"></li>
+        <li><a href="#">企业采购</a></li>
+        <li class="line"></li>
+        <li><a href="#" class="tel">手机京东</a></li>
+    </ul>
+</div>
+
+<div class="layout fixed">
+    我是小广告
+</div>
+<h1>o(*￣︶￣*)o</h1>
+<h1>o(*￣︶￣*)o</h1>
+<h1>o(*￣︶￣*)o</h1>
+<h1>o(*￣︶￣*)o</h1>
+<h1>o(*￣︶￣*)o</h1>
+<h1>o(*￣︶￣*)o</h1>
+<div class="layout relative">
+    相对定位
+</div>
+<h1>o(*￣︶￣*)o</h1>
+<h1>o(*￣︶￣*)o</h1>
+<h1>o(*￣︶￣*)o</h1>
+<div class="layout absolute">
+    绝对定位
+</div>
+<h1>o(*￣︶￣*)o</h1>
+<h1>o(*￣︶￣*)o</h1>
+<h1>o(*￣︶￣*)o</h1>
+<div class="layout sticky">
+    粘性定位
+</div>
+<h1>o(*￣︶￣*)o</h1>
+<h1>o(*￣︶￣*)o</h1>
+<h1>o(*￣︶￣*)o</h1>
+<div class="layout float">
+    浮动
+</div>
+<h1>o(*￣︶￣*)o</h1>
+<h1>o(*￣︶￣*)o</h1>
+<h1>o(*￣︶￣*)o</h1>
+<h1>o(*￣︶￣*)o</h1>
+<h1>o(*￣︶￣*)o</h1>
+<h1>o(*￣︶￣*)o</h1>
+<h1>o(*￣︶￣*)o</h1>
+<h1>o(*￣︶￣*)o</h1>
+<h1>o(*￣︶￣*)o</h1>
+<h1>o(*￣︶￣*)o</h1>
+<h1>o(*￣︶￣*)o</h1>
+<h1>o(*￣︶￣*)o</h1>
+<h1>o(*￣︶￣*)o</h1>
+<h1>o(*￣︶￣*)o</h1>
+<h1>o(*￣︶￣*)o</h1>
+<h1>o(*￣︶￣*)o</h1>
+<h1>o(*￣︶￣*)o</h1>
+<h1>o(*￣︶￣*)o</h1>
+<h1>o(*￣︶￣*)o</h1>
+<h1>o(*￣︶￣*)o</h1>
+<h1>o(*￣︶￣*)o</h1>
+<h1>o(*￣︶￣*)o</h1>
+<h1>o(*￣︶￣*)o</h1>
+<h1>o(*￣︶￣*)o</h1>
+<h1>o(*￣︶￣*)o</h1>
+<h1>o(*￣︶￣*)o</h1>
+<h1>o(*￣︶￣*)o</h1>
+<h1>o(*￣︶￣*)o</h1>
+<h1>o(*￣︶￣*)o</h1>
+<h1>o(*￣︶￣*)o</h1>
+<h1>o(*￣︶￣*)o</h1>
+<h1>o(*￣︶￣*)o</h1>
+<h1>o(*￣︶￣*)o</h1>
+
+</body>
+</html>

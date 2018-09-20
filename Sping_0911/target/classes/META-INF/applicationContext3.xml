@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!--
+    标签bean的属性init-method,表示该类的init方法,调用时机是创建之后立即调用.
+    属性destroy-method,表示该类的destroy方法,调用时机是最后销毁的时候调用.
+    生命周期: 创建init service destroy
+    -->
+    <bean id="dog" class="com.jianjieming.sping.test3.Dog3" scope="singleton" lazy-init="false">
+          <!--init-method="initDog" destroy-method="destroyDog">-->
+    </bean>
+
+    <bean id="dogg" class="com.jianjieming.sping.test3.Dog3">
+        <!--init-method="initDog" destroy-method="destroyDog">-->
+        <property name="name" value="tom"></property>
+        <property name="age" value="3"></property>
+    </bean>
+
+</beans>

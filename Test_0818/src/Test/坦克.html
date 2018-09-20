@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #tank{
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            left: 333px;
+        }
+        #tank_2{
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            left: 666px;
+        }
+        .aaa{
+            background-color: #fa041b;
+            width: 5px;
+            height: 5px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+<img src="../img/tank_up.png" id="tank">
+<img src="../img/tank_up.png" id="tank_2">
+
+<div class="aaa"></div>
+
+</body>
+
+<script>
+    var tank = document.getElementById('tank'); // 获取坦克
+    var tank2 = document.getElementById('tank_2');
+    var flag = true;
+    document.onkeydown = function (ev) { // 监听键盘事件 console.log(ev) 查看keyCode
+        if (!flag){
+            return; // 当flag为false 游戏结束
+        }
+        switch (ev.keyCode){
+            case 37:
+                // 左
+                    tank.style.left = tank.offsetLeft - 30 + 'px'; // 字符串拼接
+                    tank.src = '../img/tank_left.png';
+                    if (tank.offsetLeft <= 0){
+                        // 撞到左边的墙了
+                        flag = false;
+                        tank.src = '../img/bom.png';
+                    }
+                break;
+            case 38:
+                // 上
+                    tank.style.top = tank.offsetTop - 30 + 'px';
+                    tank.src = '../img/tank_up.png';
+                if (tank.offsetTop<=0){
+                    //撞到左边的墙了
+                    flag=false;
+                    tank.src = '../img/bom.png';
+                }
+                break;
+            case 39:
+                // 右
+                    tank.style.left = tank.offsetLeft + 30 + 'px';
+                    tank.src = "../img/tank_right.png";
+                break;
+            case 40:
+                // 下
+                    tank.style.top = tank.offsetTop + 30 + 'px';
+                    tank.src = '../img/tank_down.png';
+                break;
+            // 二号坦克
+            case 65:
+                // 左
+                tank2.style.left = tank.offsetLeft - 30 + 'px';
+                tank2.src = '../img/tank_left.png';
+                if (tank2.offsetLeft <= 0){
+                    // 撞到左边的墙了
+                    flag = false;
+                    tank2.src = '../img/bom.png';
+                }
+                break;
+            case 87:
+                // 上
+                tank2.style.top = tank2.offsetTop - 30 + 'px';
+                tank2.src = '../img/tank_up.png';
+                if (tank.offsetTop<=0){
+                    //撞到左边的墙了
+                    flag=false;
+                    tank.src = '../img/bom.png';
+                }
+                break;
+            case 68:
+                // 右
+                tank2.style.left = tank2.offsetLeft + 30 + 'px';
+                tank2.src = "../img/tank_right.png";
+                break;
+            case 83:
+                // 下
+                tank2.style.top = tank2.offsetTop + 30 + 'px';
+                tank2.src = '../img/tank_down.png';
+                break;
+        }
+        checkBoom()
+    };
+    function checkBoom() {
+        var x1 = tank.offsetLeft;//坦克一的左边距
+        var x2 = tank2.offsetLeft;//坦克二的右边距
+        var x = Math.abs(x1 - x2);//取绝对值
+
+        var y1 = tank.offsetTop;
+        var y2 = tank2.offsetTop;
+        var  y = Math.abs(y1 - y2);
+
+        if (x <= 50 && y <= 50){
+            // 上边距之间差50以内,左边距之间差50以内,同时满足就爆炸.
+            // 碰上了
+            flag = false;
+            tank.src = '../img/bom.png';
+            tank2.src = '../img/bom.png';
+        }
+    }
+</script>
+</html>

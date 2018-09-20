@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--加载自己的JQuery-->
+    <script src="../js/jquery-2.2.4.min.js"></script>
+    <!--加载百度CDN服务器上的JQuery-->
+    <!--<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>-->
+</head>
+<body>
+
+<!--<p>点谁谁没1</p>-->
+<!--<p>点谁谁没2</p>-->
+<!--<p>点谁谁没3</p>-->
+<!--<p>点谁谁没4</p>-->
+<!--<p>点谁谁没5</p>-->
+
+<!--<button id="btn">点击</button>-->
+<!--<div id="mouse" style="width: 300px;height: 200px;border: 1px solid springgreen"></div>-->
+<!--<p id="content">点谁谁没6</p>-->
+
+<label>请输入:<input id="s" type="text" value="呵呵"></label>
+<p id="ss"></p>
+<button id="sss">提交</button>
+
+<script>
+
+    $(function () {
+        $('#sss').click(function () {
+            // const value = $('#s').val();
+            // $('#ss').text(value);
+            $('#s').attr({
+                value: '希尔瓦娜斯',
+                type: 'password',
+                'style': 'background-color: #666666;'
+            })
+        })
+    });
+
+
+    // <!--文档就绪事件-->
+    // $(function () {
+    //     // 填参数代表设置,不填参数代表调用
+    //     $('p').dblclick(function () {
+    //         $(this).hide(5000);
+    //     });
+    //     // $('p').dblclick();
+    // })
+    //
+    // $('#mouse').mouseenter(function () {
+    //     $('#content').show(500);
+    // }).mouseleave(function () {
+    //     $('#content').hide(500);
+    // });
+    //
+    // $('#mouse').hover(
+    //     // 第一个匿名函数表示鼠标进入事件,
+    //     () => {
+    //         $('#content').show(500)
+    //     },
+    //     // 第二个匿名函数表示移除事件
+    //     () => {
+    //         $('#content').hide(500)
+    //     }
+    // );
+    //
+    // $('#btn').click(function () {
+    //     $('#content').toggle();
+    // })
+
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../js/jquery-2.2.4.min.js"></script>
+    <script src="../js/jquery.validate.js"></script>
+    <script src="../js/messages_zh.js"></script>
+    <script>
+        $.validator.setDefaults({
+            submitHandler: function () {
+                alert('提交事件');
+            }
+        });
+        $().ready(function () {
+            $('#commentForm').validate({
+                rules: {
+                    password: {
+                        required: true,
+                        minlength: 5
+                    },
+                    confirm_password: {
+                        required: true,
+                        minlength: 5,
+                        equalTo: "#password"
+                    }
+                },
+                messages: {
+                    password: {
+                        required: "请输入密码",
+                        minlength: "密码长度不能小于 5 个字母"
+                    },
+                    confirm_password: {
+                        required: "请输入密码",
+                        minlength: "密码长度不能小于 5 个字母",
+                        equalTo: "两次密码输入不一致"
+                    }
+                }
+            });
+        });
+    </script>
+    <style>
+        .error {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+
+<form id="commentForm">
+    <fieldset>
+        <p>
+            <label>Name (必须 最小两个字符)</label>
+            <input type="text" minlength="2" required>
+        </p>
+        <p>
+            <label>密码</label>
+            <input id="password" name="password" type="password">
+        </p>
+        <p>
+            <label>验证密码</label>
+            <input name="confirm_password" type="password">
+        </p>
+        <p>
+            <label>生日 (必须)</label>
+            <input type="dateISO" name="dateISO" required>
+        </p>
+        <p>
+            <label>E-Mail (必须)</label>
+            <input type="email" name="email" required>
+        </p>
+        <p>
+            <label>URL (可选)</label>
+            <input type="url" name="url">
+        </p>
+        <p>
+            <label>备注 (必须)</label>
+            <textarea name="comment" required></textarea>
+        </p>
+        <p>
+            <input type="submit">
+        </p>
+    </fieldset>
+
+</form>
+
+</body>
+</html>

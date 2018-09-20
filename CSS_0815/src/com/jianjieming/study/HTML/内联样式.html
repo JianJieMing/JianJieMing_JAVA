@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>内联样式</title>
+
+    <style>
+        div > .aa {
+            color: #ff0822;
+        }
+
+    </style>
+</head>
+<body>
+<!--将样式直接写到标签的属性上-->
+<!--字体大小的单位:
+    px: 像素,固定大小,不会随着浏览器更改配置而发生改变.
+    em: 1em = 16px,但是更改浏览器的字体大小设置后,使用em配置的文字也会发生变化.-->
+<div>
+    <p class="aa">
+        <strong>
+            我于杀戮之中绽放<br>犹如黎明中的花朵
+        </strong>
+    </p>
+    <p class="aa">
+        爱上覅看哈四顾
+    </p>
+    <table>
+    <span class="ss">
+    <p class="aa">
+        更好更加泡沫
+    </p>
+    </span>
+    </table>
+</div>
+</body>
+</html>

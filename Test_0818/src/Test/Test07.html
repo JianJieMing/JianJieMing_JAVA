@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../js/jquery-2.2.4.min.js"></script>
+    <script src="../js/jquery.validate.js"></script>
+    <script src="../js/messages_zh.js"></script>
+
+    <script>
+
+        $().ready(function () {
+            $('#s').validate({
+                rules: {
+                    password: {
+                        required: true,
+                        minlength: 6
+                    },
+                    password2: {
+                        required: true,
+                        minlength: 6,
+                        equalTo: '#word'
+                    }
+                },
+                messages: {
+                    password: {
+                        required: "必填字段",
+                        minlength: "最少需要六个字符"
+                    },
+                    password2: {
+                        required: "必填字段",
+                        minlength: "最少需要六个字符",
+                        equalTo: "密码不一致"
+                    }
+                }
+            })
+
+        })
+
+    </script>
+
+    <style>
+
+        .error {
+            color: #ff0214;
+        }
+
+    </style>
+
+</head>
+<body>
+
+<form id="s">
+
+    密码: <input id="word" type="password" name="password">
+    <br>
+    确认密码: <input type="password" name="password2">
+    <br>
+    <input type="submit" value="提交">
+</form>
+
+</body>
+</html>

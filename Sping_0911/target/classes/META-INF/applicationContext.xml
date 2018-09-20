@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd">
+    <!--命名空间,规范文件-->
+    <!--如果这个联网,就会到相应的地址查找规范文件,就可以提示.-->
+    <!--如果不联网,现在相应的规范文件,比如spring-context.xsd,放置到硬盘上配置,也可以提示.-->
+
+    <!--
+    标签bean表示实例化对象,class是应用的类,id是对象名字(类名的小写).
+    相当与 Dog dog = new Dog().
+    反射,根据传入的字符串查找类,获得构造方法,实例化对象.
+    我们只需要在配置文件里面配置bean标签,容器就会帮我们生成相应的对象dog.
+
+    之前实例化对象都是java代码,现在spring框架把生成对象的权利交给配置文件.
+    在通过在配置文件里面配置,容器帮助我们生成对象,这种控制权反转的过程,
+    就是控制反转,即IOC(Inversion Of Control)
+    -->
+    <bean id="dog" class="com.jianjieming.sping.test1.Dog"></bean>
+    <!--<bean id="dogFactory" class="com.jianjieming.sping.test11.DogFactory"></bean>-->
+    <!--<bean id="dag2" factory-bean="dogFactory" factory-method="getDog"></bean>-->
+    <!--<bean id="dog3" class="com.jianjieming.sping.test11.dogFactory" factory-method="getStaticDog"></bean>-->
+    <bean id="paper" class="com.jianjieming.sping.test1.Paper"></bean>
+    <bean id="paperFactory" class="com.jianjieming.sping.test1.PaperFactory"></bean>
+    <bean id="paper2" factory-bean="paperFactory" factory-method="getPaper"></bean>
+    <bean id="paper3" class="com.jianjieming.sping.test1.PaperFactory" factory-method="getStaticPaper"></bean>
+</beans>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/jquery-3.2.1.js"></script>
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <style>
+        .left {
+            width: 40%;
+            border: 1px solid red;
+            float: left;
+        }
+
+        .right {
+            width: 50%;
+            border: 1px solid chartreuse;
+            float: right;
+        }
+    </style>
+</head>
+<h1>欢迎登录</h1>
+<div class="left">
+    <button id="btn1" class="btn btn-default">查看个人信息</button>
+    <br>
+    <button id="btn2" class="btn btn-default">查看所有人信息</button>
+</div>
+
+<div class="right">
+    <table class="table">
+        <thead>
+        <tr>
+            <th>用户名</th>
+            <th>性别</th>
+            <th>出生日期</th>
+            <th>URL</th>
+            <th>Email</th>
+        </tr>
+        </thead>
+        <tbody id="tbody">
+
+        </tbody>
+    </table>
+</div>
+
+<script>
+
+    $(function () {
+        $('#btn2').click(function () {
+            let url = "http://localhost:8080/ajax1";
+            $.get(url, requestFinished)
+        })
+    });
+
+    $(function () {
+        $('#btn1').click(function () {
+            let url = "http://localhost:8080/ajax2";
+            $.get(url, requestFinished)
+        })
+    });
+
+
+    function requestFinished(resp) {
+        console.log(resp);
+        var body = $('#tbody');
+        body.empty();
+        for (var item of resp) {
+            var tr = $('<tr></tr>');
+            var name = $('<td></td>').text(item.username);
+            var sex = $('<td></td>').text(item.sex);
+            var url = $('<td></td>').text(item.url);
+            var email = $('<td></td>').text(item.email);
+            var birth = $('<td></td>').text(item.birth);
+            tr.append(name);
+            tr.append(sex);
+            tr.append(url);
+            tr.append(email);
+            tr.append(birth);
+            body.append(tr);
+        }
+    }
+
+</script>
+
+</body>
+</html>

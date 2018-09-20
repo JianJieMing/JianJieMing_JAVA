@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/jquery-3.2.1.js"></script>
+
+</head>
+<body>
+<div>
+    <form>
+        <label>页码: <input type="text" name="page"></label>
+        <label>行数: <input type="text" name="count"></label>
+        <input type="submit" value="提交">
+    </form>
+</div>
+
+<!--
+默认情况下,提交表单时页面会发生跳转,
+并且在新的页面来接收请求的结果.
+-->
+
+<script>
+
+    $(function () {
+        $('form').submit(function (e) {
+            // 匿名函数的参数表示表单
+            // 阻止表单的默认提交方式
+            e.preventDefault();
+            // 使用ajax发送表单数据
+            // serialize(),就会把表单中的数据转化为:
+            // page=10&count=20 的形式.
+            $.get('game.json', $(this).serialize(), function (resp) {
+
+            })
+        });
+    })
+
+</script>
+
+</body>
+</html>

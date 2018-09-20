@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册</title>
+    <script src="js/jquery-3.2.1.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdn.bootcss.com/jquery/2.2.4/jquery.js"></script>
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.js"></script>
+</head>
+<body class="container">
+
+<form action="file-upload" method="post" enctype="multipart/form-data">
+
+    用户名:<input type="text" name="username"><br>
+    密码:&emsp;<input type="password" name="password"><br>
+    头像:&emsp;<input type="file" name="headerImg"><br>
+    身份证: <input type="file" name="cardId"><br>
+    <input class="btn btn-primary" type="submit" value="注册">
+
+</form>
+
+<script>
+    // 使用ajax上传multipart/form-data
+    $(function () {
+        $('form').submit(function (ev) {
+            // 阻止表单默认的提交方式.
+            ev.preventDefault();
+            // 将表单中的数据加载成FormData对象.
+            var data = new FormData(this);
+            var settings = {
+                url: 'file-upload',
+                method: 'post',
+                "processData": false,
+                "contentType": false,
+                "mimeType": "multipart/form-data",
+                "data": data
+            };
+            $.ajax(settings).done(function (resp) {
+                console.log(resp);
+            })
+        })
+    })
+</script>
+
+</body>
+</html>

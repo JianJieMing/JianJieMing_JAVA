@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../js/jquery-2.2.4.min.js"></script>
+    <script src="../js/jquery.validate.js"></script>
+    <script src="../js/messages_zh.js"></script>
+
+    <script>
+        $.validator.setDefaults({
+            submitHandler: function () {
+                alert('提交事件')
+            }
+        });
+        $().ready(function () {
+            $('#ss').validate({
+                rules: {
+                    password: {
+                        required: true,
+                        minlength: 6
+                    },
+                    password2: {
+                        required: true,
+                        minlength: 6,
+                        equalTo: '#pw'
+                    }
+                },
+                messages: {
+                    password: {
+                        required: '必填信息',
+                        minlength: '最少需要六个字符',
+                    },
+                    password2: {
+                        required: '必填信息',
+                        minlength: '最少需要六个字符',
+                        equalTo: '密码不同'
+                    }
+                }
+            })
+        })
+    </script>
+
+</head>
+<body>
+
+<form id="ss">
+
+    密码: <input id="pw" type="password" name="password">
+    确认密码: <input type="password" name="password2">
+    <input type="submit">
+
+</form>
+
+</body>
+</html>

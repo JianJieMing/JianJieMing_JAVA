@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jianjieming.bookstore.model.dao.UserMapper">
+
+    <select id="queryAll" resultType="pb">
+        select * from User;
+    </select>
+
+
+
+
+    <!--<select id="findAll" resultType="pb">-->
+        <!--select * from person;-->
+    <!--</select>-->
+
+    <!--<select id="findName" resultType="pb">-->
+        <!--select * from person where name like "%"#{name}"%";-->
+    <!--</select>-->
+
+    <!--<insert id="insertPersonList" parameterType="java.util.List">-->
+        <!--insert into person (name,age,sex) values-->
+        <!--<foreach collection="list" item="person" separator=",">-->
+            <!--(-->
+            <!--#{person.name},-->
+            <!--#{person.age},-->
+            <!--#{person.sex}-->
+            <!--)-->
+        <!--</foreach>-->
+    <!--</insert>-->
+
+    <!--<select id="findNameOrSex" resultType="pb" parameterType="person">-->
+        <!--select * from person where-->
+        <!--<where>-->
+            <!--<choose>-->
+                <!--<when test="name!=null">-->
+                    <!--name = #{name}-->
+                <!--</when>-->
+                <!--<when test="sex!=null">-->
+                    <!--and sex = #{sex}-->
+                <!--</when>-->
+                <!--<otherwise>-->
+                    <!--and id = #{id}-->
+                <!--</otherwise>-->
+            <!--</choose>-->
+        <!--</where>-->
+    <!--</select>-->
+
+    <!--<delete id="deleteAll" parameterType="int">-->
+        <!--delete from person where id > #{id};-->
+    <!--</delete>-->
+
+    <!--<update id="updatePerson" parameterType="person">-->
+        <!--update person p-->
+        <!--<trim prefix="set" suffixOverrides=",">-->
+            <!--<if test="username != null and username != ''">-->
+                <!--p.name = #{name},-->
+            <!--</if>-->
+            <!--<if test="sex != null and sex != ''">-->
+                <!--p.sex = #{sex},-->
+            <!--</if>-->
+        <!--</trim>-->
+        <!--where id = #{id};-->
+    <!--</update>-->
+</mapper>

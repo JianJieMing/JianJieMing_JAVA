@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdn.bootcss.com/jquery/2.2.4/jquery.js"></script>
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.js"></script>
+    <title>注册</title>
+</head>
+<body class="container">
+<form action="register.action" method="post" enctype="multipart/form-data">
+    用户&emsp;名: <input type="text" name="username" class="form-control" placeholder="Username" aria-describedby="sizing-addon3"> <br>
+    密&emsp;&emsp;码: <input type="password" name="password" class="form-control" placeholder="Password" aria-describedby="sizing-addon3"> <br>
+    重复密码: <input type="password" name="repeat" class="form-control" placeholder="Password" aria-describedby="sizing-addon3"> <br>
+    头&emsp;&emsp;像: <input type="file" name="headerImg">
+    <input type="submit" value="注册" class="btn btn-primary">
+    <a href="login.html" style="text-decoration: none"><input type="button" value="登录" class="btn btn-primary"></a>
+</form>
+</body>
+</html>

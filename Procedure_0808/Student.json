@@ -1,0 +1,198 @@
+[
+  {
+    "stuID": 1,
+    "stuName": "赵雷",
+    "birthday": "1990-01-01",
+    "stuGender": "男",
+    "scoreBeanList": [
+      {
+        "SID": 1,
+        "CID": 2,
+        "score": 90.0
+      },
+      {
+        "SID": 1,
+        "CID": 3,
+        "score": 99.0
+      }
+    ]
+  },
+  {
+    "stuID": 2,
+    "stuName": "钱电",
+    "birthday": "1990-12-21",
+    "stuGender": "男",
+    "scoreBeanList": [
+      {
+        "SID": 2,
+        "CID": 1,
+        "score": 70.0
+      },
+      {
+        "SID": 2,
+        "CID": 2,
+        "score": 60.0
+      },
+      {
+        "SID": 2,
+        "CID": 3,
+        "score": 80.0
+      }
+    ]
+  },
+  {
+    "stuID": 3,
+    "stuName": "孙风",
+    "birthday": "1990-05-20",
+    "stuGender": "男",
+    "scoreBeanList": [
+      {
+        "SID": 3,
+        "CID": 1,
+        "score": 77.0
+      },
+      {
+        "SID": 3,
+        "CID": 2,
+        "score": 66.0
+      },
+      {
+        "SID": 3,
+        "CID": 3,
+        "score": 80.0
+      }
+    ]
+  },
+  {
+    "stuID": 4,
+    "stuName": "李云",
+    "birthday": "1990-08-06",
+    "stuGender": "男",
+    "scoreBeanList": [
+      {
+        "SID": 4,
+        "CID": 1,
+        "score": 50.0
+      },
+      {
+        "SID": 4,
+        "CID": 2,
+        "score": 30.0
+      },
+      {
+        "SID": 4,
+        "CID": 3,
+        "score": 20.0
+      }
+    ]
+  },
+  {
+    "stuID": 5,
+    "stuName": "周梅",
+    "birthday": "1991-12-01",
+    "stuGender": "女",
+    "scoreBeanList": [
+      {
+        "SID": 5,
+        "CID": 1,
+        "score": 76.0
+      },
+      {
+        "SID": 5,
+        "CID": 2,
+        "score": 87.0
+      }
+    ]
+  },
+  {
+    "stuID": 6,
+    "stuName": "吴兰",
+    "birthday": "1992-03-01",
+    "stuGender": "女",
+    "scoreBeanList": [
+      {
+        "SID": 6,
+        "CID": 1,
+        "score": 31.0
+      },
+      {
+        "SID": 6,
+        "CID": 3,
+        "score": 34.0
+      }
+    ]
+  },
+  {
+    "stuID": 7,
+    "stuName": "郑竹",
+    "birthday": "1989-07-01",
+    "stuGender": "女",
+    "scoreBeanList": [
+      {
+        "SID": 7,
+        "CID": 2,
+        "score": 89.0
+      },
+      {
+        "SID": 7,
+        "CID": 3,
+        "score": 98.0
+      }
+    ]
+  },
+  {
+    "stuID": 8,
+    "stuName": "王菊",
+    "birthday": "1990-01-20",
+    "stuGender": "女",
+    "scoreBeanList": []
+  },
+  {
+    "stuID": 9,
+    "stuName": "鸣人",
+    "birthday": "2018-08-04",
+    "stuGender": "null",
+    "scoreBeanList": [
+      {
+        "SID": 9,
+        "CID": 2,
+        "score": 90.0
+      }
+    ]
+  },
+  {
+    "stuID": 10,
+    "stuName": "孙子",
+    "birthday": "2008-08-07",
+    "stuGender": "未知",
+    "scoreBeanList": []
+  },
+  {
+    "stuID": 33,
+    "stuName": "段誉",
+    "birthday": "1990-02-18",
+    "stuGender": "男",
+    "scoreBeanList": []
+  },
+  {
+    "stuID": 44,
+    "stuName": "虚竹",
+    "birthday": "1978-08-23",
+    "stuGender": "男",
+    "scoreBeanList": []
+  },
+  {
+    "stuID": 55,
+    "stuName": "乔峰",
+    "birthday": "1967-10-10",
+    "stuGender": "男",
+    "scoreBeanList": []
+  },
+  {
+    "stuID": 77,
+    "stuName": "赵日天",
+    "birthday": "1899-06-05",
+    "stuGender": "男",
+    "scoreBeanList": []
+  }
+]

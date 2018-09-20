@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="cn">
+<head>
+    <meta charset="UTF-8">
+    <title>游戏统计</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <script src="js/jquery-3.3.1.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn3.devexpress.com/jslib/18.1.5/css/dx.spa.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn3.devexpress.com/jslib/18.1.5/css/dx.common.css" />
+    <link rel="dx-theme" data-theme="generic.light" href="https://cdn3.devexpress.com/jslib/18.1.5/css/dx.light.css" />
+    <script src="https://cdn3.devexpress.com/jslib/18.1.5/js/dx.all.js"></script>
+</head>
+<body class="dx-viewport">
+<div class="demo-container">
+    <div id="gridContainer"></div>
+</div>
+
+<script>
+    $(function(){
+        var orders = new DevExpress.data.CustomStore({
+            load: function (loadOptions) {
+                var deferred = $.Deferred(),
+                    args = {};
+
+                if (loadOptions.sort) {
+                    args.orderby = loadOptions.sort[0].selector;
+                    if (loadOptions.sort[0].desc)
+                        args.orderby += " desc";
+                }
+
+                args.page = loadOptions.skip || 0;
+                args.count = loadOptions.take || 12;
+
+                $.ajax({
+                    url: "game",
+                    dataType: "json",
+                    data: args,
+                    success: function(result) {
+                        console.log(result);
+                        deferred.resolve(result.data.items, { totalCount: result.data.totalCount });
+                    },
+                    error: function() {
+                        deferred.reject("Data Loading Error");
+                    },
+                    timeout: 5000
+                });
+                return deferred.promise();
+            }
+        });
+
+        $("#gridContainer").dxDataGrid({
+            dataSource: {
+                store: orders
+            },
+            showBorders: true,
+            remoteOperations: {
+                sorting: false,
+                paging: true
+            },
+            paging: {
+                pageSize: 12
+            },
+            pager: {
+                showPageSizeSelector: true,
+                allowedPageSizes: [8, 12, 20]
+            },
+            columns: [
+                "gameId", "gameName", "platform", "publisher", "globalSales", 'userScore'
+            ]
+        }).dxDataGrid("instance");
+    });
+</script>
+</body>
+</html>

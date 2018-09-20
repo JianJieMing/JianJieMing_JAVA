@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--添加一个需要输入邮箱的元素
+    如果用户没有填写,那么提示 请输入邮箱地址
+    如果用户填写错误,提示 请输入正确的邮箱-->
+<label>邮箱<input type="text" id="Email" value=""></label>
+<span id="conceal1" style="display: none;color: #ff0b07">请输入邮箱地址</span>
+<span id="conceal2" style="display: none;color: #ff0b07">请输入正确的邮箱</span>
+
+<script>
+    var conceal1 = document.getElementById('conceal1');
+    var conceal2 = document.getElementById('conceal2');
+    var Email = document.getElementById('Email');
+
+    var regEmail = /[0-9a-zA-Z]+@[0-9a-zA-Z]+\.[a-zA-Z]+/;
+    Email.onblur = function () {
+        var length = Email.value;
+        var ss = regEmail.test(length);
+        if (length.length === 0) {
+            conceal1.style.display = 'contents';
+        } else if (ss != true) {
+            conceal2.style.display = 'contents';
+            conceal1.style.display = 'none';
+        }
+    }
+
+</script>
+</body>
+</html>

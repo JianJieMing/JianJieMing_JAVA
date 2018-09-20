@@ -1,0 +1,122 @@
+[
+  {
+    "snacks": {
+      "id": 10001,
+      "name": "甜辣鸭脖",
+      "price": 12.9,
+      "number": 0,
+      "unit": "袋"
+    },
+    "number": 10
+  },
+  {
+    "snacks": {
+      "id": 10002,
+      "name": "威化饼干",
+      "price": 27.8,
+      "number": 0,
+      "unit": "袋"
+    },
+    "number": 8
+  },
+  {
+    "snacks": {
+      "id": 10003,
+      "name": "手撕牛肉",
+      "price": 68.8,
+      "number": 0,
+      "unit": "袋"
+    },
+    "number": 10
+  },
+  {
+    "snacks": {
+      "id": 10004,
+      "name": "坚果礼包",
+      "price": 89.8,
+      "number": 0,
+      "unit": "包"
+    },
+    "number": 5
+  },
+  {
+    "snacks": {
+      "id": 10005,
+      "name": "卫龙礼包",
+      "price": 29.9,
+      "number": 0,
+      "unit": "包"
+    },
+    "number": 10
+  },
+  {
+    "snacks": {
+      "id": 10006,
+      "name": "大辣条",
+      "price": 25.6,
+      "number": 0,
+      "unit": "袋"
+    },
+    "number": 20
+  },
+  {
+    "snacks": {
+      "id": 10007,
+      "name": "口袋面包",
+      "price": 49.9,
+      "number": 0,
+      "unit": "箱"
+    },
+    "number": 10
+  },
+  {
+    "snacks": {
+      "id": 10008,
+      "name": "干脆面",
+      "price": 19.8,
+      "number": 0,
+      "unit": "箱"
+    },
+    "number": 10
+  },
+  {
+    "snacks": {
+      "id": 10009,
+      "name": "肉松饼",
+      "price": 39.0,
+      "number": 0,
+      "unit": "箱"
+    },
+    "number": 10
+  },
+  {
+    "snacks": {
+      "id": 10010,
+      "name": "每日坚果",
+      "price": 139.0,
+      "number": 0,
+      "unit": "箱"
+    },
+    "number": 5
+  },
+  {
+    "snacks": {
+      "id": 10011,
+      "name": "乐事薯片",
+      "price": 5.88,
+      "number": 0,
+      "unit": "袋"
+    },
+    "number": 20
+  },
+  {
+    "snacks": {
+      "id": 10012,
+      "name": "小鱼干",
+      "price": 1.89,
+      "number": 0,
+      "unit": "包"
+    },
+    "number": 20
+  }
+]

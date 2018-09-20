@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<!--DOCTYPE 文档类型.用来规定该xml文件可以使用哪些标签.-->
+<!--根标签为html,lang属性用来标识该文档的语言.-->
+<html lang="en">
+<head>
+    <!--head标签中一般会对该html进行一些配置-->
+    <!--编码格式-->
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="60">
+    <!--标题-->
+    <title>HelloWorld</title>
+    <script src="../js/js/jquery-3.2.1.js"></script>
+    <script src="../js/js/canvas-particle.js"></script>
+    <script src="../js/js/bootstrap.min.js"></script>
+    <style>
+        iframe {
+            position: absolute;
+            z-index: -1;
+            width: 100%;
+            height: 100%;
+        }
+
+        p {
+            font-size: 33px;
+        }
+
+        a {
+            font-size: 25px;
+        }
+
+        li {
+            color: #01ff01;
+        }
+        dl{
+            color: #01ff01;
+        }
+    </style>
+</head>
+<body>
+<a href="" name="TOP"></a>
+<!--background="../img/109951163079930963.jpg"
+      style=" background-repeat:no-repeat ;
+background-size:100% 100%;
+background-attachment: fixed;"-->
+<!--body标签,规定浏览器显示的内容-->
+
+<div id="mydiv">
+    <script type="text/javascript">
+        window.onload = function () {
+            //配置
+            var config = {
+                vx: 4,	//小球x轴速度,正为右，负为左
+                vy: 4,	//小球y轴速度
+                height: 2,	//小球高宽，其实为正方形，所以不宜太大
+                width: 2,
+                count: 500,		//点个数
+                color: "121, 162, 185", 	//点颜色
+                stroke: "130,255,255", 		//线条颜色
+                dist: 6000, 	//点吸附距离
+                e_dist: 20000, 	//鼠标吸附加速距离
+                max_conn: 10 	//点到点最大连接数
+            };
+            //调用
+            CanvasParticle(config);
+        }
+    </script>
+    <script type="text/javascript" src="canvas-particle.js"></script>
+
+    <iframe src="樱花雨背景.html"></iframe>
+
+    <marquee behavior="alternate" driecttion="life" scrollamount="50" loop="-1">
+        <p><font color="red" size="6">我来组成弹幕</font></p>
+    </marquee>
+    <marquee behavior="alternate" driecttion="right" scrollamount="40" loop="-1">
+        <p><font color="#ff08d4" size="6">卧梅幽梅香</font></p>
+    </marquee>
+    <marquee behavior="alternate" driecttion="life" scrollamount="60" loop="-1">
+        <p><font color="#0aff0c" size="6">卧枝伤恨底</font></p>
+    </marquee>
+    <marquee behavior="scroll" driecttion="right" scrollamount="45">
+        <p><font color="#fffd06" size="6">遥闻卧似水</font></p>
+    </marquee>
+    <marquee behavior="scroll" driecttion="right" scrollamount="33">
+        <p><font color="#04fdff" size="6">易透达春绿</font></p>
+    </marquee>
+    <p>
+        <strong style="color: #1fff0c">卧梅幽梅香,卧枝伤恨底</strong>.
+        <br>
+        <em style="color: #ff06b3">遥闻卧似水,易透达春绿</em>.
+    </p>
+    <iframe src="樱花雨背景.html"></iframe>
+    <img src="../img/既然不是仙 难免有杂念_109951163417373652.jpg" alt="o(*￣︶￣*)o" title="O(∩_∩)O" width="300" height="300">
+    <img src="../img/109951163079930963.jpg" alt="(#^.^#)" title="(*^▽^*)" width="300" height="300">
+    <img src="../img/e04a0b178508b8c1eb8be09aa8f0a273.jpg" alt=^_^ title="♪(^∇^*)" width="300" height="300">
+    <br>
+    <a href="http://www.baidu.com/s?wd=英雄联盟" target="_blank" style="color: #04faff">百度</a>
+    <br>
+    <!--打开邮件-->
+    <a href="mailto:hexin@lanou3g.com?subject=学生劝退" style="color: #fff40c">发送邮件</a>
+    <br>
+    <!--有序列表-->
+    <ol type="I">
+        <li>瑞雯</li>
+        <ol type="i">
+            <li>上单</li>
+            <li>爆发型战士</li>
+        </ol>
+        <li>卡特</li>
+        <ol type="i">
+            <li>中单</li>
+            <li>刺客型法师</li>
+        </ol>
+    </ol>
+    <!--无序列表-->
+    <ul>
+        <li>金克丝</li>
+        <ul>
+            <li>ADC</li>
+            <li>远程物理射手</li>
+        </ul>
+        <li>盲僧</li>
+        <ul>
+            <li>打野</li>
+            <li>野区瞎比打野</li>
+        </ul>
+    </ul>
+    <!--自定义列表-->
+    <dl>
+        <dt>索拉卡</dt>
+        <dd>下路脆皮辅助</dd>
+    </dl>
+
+
+    <a href="#TOP" style="color: #ff0518">回到顶部</a>
+</div>
+</body>
+</html>

@@ -1,0 +1,59 @@
+p {
+    font-size: 2em;
+    color: #1eff04;
+    text-align: right;
+    /*设置字体*/
+    font-family: "Kaiti SC";
+}
+
+body {
+    background-image: url("../imgs/109951163079930963.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+a {
+    font-size: 50px;
+    text-decoration: none;
+}
+
+a:link {
+    /*链接还没被点击*/
+    color: #fcff0d;
+}
+
+a:visited {
+    /*访问过这个链接*/
+    color: #ff0511;
+}
+
+a:hover {
+    /*鼠标放在上面悬停*/
+    color: #0dff29;
+    background-color: blue;
+    border: 3px solid #07f8ff;
+    border-radius: 5px;
+}
+
+a:active {
+    /*按住不松手*/
+    color: #ff05f1;
+}
+
+ol {
+    list-style-type: circle;
+    color: #feff06;
+    display: inline;
+}
+
+.s{
+    font-size: 2em;
+    color: #04fff4;
+    border: 5px solid;
+    border: #ff03ad;
+    padding: 10px;
+    margin-left: 30px;
+}
+

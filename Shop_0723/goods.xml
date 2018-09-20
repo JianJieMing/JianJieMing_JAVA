@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<snacksList>
+    <snacks name = "零食">
+        <goods>
+            <id>1</id>
+            <name>薯片</name>
+            <price>5</price>
+        </goods>
+        <goods>
+            <id>2</id>
+            <name>可乐</name>
+            <price>3</price>
+        </goods>
+        <goods>
+            <id>3</id>
+            <name>巧克力</name>
+            <price>5</price>
+        </goods>
+    </snacks>
+    <snacks name = "水果">
+        <goods>
+            <id>1</id>
+            <name>香蕉</name>
+            <price>7</price>
+        </goods>
+        <goods>
+            <id>2</id>
+            <name>苹果</name>
+            <price>5</price>
+        </goods>
+        <goods>
+            <id>3</id>
+            <name>榴莲</name>
+            <price>10</price>
+        </goods>
+    </snacks>
+</snacksList>

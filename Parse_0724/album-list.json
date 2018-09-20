@@ -1,0 +1,28 @@
+[
+  {
+    "albumName": "泠鸢",
+    "musicList": [
+      {
+        "musicName": "前前前世",
+        "duration": "100"
+      },
+      {
+        "musicName": "嚎哭",
+        "duration": "200"
+      }
+    ]
+  },
+  {
+    "albumName": "祖娅纳惜",
+    "musicList": [
+      {
+        "musicName": "血腥爱情故事",
+        "duration": "150"
+      },
+      {
+        "musicName": "罂粟花冠",
+        "duration": "333"
+      }
+    ]
+  }
+]

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <bean id="bookDao" class="com.jianjieming.bookstore.model.dao.BookDaoImpl"></bean>
+
+    <bean id="bookService" class="com.jianjieming.bookstore.model.service.BookService">
+        <property name="dao" ref="bookDao"></property>
+    </bean>
+
+    <bean id="bookAction" class="com.jianjieming.bookstore.controller.BookAction">
+        <property name="service" ref="bookService"></property>
+    </bean>
+
+
+
+
+    <bean id="userDao" class="com.jianjieming.bookstore.model.dao.UserDaoImpl"></bean>
+
+    <bean id="userService" class="com.jianjieming.bookstore.model.service.UserService">
+        <property name="userDao" ref="userDao"></property>
+    </bean>
+
+    <bean id="userAction" class="com.jianjieming.bookstore.controller.UserAction">
+        <property name="service" ref="userService"></property>
+    </bean>
+
+</beans>

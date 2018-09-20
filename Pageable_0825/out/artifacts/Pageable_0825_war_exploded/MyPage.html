@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/games2.js"></script>
+</head>
+<style>
+    #prev {
+        width: 100px;
+        height: 30px;
+        color: #ff010d;
+    }
+
+    #next {
+        width: 100px;
+        height: 30px;
+        color: #ff07e8;
+    }
+</style>
+<body>
+<table>
+    <thead>
+    <tr>
+        <th>gameId</th>
+        <th>gameName</th>
+        <th>platform</th>
+        <th>publisher</th>
+        <th>globalSales</th>
+        <th>userScore</th>
+    </tr>
+    </thead>
+    <tbody id="body">
+
+    </tbody>
+</table>
+<br>
+<div id="page-view" class="ss">
+    <form action="">
+        <label>页码: <input type="text" name="page"></label>
+        <label>行数: <input type="text" name="count"></label>
+        <input type="submit" value="提交">
+    </form>
+    <div>
+        &emsp;&emsp;&emsp;&emsp;<button id="prev">上一页</button>
+        &emsp;&emsp;&emsp;&emsp;<button id="next">下一页</button>
+    </div>
+</div>
+
+
+</body>
+</html>

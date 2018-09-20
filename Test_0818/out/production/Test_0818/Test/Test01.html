@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../js/jquery-3.2.1.js"></script>
+    <script
+            src="http://code.jquery.com/color/jquery.color-2.1.2.js"
+            integrity="sha256-1Cn7TdfHiMcEbTuku97ZRSGt2b3SvZftEIn68UMgHC8="
+            crossorigin="anonymous">
+    </script>
+    <style>
+        .aaa {
+            background-color: #fa041b;
+            width: 5px;
+            height: 5px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body class="list">
+<!--<button class="s">发射</button>-->
+<script>
+    // $('.aaa').animate({
+    //     left: '500px',
+    //     top: "-300px",
+    //     width: '300px'
+    // },2000)
+
+
+    // $(function () {
+    //     $('.s').click(function () {
+    //
+    //     })
+    // })
+
+    $(document).keydown(function (event) {
+        var keyNum = event.which;   //获取键值
+        function f() {
+            if (keyNum === 88) {
+                $('.list').append($('<div></div>').css({
+                    position: 'relative',
+                    'background-color': '#fa041b',
+                    width: '5px',
+                    height: '5px',
+                    'border-radius': '50%'
+                })).animate({left: '+=30px'});
+                setTimeout(f(), 1000)
+            }
+        }
+
+        f()
+    });
+
+
+</script>
+
+
+</body>
+</html>

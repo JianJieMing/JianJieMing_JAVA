@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!--Dog dog = new Dog();-->
+    <!--Dog dog = new Dog("tom",3);-->
+    <!--constructor-arg标签,表示调用有参的构造方法.-->
+    <!--
+    注意点:
+    1. 有几个constructor-arg标签,就表示调用包含该参数的构造方法,要求匹配.
+    2. constructor-arg标签,可以使用属性值name匹配类的属性,也可以使用index(表示第几个属性).
+    3. constructor-arg标签,还可以使用type(数据类型),来匹配构造方法的参数,通常使用name较多.
+    -->
+    <!--<bean id="dog" class="com.jianjieming.sping.test2.Dog2">-->
+    <!--<constructor-arg name="name" value="tom"></constructor-arg>-->
+    <!--<constructor-arg name="age" value="3"></constructor-arg>-->
+    <!--<constructor-arg index="0" value="tom"></constructor-arg>-->
+    <!--<constructor-arg index="1" value="3"></constructor-arg>-->
+    <!--<constructor-arg type="java.lang.String" value="tom"></constructor-arg>-->
+    <!--<constructor-arg type="java.lang.Integer" value="3"></constructor-arg>-->
+    <!--</bean>-->
+
+
+    <!--
+    property标签,就会调用setter方法
+    -->
+    <!--<bean id="dog" class="com.jianjieming.sping.test2.Dog2">-->
+        <!--<property name="name" value="tom"></property>-->
+        <!--<property name="age" value="3"></property>-->
+    <!--</bean>-->
+
+    <bean id="student" class="com.jianjieming.sping.test2.Student">
+        <constructor-arg name="name" value="张三"></constructor-arg>
+        <constructor-arg name="age" value="18"></constructor-arg>
+    </bean>
+
+</beans>

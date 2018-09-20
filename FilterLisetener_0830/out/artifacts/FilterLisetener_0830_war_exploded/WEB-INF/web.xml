@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+
+    <!--<session-config>-->
+        <!--<session-timeout>30</session-timeout>-->
+        <!--<cookie-config>-->
+            <!--<max-age>6000</max-age> 默认的cookie有效时长-->
+        <!--</cookie-config>-->
+    <!--</session-config>-->
+
+    <!--<welcome-file-list>-->
+        <!--<welcome-file>/home</welcome-file> 修改默认页面-->
+    <!--</welcome-file-list>-->
+
+    <!--对过滤器进行注册-->
+    <!--<filter>-->
+        <!--<description>用来测试的</description>-->
+        <!--<filter-name>TestFilter</filter-name>-->
+        <!--<filter-class>com.jianjieming.filter.TestFilter</filter-class>-->
+        <!--&lt;!&ndash;<init-param>&ndash;&gt;-->
+            <!--&lt;!&ndash;<param-name>charset</param-name>&ndash;&gt;-->
+            <!--&lt;!&ndash;<param-value>utf-8</param-value>&ndash;&gt;-->
+        <!--&lt;!&ndash;</init-param>&ndash;&gt;-->
+    <!--</filter>-->
+    <!--<filter-mapping>-->
+        <!--<filter-name>TestFilter</filter-name>-->
+        <!--&lt;!&ndash;确定过滤那些url, /* 代表全部.&ndash;&gt;-->
+        <!--<url-pattern>/*</url-pattern>-->
+        <!--&lt;!&ndash;<dispatcher>REQUEST</dispatcher>&ndash;&gt;-->
+        <!--&lt;!&ndash;<dispatcher>FORWARD</dispatcher>&ndash;&gt;-->
+        <!--&lt;!&ndash;<dispatcher>ERROR</dispatcher>&ndash;&gt;-->
+    <!--</filter-mapping>-->
+</web-app>

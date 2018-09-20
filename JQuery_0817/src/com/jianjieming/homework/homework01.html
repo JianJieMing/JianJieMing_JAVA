@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../js/jquery-2.2.4.min.js"></script>
+</head>
+<body>
+<label>姓名<input id="name" type="text"></label>
+<label>性别<input id="sex" type="text"></label>
+<label>年龄<input id="age" type="text"></label>
+<label>生日<input id="birthday" type="text"></label>
+<button id="but">添加</button>
+
+<table id="list" border="1px" style="color: #ff03d3;width: 50%">
+    <tr>
+        <td>姓名</td>
+        <td>性别</td>
+        <td>年龄</td>
+        <td>生日</td>
+        <td>删除</td>
+    </tr>
+</table>
+
+<script>
+    $(function () {
+        $('#but').click(function () {
+            $('#list').append(
+                $('<tr></tr>').append(
+                    $('<td></td>').text($('#name').val()),
+                    $('<td></td>').text($('#sex').val()),
+                    $('<td></td>').text($('#age').val()),
+                    $('<td></td>').text($('#birthday').val()),
+                    $('<td></td>').append(
+                        $('<button></button>').text('删除')
+                            .css({color: '#ff0515'})
+                            .click(function () {
+                                this.parentElement.parentElement.remove();
+                            })
+                    )
+                )
+            );
+        })
+    })
+
+
+    // $('#list').append(
+    //     tr.append(
+    //         td1.text($('#name').val()),
+    //         td2.text($('#sex').val()),
+    //         td3.text($('#age').val()),
+    //         td4.text($('#birthday').val())
+    //     ));
+    // $('#list').append(tr);
+    // const valueName = $('#name').val();
+    // const valueSex = $('#sex').val();
+    // const valueAge = $('#age').val();
+    // const valueBirthday = $('#birthday').val();
+    // const name = td1.text(valueName);
+    // const sex = td2.text(valueSex);
+    // const age = td3.text(valueAge);
+    // const birthday = td4.text(valueBirthday);
+    // tr.append(name);
+    // tr.append(sex);
+    // tr.append(age);
+    // tr.append(birthday);
+
+</script>
+
+
+</body>
+</html>

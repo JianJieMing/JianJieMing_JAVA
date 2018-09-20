@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <script src="js/jquery.validate.js"></script>
+    <script src="js/messages_zh.js"></script>
+
+    <script>
+        $().ready(function () {
+            $('#sss').validate({
+                rules: {
+                    password: {
+                        required: true,
+                        minlength: 6
+                    }
+                },
+                messages: {
+                    password: {
+                        required: '必填字段',
+                        minlength: '最少需要六个字符'
+                    }
+                }
+            })
+        })
+    </script>
+
+    <style>
+        .error {
+            color: #ff0214;
+        }
+    </style>
+
+</head>
+<body>
+
+<form id="sss" action="login" method="post">
+
+    <label>用户名:&emsp;</label>
+    <input type="text" name="username" minlength="2" required><br>
+    <label>密&emsp;码:&emsp;</label>
+    <input id="word" type="password" name="password"><br>
+    <label>验证码:&emsp;</label>
+    <input type="text" name="code" required>
+    <img id="img" src="code"><br>
+    <input type="submit" value="登录">
+    <a href="register.html" style="text-decoration: none"><input type="button" value="注册"></a>
+
+</form>
+
+<script>
+    $(function () {
+        $('#img').click(function () {
+            $('#img').attr('src', 'code?' + Math.random())
+        })
+    })
+</script>
+
+</body>
+</html>

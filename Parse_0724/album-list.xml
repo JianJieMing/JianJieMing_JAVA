@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--第一行为文档声明-->
+<albumList>
+    <!--albumList是根元素-->
+    <album name="七里香">
+        <music>
+            <id>1</id>
+            <name>我的地盘</name>
+            <duration>100</duration>
+            <person>周杰伦</person>
+        </music>
+        <music>
+            <id>2</id>
+            <name>你的地盘</name>
+            <duration>200</duration>
+            <person>周杰伦</person>
+        </music>
+        <music>
+            <id>3</id>
+            <name>他的地盘</name>
+            <duration>300</duration>
+            <person>周杰伦</person>
+        </music>
+        <music>
+            <id>4</id>
+            <name>它的地盘</name>
+            <duration>400</duration>
+            <person>周杰伦</person>
+        </music>
+    </album>
+
+    <album name="八度空间">
+        <music>
+            <id>1</id>
+            <name>猫的地盘</name>
+            <duration>100</duration>
+            <person>周杰伦</person>
+        </music>
+        <music>
+            <id>2</id>
+            <name>狗的地盘</name>
+            <duration>200</duration>
+            <person>周杰伦</person>
+        </music>
+        <music>
+            <id>3</id>
+            <name>猪的地盘</name>
+            <duration>300</duration>
+            <person>周杰伦</person>
+        </music>
+        <music>
+            <id>4</id>
+            <name>羊的地盘</name>
+            <duration>400</duration>
+            <person>周杰伦</person>
+        </music>
+    </album>
+
+</albumList>

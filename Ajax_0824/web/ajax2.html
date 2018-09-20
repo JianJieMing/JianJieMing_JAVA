@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/jquery-3.2.1.js"></script>
+    <style>
+        .left {
+            width: 40%;
+            border: 1px solid red;
+            float: left;
+        }
+
+        .right {
+            width: 50%;
+            border: 1px solid chartreuse;
+            float: right;
+        }
+    </style>
+</head>
+<body>
+<div class="left">
+    <button id="btn1">简单GET</button>
+    <button id="btn2">简单POST</button>
+</div>
+
+<div class="right">
+    <table>
+        <thead>
+        <tr>
+            <th>姓名</th>
+            <th>年龄</th>
+            <th>学号</th>
+        </tr>
+        </thead>
+        <tbody id="tbody">
+
+        </tbody>
+    </table>
+</div>
+
+<script>
+
+    $(function () {
+        $('#btn1').click(function () {
+            var url = "http://localhost:8080/ajax2";
+            $.get(url, f)
+        });
+
+        $('#btn2').click(function () {
+            var url = "http://localhost:8080/ajax2";
+            var data = {
+                "name": "常山赵子龙",
+                "age": "33",
+                "introduce": "吾乃常山赵子龙是也"
+            };
+            $.post(url, JSON.stringify(data), f)
+        });
+
+        function f(resp) {
+            console.log(resp);
+            var body = $('#tbody');
+            body.empty();
+            for (var result of resp) {
+                var tr = $('<tr></tr>');
+                var name = $('<td></td>').text(result.name);
+                var age = $('<td></td>').text(result.age);
+                var number = $('<td></td>').text(result.number);
+                tr.append(name);
+                tr.append(age);
+                tr.append(number);
+                body.append(tr);
+            }
+        }
+
+    });
+
+
+</script>
+
+
+</body>
+</html>
