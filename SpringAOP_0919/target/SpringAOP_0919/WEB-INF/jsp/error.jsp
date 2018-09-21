@@ -12,6 +12,7 @@
     <title>Title</title>
 </head>
 <body>
+<h1>${error}</h1>
 <c:forEach var="error" items="${errors}">
     <h1>${error.defaultMessage}<br></h1>
 </c:forEach>

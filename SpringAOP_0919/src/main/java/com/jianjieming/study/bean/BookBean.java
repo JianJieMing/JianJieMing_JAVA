@@ -2,6 +2,7 @@ package com.jianjieming.study.bean;
 
 import com.jianjieming.study.vaildate.BookAdd;
 import com.jianjieming.study.vaildate.BookUpdateVaildator;
+import com.jianjieming.study.validator.IdCard;
 import org.hibernate.validator.constraints.NotBlank;
 
 import javax.validation.constraints.*;
@@ -14,7 +15,7 @@ public class BookBean {
     @NotNull(message = "id不能为空", groups = {BookUpdateVaildator.class})
     private Integer id;
 
-    @NotBlank(message = "书名不能为空",groups = {BookAdd.class})
+    @NotBlank(message = "书名不能为空", groups = {BookAdd.class})
     private String bookName;
 
     @NotBlank(message = "作者不能为空")
@@ -30,6 +31,9 @@ public class BookBean {
 //    @Future（） 时间必须是未来的时间
     private Date publishDate;
 
+    @IdCard(message = "身份证输入不合法")
+    private String idCardNumber;
+
     @Override
     public String toString() {
         return "BookBean{" +
@@ -38,6 +42,7 @@ public class BookBean {
                 ", author='" + author + '\'' +
                 ", price=" + price +
                 ", publishDate=" + publishDate +
+                ", idCardNumber='" + idCardNumber + '\'' +
                 '}';
     }
 
@@ -79,5 +84,13 @@ public class BookBean {
 
     public void setPublishDate(Date publishDate) {
         this.publishDate = publishDate;
+    }
+
+    public String getIdCardNumber() {
+        return idCardNumber;
+    }
+
+    public void setIdCardNumber(String idCardNumber) {
+        this.idCardNumber = idCardNumber;
     }
 }

@@ -19,4 +19,25 @@
         <property name="suffix" value=".jsp"></property>
     </bean>
 
+    <!--配置拦截器-->
+    <mvc:interceptors>
+        <mvc:interceptor>
+            <!--对/books/add 和 /books/update 进行拦截-->
+            <!--/** 代表对所有子路径进行拦截-->
+            <!--/books/add1 拦截-->
+            <!--/books/add2 拦截-->
+            <!--/books/add3 拦截-->
+            <!--/books/add4 不拦截-->
+            <mvc:mapping path="/books/**"/>
+            <mvc:exclude-mapping path="/books/add4"/>
+            <ref bean="loginInterceptor"/>
+        </mvc:interceptor>
+    </mvc:interceptors>
+
+    <!--配置支持文件上传-->
+    <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+        <property name="maxUploadSize" value="1024000000"/>
+        <property name="defaultEncoding" value="utf-8"/>
+    </bean>
+
 </beans>
