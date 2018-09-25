@@ -1,11 +1,9 @@
 package com.jianjieming.study.controller;
 
 import com.jianjieming.study.bean.BookBean;
-import com.jianjieming.study.exception.JsonException;
 import com.jianjieming.study.exception.JspException;
 import com.jianjieming.study.vaildate.BookUpdateVaildator;
 import org.apache.commons.io.FileUtils;
-import org.apache.commons.io.IOUtils;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
