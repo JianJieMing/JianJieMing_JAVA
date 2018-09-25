@@ -7,44 +7,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8508d430-3463-45ee-a139-97cfd4a7a83c" name="Default Changelist" comment="测 试">
-      <change afterPath="$PROJECT_DIR$/../Spring_Login_0925/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring_Login_0925/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring_Login_0925/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring_Login_0925/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring_Login_0925/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring_Login_0925/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring_Login_0925/Spring_Login_0925.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring_Login_0925/homework.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring_Login_0925/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring_Login_0925/src/main/java/com/jianjieming/homework/aop/BaseAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring_Login_0925/src/main/java/com/jianjieming/homework/aop/LoggerAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring_Login_0925/src/main/java/com/jianjieming/homework/aop/TimerAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring_Login_0925/src/main/java/com/jianjieming/homework/bean/UserBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring_Login_0925/src/main/java/com/jianjieming/homework/controller/BookController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring_Login_0925/src/main/java/com/jianjieming/homework/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring_Login_0925/src/main/java/com/jianjieming/homework/dao/UserDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring_Login_0925/src/main/java/com/jianjieming/homework/exception/BaseException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring_Login_0925/src/main/java/com/jianjieming/homework/exception/GlobalExceptionResolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring_Login_0925/src/main/java/com/jianjieming/homework/exception/JsonException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring_Login_0925/src/main/java/com/jianjieming/homework/interceptor/LoginInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring_Login_0925/src/main/java/com/jianjieming/homework/rule/LoginRule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring_Login_0925/src/main/java/com/jianjieming/homework/rule/RegisterRule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring_Login_0925/src/main/java/com/jianjieming/homework/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring_Login_0925/src/main/java/com/jianjieming/homework/utils/AopUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring_Login_0925/src/main/java/com/jianjieming/homework/validator/IdCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring_Login_0925/src/main/java/com/jianjieming/homework/validator/IdCardUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring_Login_0925/src/main/java/com/jianjieming/homework/validator/IdCardValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring_Login_0925/src/main/resources/application-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring_Login_0925/src/main/webapp/WEB-INF/jsp/error.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring_Login_0925/src/main/webapp/WEB-INF/jsp/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring_Login_0925/src/main/webapp/WEB-INF/jsp/main.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring_Login_0925/src/main/webapp/WEB-INF/jsp/register.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring_Login_0925/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring_Login_0925/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring_Login_0925/登录注册作业.patch" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jianjieming/study/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jianjieming/study/controller/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_Login_0925/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_Login_0925/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_Login_0925/src/main/java/com/jianjieming/homework/bean/UserBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_Login_0925/src/main/java/com/jianjieming/homework/bean/UserBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_Login_0925/src/main/java/com/jianjieming/homework/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_Login_0925/src/main/java/com/jianjieming/homework/controller/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_Login_0925/src/main/java/com/jianjieming/homework/interceptor/LoginInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_Login_0925/src/main/java/com/jianjieming/homework/interceptor/LoginInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_Login_0925/src/main/java/com/jianjieming/homework/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_Login_0925/src/main/java/com/jianjieming/homework/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_Login_0925/src/main/java/com/jianjieming/homework/utils/AopUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_Login_0925/src/main/java/com/jianjieming/homework/utils/AopUtils.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -601,7 +571,7 @@
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537861919616" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537866942954" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -763,7 +733,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1484" height="1047" extended-state="1" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28511235" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />

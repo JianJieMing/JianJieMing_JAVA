@@ -5,7 +5,6 @@ import com.jianjieming.homework.exception.JsonException;
 import com.jianjieming.homework.rule.LoginRule;
 import com.jianjieming.homework.rule.RegisterRule;
 import com.jianjieming.homework.service.UserService;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
@@ -48,9 +47,9 @@ public class BookController {
                         BindingResult result,
                         HttpServletRequest request,
                         Model model) {
-        String username = request.getParameter("username");
-        String password = request.getParameter("password");
-        List<UserBean> beans = userService.showAll();
+//        String username = request.getParameter("username");
+//        String password = request.getParameter("password");
+        boolean b = userService.showAll(userBean);
         if (result.hasErrors()) {
             // 获取所有属性的所有校验错误信息.
             List<FieldError> errors = result.getFieldErrors();
@@ -62,17 +61,23 @@ public class BookController {
             }
             return "error";
         } else {
-            for (UserBean bean : beans) {
-                if (username.equals(bean.getUsername()) && password.equals(bean.getPassword())) {
-                    HttpSession session = request.getSession();
-                    session.setAttribute("username", username);
-                    return "main";
-                } else {
-                    model.addAttribute("error", "用户名或者密码不正确");
-                    throw new JsonException("用户名密码不正确异常", 400);
-                }
+            if (b) {
+                HttpSession session = request.getSession();
+                session.setAttribute("username", userBean.getUsername());
+                return "main";
+            } else {
+                model.addAttribute("error", "用户名或者密码不正确");
+                throw new JsonException("用户名密码不正确异常", 400);
+//            for (UserBean bean : beans) {
+//                if (username.equals(bean.getUsername()) && password.equals(bean.getPassword())) {
+//                    HttpSession session = request.getSession();
+//                    session.setAttribute("username", username);
+//                    return "main";
+//                } else {
+//                    model.addAttribute("error", "用户名或者密码不正确");
+//                    throw new JsonException("用户名密码不正确异常", 400);
+//                }
             }
-            return "";
         }
     }
 

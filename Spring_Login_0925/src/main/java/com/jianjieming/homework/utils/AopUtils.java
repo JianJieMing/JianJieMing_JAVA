@@ -10,13 +10,13 @@ public class AopUtils {
         sb.append(target.getClass().getName()).append(".");
         String methodName = jp.getSignature().getName();
         sb.append(methodName).append("(");
-        Object[] args = jp.getArgs();
-        if (args.length > 0) {
-            for (Object arg : args) {
-                sb.append(arg).append(",");
-            }
-            sb.deleteCharAt(sb.length() - 1);
-        }
+//        Object[] args = jp.getArgs();
+//        if (args.length > 0) {
+//            for (Object arg : args) {
+//                sb.append(arg).append(",");
+//            }
+//            sb.deleteCharAt(sb.length() - 1);
+//        }
         sb.append(")");
         return sb.toString();
     }
