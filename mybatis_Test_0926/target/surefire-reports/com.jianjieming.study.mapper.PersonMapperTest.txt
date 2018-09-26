@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.jianjieming.study.mapper.PersonMapperTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.033 s <<< FAILURE! - in com.jianjieming.study.mapper.PersonMapperTest
+test(com.jianjieming.study.mapper.PersonMapperTest)  Time elapsed: 0.009 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.jianjieming.study.mapper.PersonMapperTest.test(PersonMapperTest.java:34)
+
+test(com.jianjieming.study.mapper.PersonMapperTest)  Time elapsed: 0.01 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.jianjieming.study.mapper.PersonMapperTest.after(PersonMapperTest.java:40)
+
