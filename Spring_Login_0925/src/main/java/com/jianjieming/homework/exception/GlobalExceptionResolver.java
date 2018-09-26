@@ -18,7 +18,7 @@ public class GlobalExceptionResolver implements HandlerExceptionResolver {
     public ModelAndView resolveException(HttpServletRequest request, HttpServletResponse response, Object handler, Exception ex) {
         ModelAndView mv = new ModelAndView();
         String message = ex.getMessage();
-        if (ex instanceof JsonException) {
+        if (ex instanceof JsonException)   {
             JsonException je = (JsonException) ex;
             int code = je.getCode();
             mv.setView(new MappingJackson2JsonView());

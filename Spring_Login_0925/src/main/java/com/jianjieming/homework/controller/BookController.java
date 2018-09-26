@@ -68,15 +68,6 @@ public class BookController {
             } else {
                 model.addAttribute("error", "用户名或者密码不正确");
                 throw new JsonException("用户名密码不正确异常", 400);
-//            for (UserBean bean : beans) {
-//                if (username.equals(bean.getUsername()) && password.equals(bean.getPassword())) {
-//                    HttpSession session = request.getSession();
-//                    session.setAttribute("username", username);
-//                    return "main";
-//                } else {
-//                    model.addAttribute("error", "用户名或者密码不正确");
-//                    throw new JsonException("用户名密码不正确异常", 400);
-//                }
             }
         }
     }

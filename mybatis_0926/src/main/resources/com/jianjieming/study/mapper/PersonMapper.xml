@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--PersonMapper:java用来操作数据库的接口-->
+<!--PersonMapper：mybatis用来操作mysql数据库的-->
+<!--通过dao+mapper完成mybatis控制java操作mysql数据库-->
+<!--namespace可以设置：Dao的路径-->
+<mapper namespace="com.jianjieming.study.mapper.PersonMapper">
+
+    <!--如果表中的列名(字段)和实体类中的属性名不一致,需要额外配置映射关系. (resultMap="personMap")-->
+    <!--<resultMap id="personMap" type="com.jianjieming.study.entity.Person">-->
+        <!--<id column="person_id" property="id"/>-->
+        <!--<result column="person_name" property="name"/>-->
+        <!--<result column="age" property="age"/>-->
+    <!--</resultMap>-->
+
+    <select id="findAll" resultType="pb">
+        select * from tb_person;
+    </select>
+    <!--
+    当向statement中传递参数时,只能传递一个对象.
+    当传递的对象为数据库的基本数据类型时,SQL中的参数名字可以随便写.
+    当传递的对象为Map或实体类的时候,SQL中的参数名字,需要与Map的key或者实体类的属性保持一致.
+    -->
+    <select id="findOne" resultType="pb">
+        select * from tb_person where id = #{id} and name like #{name}
+    </select>
+    <select id="findIdAndName" resultType="pb">
+        select * from tb_person as p
+        <where>
+            <choose>
+                <when test="id != null and name != ''">
+                    p.id = #{id}
+                </when>
+                <when test="name != null and name != ''">
+                    and p.name = #{name}
+                </when>
+            </choose>
+        </where>
+    </select>
+
+    <update id="updateOne">
+        update tb_person set name = '张三三' where name = #{name}
+    </update>
+
+</mapper>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+    <properties resource="db.properties"></properties>
+
+    <typeAliases>
+        <typeAlias type="com.jianjieming.study.entity.Person" alias="pb"/>
+    </typeAliases>
+
+    <environments default="development">
+        <environment id="development">
+            <transactionManager type="JDBC"></transactionManager>
+            <dataSource type="POOLED">
+                <property name="driver" value="${driver}"/>
+                <property name="url" value="${url}"/>
+                <property name="username" value="${username}"/>
+                <property name="password" value="${password}"/>
+            </dataSource>
+        </environment>
+    </environments>
+
+    <!--
+    总结:
+        1. mapper配置的是resources属性,mybatis框架会根据该配置文件的namespace去寻找对应的接口.
+        2. mapper配置的class属性,那么mybatis框架会根据该类所在的包,去寻找与该类同名的mapper文件.
+        实际开发中,我们会把接口和mapper放在同一个文件夹下,并保持名称一致.
+        然后在mapper配置中,namespace属性也会也成接口的全限定名.
+    -->
+    <mappers>
+        <!--<mapper resource="PersonMapper.xml"/>-->
+        <mapper resource="com/jianjieming/study/mapper/PersonMapper.xml"/>
+        <!--<mapper class="com.jianjieming.study.mapper.PersonMapper"/>-->
+    </mappers>
+
+</configuration>

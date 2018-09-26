@@ -1,0 +1,744 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ba6deb3f-125d-4673-940f-370bfba0411d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Spring_Login_0925/src/main/java/com/jianjieming/homework/test/test01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_0926/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_0926/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_0926/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_0926/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_0926/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_0926/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_0926/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_0926/mybatis_0926.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_0926/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_0926/src/main/java/com/jianjieming/study/entity/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_0926/src/main/java/com/jianjieming/study/mapper/PersonMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_0926/src/main/resources/com/jianjieming/study/mapper/PersonMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_0926/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_0926/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_0926/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_0926/src/test/java/com.jianjieming.study/LoggerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_0926/src/test/java/com.jianjieming.study/MybatisTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_0926/src/test/java/com/jianjieming/study/mapper/PersonMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_Test_0926.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jianjieming/study/entity/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jianjieming/study/mapper/PersonMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/jianjieming/study/mapper/PersonMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/jianjieming/study/mapper/PersonMapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BookstoreSpring_0912/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BookstoreSpring_0912/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BookstoreSpring_0912/BookstoreSpring_0912.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringAOP_0919/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringAOP_0919/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringMVC_0917/src/main/java/com/jianjieming/study/controller/PersonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC_0917/src/main/java/com/jianjieming/study/controller/PersonController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_Login_0925/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_Login_0925/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_Login_0925/src/main/java/com/jianjieming/homework/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_Login_0925/src/main/java/com/jianjieming/homework/controller/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_Login_0925/src/main/java/com/jianjieming/homework/exception/GlobalExceptionResolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_Login_0925/src/main/java/com/jianjieming/homework/exception/GlobalExceptionResolver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_Login_0925/src/main/java/com/jianjieming/homework/exception/JsonException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_Login_0925/src/main/java/com/jianjieming/homework/exception/JsonException.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db_mybatis@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db_mybatis@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1032237553">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="57" />
+          <entry key="txt" value="10" />
+          <entry key="xml" value="95" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="57" />
+          <entry key="PLAIN_TEXT" value="10" />
+          <entry key="SQL" value="1" />
+          <entry key="XML" value="94" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="13" />
+          <entry key="properties" value="6" />
+          <entry key="sql" value="1" />
+          <entry key="xml" value="12" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="13" />
+          <entry key="Properties" value="6" />
+          <entry key="Scratch" value="1" />
+          <entry key="XML" value="12" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/jianjieming/study/mapper/PersonMapperTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="533">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1728">
+              <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/db.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/com/jianjieming/study/mapper/PersonMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="648">
+              <caret line="33" column="63" selection-start-line="33" selection-start-column="63" selection-end-line="33" selection-end-column="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+        <option value="mybatis-config" />
+        <option value="Mapper" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/jianjieming/study/entity/Person.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jianjieming/study/mapper/PersonMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/sources/com.jianjieming.study/mapper/PersonMapper.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com.jianjieming.study/MybatisTest.java" />
+        <option value="$PROJECT_DIR$/src/main/sources/mybatis-config.xml" />
+        <option value="$PROJECT_DIR$/src/main/sources/com/jianjieming/study/mapper/PersonMapper.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/jianjieming/study/mapper/PersonMapperTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Profiles" type="6783ec58:MavenProjectsStructure$ProfilesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="mybatis_Test_0926 Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="mybatis_Test_0926 Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="13" />
+    <option name="y" value="23" />
+    <option name="width" value="1718" />
+    <option name="height" value="977" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Android</id>
+          </State>
+          <State>
+            <id>IconsUsabilityLintAndroid</id>
+          </State>
+          <State>
+            <id>Internationalization</id>
+          </State>
+          <State>
+            <id>InternationalizationJava</id>
+          </State>
+          <State>
+            <id>InternationalizationLintAndroid</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>LintAndroid</id>
+          </State>
+          <State>
+            <id>UsabilityLintAndroid</id>
+          </State>
+          <State>
+            <id>WebSocket</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="mybatis_Test_0926" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis_Test_0926" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatis_Test_0926" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis_Test_0926" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatis_Test_0926" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis_Test_0926" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatis_Test_0926" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis_Test_0926" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatis_Test_0926" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis_Test_0926" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatis_Test_0926" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis_Test_0926" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="jianjieming" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatis_Test_0926" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis_Test_0926" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="jianjieming" type="462c0819:PsiDirectoryNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatis_Test_0926" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis_Test_0926" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="jianjieming" type="462c0819:PsiDirectoryNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatis_Test_0926" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis_Test_0926" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="jianjieming" type="462c0819:PsiDirectoryNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatis_Test_0926" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis_Test_0926" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatis_Test_0926" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis_Test_0926" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatis_Test_0926" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis_Test_0926" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="jianjieming" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatis_Test_0926" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis_Test_0926" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="jianjieming" type="462c0819:PsiDirectoryNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatis_Test_0926" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis_Test_0926" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="jianjieming" type="462c0819:PsiDirectoryNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatis_Test_0926" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis_Test_0926" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatis_Test_0926" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis_Test_0926" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatis_Test_0926" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis_Test_0926" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatis_Test_0926" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis_Test_0926" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatis_Test_0926" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis_Test_0926" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="jianjieming" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatis_Test_0926" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis_Test_0926" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="jianjieming" type="462c0819:PsiDirectoryNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatis_Test_0926" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis_Test_0926" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="jianjieming" type="462c0819:PsiDirectoryNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537964020606" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\java\DLJ180603\课堂代码\mybatis_Test_0926\src" />
+      <recent name="C:\Users\Administrator\Desktop\java\DLJ180603\课堂代码\mybatis_Test_0926\src\main\sources" />
+      <recent name="C:\Users\Administrator\Desktop\java\DLJ180603\课堂代码\mybatis_Test_0926\src\main\sources\com.jianjieming.study" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.PersonMapperTest">
+    <configuration name="MybatisTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis_Test_0926" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jianjieming.study.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jianjieming.study" />
+      <option name="MAIN_CLASS_NAME" value="com.jianjieming.study.MybatisTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonMapperTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis_Test_0926" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jianjieming.study.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jianjieming.study.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.jianjieming.study.mapper.PersonMapperTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonMapperTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis_Test_0926" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jianjieming.study.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jianjieming.study.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.jianjieming.study.mapper.PersonMapperTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.PersonMapperTest.test" />
+      <item itemvalue="JUnit.PersonMapperTest" />
+      <item itemvalue="JUnit.MybatisTest.test" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PersonMapperTest" />
+        <item itemvalue="JUnit.PersonMapperTest.test" />
+        <item itemvalue="JUnit.MybatisTest.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+    <option name="myConnectionType" value="NONE" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ba6deb3f-125d-4673-940f-370bfba0411d" name="Default Changelist" comment="" />
+      <created>1537959851754</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1537959851754</updated>
+      <workItem from="1537959854987" duration="2505000" />
+      <workItem from="1537962371353" duration="159000" />
+      <workItem from="1537962564898" duration="1301000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="PersonMapperTest_test - 2018.09.26 at 20h 03m 03s.xml">
+      <configuration name="PersonMapperTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PersonMapperTest - 2018.09.26 at 20h 03m 49s.xml">
+      <configuration name="PersonMapperTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PersonMapperTest - 2018.09.26 at 20h 04m 35s.xml">
+      <configuration name="PersonMapperTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PersonMapperTest - 2018.09.26 at 20h 05m 28s.xml">
+      <configuration name="PersonMapperTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PersonMapperTest - 2018.09.26 at 20h 05m 44s.xml">
+      <configuration name="PersonMapperTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PersonMapperTest - 2018.09.26 at 20h 06m 33s.xml">
+      <configuration name="PersonMapperTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PersonMapperTest_test - 2018.09.26 at 20h 06m 58s.xml">
+      <configuration name="PersonMapperTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PersonMapperTest_test - 2018.09.26 at 20h 07m 23s.xml">
+      <configuration name="PersonMapperTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PersonMapperTest - 2018.09.26 at 20h 08m 04s.xml">
+      <configuration name="PersonMapperTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PersonMapperTest - 2018.09.26 at 20h 09m 39s.xml">
+      <configuration name="PersonMapperTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3965000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.6058632" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.329718" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.32995737" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32995737" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/093ef00b-e768-4946-8562-e107dc845d75/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/sources/com.jianjieming.study/mapper/PersonMapper.xml" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com.jianjieming.study/MybatisTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com.jianjieming.study/LoggerTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/sources/log4j.properties" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jianjieming/study/entity/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-101">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jianjieming/study/mapper/PersonMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1728">
+          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jianjieming/study/mapper/PersonMapperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="533">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/jianjieming/study/mapper/PersonMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="33" column="63" selection-start-line="33" selection-start-column="63" selection-end-line="33" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

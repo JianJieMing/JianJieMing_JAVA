@@ -7,14 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8508d430-3463-45ee-a139-97cfd4a7a83c" name="Default Changelist" comment="测 试">
+      <change afterPath="$PROJECT_DIR$/../Spring_Login_0925/src/main/java/com/jianjieming/homework/test/test01.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Spring_Login_0925/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_Login_0925/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_Login_0925/src/main/java/com/jianjieming/homework/bean/UserBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_Login_0925/src/main/java/com/jianjieming/homework/bean/UserBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_Login_0925/src/main/java/com/jianjieming/homework/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_Login_0925/src/main/java/com/jianjieming/homework/controller/BookController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_Login_0925/src/main/java/com/jianjieming/homework/interceptor/LoginInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_Login_0925/src/main/java/com/jianjieming/homework/interceptor/LoginInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_Login_0925/src/main/java/com/jianjieming/homework/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_Login_0925/src/main/java/com/jianjieming/homework/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_Login_0925/src/main/java/com/jianjieming/homework/utils/AopUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_Login_0925/src/main/java/com/jianjieming/homework/utils/AopUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_Login_0925/src/main/java/com/jianjieming/homework/exception/GlobalExceptionResolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_Login_0925/src/main/java/com/jianjieming/homework/exception/GlobalExceptionResolver.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -58,7 +55,7 @@
     <session id="1269340024">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.29" value="1" />
@@ -195,7 +192,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/jianjieming/study/interceptor/LoginInterceptor.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="287">
@@ -220,7 +217,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/jianjieming/study/exception/JsonException.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="72">
@@ -346,7 +343,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
     <option name="width" value="1484" />
     <option name="height" value="1047" />
@@ -571,7 +568,7 @@
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537866942954" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537872931939" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -688,7 +685,7 @@
       <workItem from="1537355153058" duration="2152000" />
       <workItem from="1537400747849" duration="28384000" />
       <workItem from="1537487121709" duration="26689000" />
-      <workItem from="1537832791663" duration="8296000" />
+      <workItem from="1537832791663" duration="8300000" />
     </task>
     <task id="LOCAL-00001" summary="测试">
       <created>1537488116259</created>
@@ -729,10 +726,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71544000" />
+    <option name="totallyTimeSpent" value="71548000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1484" height="1047" extended-state="1" />
+    <frame x="-7" y="0" width="1484" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28511235" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -964,29 +962,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jianjieming/study/exception/JsonException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
-          <folding>
-            <element signature="e#152#153#0" expanded="true" />
-            <element signature="e#184#185#0" expanded="true" />
-            <element signature="e#322#323#0" expanded="true" />
-            <element signature="e#349#350#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jianjieming/study/exception/GlobalExceptionResolver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jianjieming/study/bean/BookBean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="900">
@@ -1020,6 +995,29 @@
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jianjieming/study/exception/GlobalExceptionResolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jianjieming/study/exception/JsonException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
+          <folding>
+            <element signature="e#152#153#0" expanded="true" />
+            <element signature="e#184#185#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+            <element signature="e#349#350#0" expanded="true" />
           </folding>
         </state>
       </provider>
