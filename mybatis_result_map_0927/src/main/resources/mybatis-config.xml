@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+    <properties resource="db.properties"></properties>
+
+    <!--为实体类配置别名,在以后mapper配置文件中,所有用到全限定名的位置,都可以使用别名来代替-->
+    <typeAliases>
+        <typeAlias type="com.jianjieming.study.entity.TbGoodsCategory" alias="Category"/>
+        <typeAlias type="com.jianjieming.study.entity.TbGoods" alias="Goods"/>
+        <typeAlias type="com.jianjieming.study.entity.TbUser" alias="User"/>
+        <typeAlias type="com.jianjieming.study.entity.TbOrder" alias="Order"/>
+    </typeAliases>
+
+    <environments default="development">
+        <environment id="development">
+            <transactionManager type="JDBC"></transactionManager>
+            <dataSource type="POOLED">
+                <property name="driver" value="${driver}"/>
+                <property name="url" value="${url}"/>
+                <property name="username" value="${username}"/>
+                <property name="password" value="${password}"/>
+            </dataSource>
+        </environment>
+    </environments>
+
+    <mappers>
+        <mapper resource="com/jianjieming/study/mapper/CommonsMapper.xml"/>
+        <!--扫描包,会加载该包下所有的类或接口所对应的mapper.xml映射文件-->
+        <package name="com.jianjieming.study.mapper"/>
+    </mappers>
+
+</configuration>

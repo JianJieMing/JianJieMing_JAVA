@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="commons">
+
+    <resultMap id="categoryMap" type="Category">
+        <id column="category_id" property="categoryId"/>
+        <result column="category_name" property="categoryName"/>
+    </resultMap>
+
+    <resultMap id="goodsMap" type="Goods">
+        <id column="goods_id" property="goodsId"/>
+        <result column="category_id" property="categoryId"/>
+        <result column="goods_name" property="goodsName"/>
+        <result column="goods_price" property="goodsPrice"/>
+    </resultMap>
+
+    <resultMap id="userMap" type="User">
+        <id column="user_id" property="userId"/>
+        <result column="user_name" property="userName"/>
+    </resultMap>
+
+    <resultMap id="orderMap" type="Order">
+        <id column="order_id" property="orderId"/>
+        <result column="user_id" property="userId"/>
+        <result column="goods_id" property="goodsId"/>
+        <result column="goods_qty" property="goodsQty"/>
+    </resultMap>
+
+</mapper>

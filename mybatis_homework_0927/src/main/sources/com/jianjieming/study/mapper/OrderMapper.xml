@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.jianjieming.study.mapper.OrderMapper">
+
+    <resultMap id="orderMap" type="Order" extends="commons.orderMap">
+        <collection property="tbOrderItemList" ofType="Order" resultMap="orderItemMap"/>
+    </resultMap>
+    <resultMap id="orderItemMap" type="OrderItem" extends="commons.orderItemMap">
+        <association property="goods" javaType="Goods" resultMap="commons.goodsMap"/>
+    </resultMap>
+
+    <resultMap id="orderMoneyMap" type="OrderMoney" extends="commons.orderMap">
+        <result column="money" property="money"/>
+        <collection property="tbOrderItemList" ofType="Order" resultMap="orderItemMap"/>
+    </resultMap>
+
+
+    <select id="queryOrderAndGoods" resultMap="orderMap">
+        select tb_order.order_id,
+               tb_order.order_code,
+               toi.order_id,
+               good.category_id,
+               good.goods_id,
+               good.goods_name,
+               good.goods_price,
+               toi.goods_qty,
+               toi.order_item_id
+        from tb_order
+                 left join tb_order_item toi on tb_order.order_id = toi.order_id
+                 left join tb_goods good on toi.goods_id = good.goods_id
+    </select>
+
+    <select id="queryOrderAndOrderitemAndGoods" resultMap="orderMap">
+        select tb_order.order_id,
+               tb_order.order_code,
+               toi.order_id,
+               good.category_id,
+               good.goods_id,
+               good.goods_name,
+               good.goods_price,
+               toi.goods_qty,
+               toi.order_item_id
+        from tb_order
+                 left join tb_order_item toi on tb_order.order_id = toi.order_id
+                 left join tb_goods good on toi.goods_id = good.goods_id
+        where toi.order_id = #{orderId}
+    </select>
+
+    <select id="queryOrderMoney" resultMap="orderMoneyMap">
+        select to2.order_id, to2.order_code, to2.user_id, sum(good.goods_price * toi.goods_qty) as money
+        from tb_order as to2
+                 left join tb_order_item toi on to2.order_id = toi.order_id
+                 left join tb_goods good on toi.goods_id = good.goods_id
+        group by to2.order_id;
+    </select>
+
+</mapper>

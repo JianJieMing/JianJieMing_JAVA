@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.jianjieming.study.mapper.UserMapper">
+
+    <resultMap id="userMap" type="User" extends="commons.userMap">
+        <collection property="orderList" ofType="Order" resultMap="orderMap"/>
+    </resultMap>
+
+    <resultMap id="orderMap" type="Order" extends="commons.orderMap">
+        <association property="goods" javaType="Goods" resultMap="goodsMap"/>
+    </resultMap>
+
+    <resultMap id="goodsMap" type="Goods" extends="commons.goodsMap">
+        <association property="category" javaType="Category" resultMap="commons.categoryMap"/>
+    </resultMap>
+
+    <select id="findAllStrong" resultMap="userMap">
+        select tu.user_id,
+               tu.user_name,
+               to2.order_id,
+               to2.goods_qty,
+               good.goods_id,
+               good.category_id,
+               good.goods_name,
+               good.goods_price,
+               category.category_id,
+               category.category_name
+        from tb_user tu
+                 left join tb_order to2 on tu.user_id = to2.user_id
+                 left join tb_goods good on to2.goods_id = good.goods_id
+                 left join tb_goods_category category on good.category_id = category.category_id
+    </select>
+
+</mapper>

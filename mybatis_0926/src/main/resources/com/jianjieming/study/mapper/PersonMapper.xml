@@ -10,13 +10,15 @@
 
     <!--如果表中的列名(字段)和实体类中的属性名不一致,需要额外配置映射关系. (resultMap="personMap")-->
     <!--<resultMap id="personMap" type="com.jianjieming.study.entity.Person">-->
-        <!--<id column="person_id" property="id"/>-->
-        <!--<result column="person_name" property="name"/>-->
-        <!--<result column="age" property="age"/>-->
+    <!--<id column="person_id" property="id"/>-->
+    <!--<result column="person_name" property="name"/>-->
+    <!--<result column="age" property="age"/>-->
     <!--</resultMap>-->
 
+
     <select id="findAll" resultType="pb">
-        select * from tb_person;
+        select *
+        from tb_person;
     </select>
     <!--
     当向statement中传递参数时,只能传递一个对象.
@@ -24,7 +26,10 @@
     当传递的对象为Map或实体类的时候,SQL中的参数名字,需要与Map的key或者实体类的属性保持一致.
     -->
     <select id="findOne" resultType="pb">
-        select * from tb_person where id = #{id} and name like #{name}
+        select *
+        from tb_person
+        where id = #{id}
+          and name like #{name}
     </select>
     <select id="findIdAndName" resultType="pb">
         select * from tb_person as p
@@ -40,8 +45,40 @@
         </where>
     </select>
 
+    <!--<update id="updateOne">-->
+        <!--update tb_person-->
+        <!--set name = '张三三'-->
+        <!--where name = #{name}-->
+    <!--</update>-->
+
+    <delete id="deletePerson">
+        delete
+        from tb_person
+        where id = #{id}
+    </delete>
+
     <update id="updateOne">
-        update tb_person set name = '张三三' where name = #{name}
+        update tb_person p
+        set p.name = #{name},
+            p.age  = #{age}
+        where p.id = #{id}
     </update>
+
+    <insert id="addOne" useGeneratedKeys="true" keyColumn="id" keyProperty="id">
+        insert into tb_person (name, age) VALUE (#{name},#{age})
+    </insert>
+
+    <!--<resultMap id="showAll" type="com.jianjieming.study.entity.Student">-->
+    <!--<id column="sid" property="sid"/>-->
+    <!--<result column="sname" property="sname"/>-->
+    <!--<result column="sage" property="sage"/>-->
+    <!--<result column="ssex" property="ssex"/>-->
+    <!--<collection property="scList" ofType="com.jianjieming.study.entity.Sc" javaType="java.util.List">-->
+    <!--<id column="sid" property="sid"/>-->
+    <!--<result column="cid" property="cid"/>-->
+    <!--<result column="score" property="score"/>-->
+    <!--</collection>-->
+
+    <!--</resultMap>-->
 
 </mapper>

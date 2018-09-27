@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.jianjieming.study.mapper.GoodsMapper">
+
+    <resultMap id="goodsMap" type="Goods" extends="commons.goodsMap">
+        <!--关联-->
+        <association property="category" javaType="Category" resultMap="commons.categoryMap">
+        </association>
+    </resultMap>
+
+    <select id="findAllWithCategory" resultMap="goodsMap">
+        select goods.goods_id, goods.category_id, goods.goods_name, goods.goods_price, category.category_name
+        from tb_goods goods
+                 left join tb_goods_category category on goods.category_id = category.category_id
+    </select>
+
+</mapper>
