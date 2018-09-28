@@ -17,31 +17,38 @@
         <collection property="tbOrderItemList" ofType="Order" resultMap="orderItemMap"/>
     </resultMap>
 
+    <!--定义带参数的sql片段-->
+    <sql id="sql-join-order-item">
+        ${a}.order_id,
+        ${a}.order_code,
+        ${b}.order_item_id,
+        ${b}.goods_qty
+    </sql>
+
+    <!--定义sql片段-->
+    <sql id="sql-order">
+        select
+        <include refid="sql-join-order-item">
+            <!--为带参数的sql片段传值-->
+            <property name="a" value="oder"/>
+            <property name="b" value="toi"/>
+        </include>,
+        good.goods_id,
+        good.goods_name,
+        good.goods_price
+        from tb_order as oder
+        left join tb_order_item toi on oder.order_id = toi.order_id
+        left join tb_goods good on toi.goods_id = good.goods_id
+    </sql>
+
 
     <select id="queryOrderAndGoods" resultMap="orderMap">
-        select tb_order.order_id,
-               tb_order.order_code,
-               good.goods_id,
-               good.goods_name,
-               good.goods_price,
-               toi.goods_qty,
-               toi.order_item_id
-        from tb_order
-                 left join tb_order_item toi on tb_order.order_id = toi.order_id
-                 left join tb_goods good on toi.goods_id = good.goods_id
+        # 引入某个sql片段
+        <include refid="sql-order"/>
     </select>
 
     <select id="queryOrderAndOrderitemAndGoods" resultMap="orderMap">
-        select tb_order.order_id,
-               tb_order.order_code,
-               good.goods_id,
-               good.goods_name,
-               good.goods_price,
-               toi.goods_qty,
-               toi.order_item_id
-        from tb_order
-                 left join tb_order_item toi on tb_order.order_id = toi.order_id
-                 left join tb_goods good on toi.goods_id = good.goods_id
+        <include refid="sql-order"/>
         where toi.order_id = #{orderId}
     </select>
 

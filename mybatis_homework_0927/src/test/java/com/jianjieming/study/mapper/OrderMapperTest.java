@@ -1,7 +1,6 @@
 package com.jianjieming.study.mapper;
 
 import com.jianjieming.study.entity.OrderMoney;
-import com.jianjieming.study.entity.TbGoodsCategory;
 import com.jianjieming.study.entity.TbOrder;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
@@ -15,7 +14,6 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.List;
 
-import static org.junit.Assert.*;
 
 public class OrderMapperTest {
     private SqlSessionFactory sqlSessionFactory;

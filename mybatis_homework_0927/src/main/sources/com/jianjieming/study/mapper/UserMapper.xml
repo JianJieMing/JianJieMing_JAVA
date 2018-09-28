@@ -27,4 +27,114 @@
         group by tbu.user_id;
     </select>
 
+    <select id="findAllCondition" resultMap="commons.userMap">
+        select * from tb_user where delete_flag = 0
+        <if test="userName != null and userName != ''">
+            and user_name like #{userName}
+        </if>
+        <if test="gender != null and gender != ''">
+            and gender = #{gender}
+        </if>
+        <if test="minHeight != null and minHeight != ''">
+            and height >= #{minHeight}
+        </if>
+        <if test="maxWeight != null and maxWeight != ''">
+            # 小于号需要转义
+            and weight &lt;= #{maxWeight}
+        </if>
+        <if test="birthday != null and birthday != ''">
+            and birthday = #{birthday}
+        </if>
+    </select>
+
+    <select id="findAll" resultMap="commons.userMap">
+        select * from tb_user
+        <where>
+            <if test="userName != null and userName != ''">
+                and user_name like #{userName}
+            </if>
+            <if test="gender != null and gender != ''">
+                and gender = #{gender}
+            </if>
+            <if test="minHeight != null and minHeight != ''">
+                and height >= #{minHeight}
+            </if>
+            <if test="maxWeight != null and maxWeight != ''">
+                # 小于号需要转义
+                and weight &lt;= #{maxWeight}
+            </if>
+            <if test="birthday != null and birthday != ''">
+                and birthday = #{birthday}
+            </if>
+        </where>
+    </select>
+
+    <update id="updateOne">
+        update tb_user
+        <set>
+            <if test="userName != null">
+                user_name = #{userName},
+            </if>
+            <if test="gender != null">
+                gender = #{gender},
+            </if>
+            <if test="height != null">
+                height = #{height},
+            </if>
+            <if test="weight != null">
+                weight = #{weight},
+            </if>
+            <if test="birthday != null">
+                birthday = #{birthday}
+            </if>
+        </set>
+        where user_id = #{userId}
+    </update>
+
+    <delete id="deleteByUserIds">
+        delete from tb_user where user_id in
+        <!--
+        collection 方法的参数如果传递是的集合,那么就填list,
+        如果是数组,就填array,
+        如果是map,就填map,index表示key,item表示value.
+        open 表示在真正的遍历之前拼接的内容.
+        separator 表示每次遍历拼接的时候,中间的分隔内容.
+        item 表示遍历的时候取出的数据.
+        close 遍历结束的时候拼接的内容.
+        -->
+        <foreach collection="list" item="id" index="index" open="(" separator="," close=")">
+            #{id}
+        </foreach>
+    </delete>
+
+    <!--
+    <if test="list != null and list.size > 0"/>
+
+    <if test="list == null or list.size == 0">
+        1 = 2
+    </if>
+    -->
+
+    <insert id="addUsers" parameterType="java.util.List">
+        insert into tb_user (user_name, gender, height, weight,birthday,delete_flag) VALUES
+        <!--
+        list.size 可以获取传递进来的集合中元素的数量.
+        list.length 可以获取传递进来的数组中元素的数量.
+        -->
+
+        <foreach collection="list" item="item" index="index" separator=",">
+            (#{item.userName},#{item.gender},#{item.height},#{item.weight},#{item.birthday},#{item.deleteFlag})
+        </foreach>
+
+    </insert>
+
+    <!--<select id="">-->
+        <!--<choose>-->
+            <!--<when test="username != null and username != ''"/>-->
+            <!--<when test=""/>-->
+            <!--<when test=""/>-->
+            <!--<otherwise></otherwise>-->
+        <!--</choose>-->
+    <!--</select>-->
+
 </mapper>
