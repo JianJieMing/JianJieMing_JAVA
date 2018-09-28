@@ -3,6 +3,8 @@ package com.jianjieming.study.entity;
 
 import sun.dc.pr.PRError;
 
+import java.util.List;
+
 public class TbGoods {
 
   private long goodsId;
@@ -11,6 +13,7 @@ public class TbGoods {
   private double goodsPrice;
 
   private TbGoodsCategory tbGoodsCategory;
+  private List<TbOrderItem> tbOrderItemList;
 
   @Override
   public String toString() {
@@ -20,7 +23,16 @@ public class TbGoods {
             ", goodsName='" + goodsName + '\'' +
             ", goodsPrice=" + goodsPrice +
             ", tbGoodsCategory=" + tbGoodsCategory +
+            ", tbOrderItemList=" + tbOrderItemList +
             '}';
+  }
+
+  public List<TbOrderItem> getTbOrderItemList() {
+    return tbOrderItemList;
+  }
+
+  public void setTbOrderItemList(List<TbOrderItem> tbOrderItemList) {
+    this.tbOrderItemList = tbOrderItemList;
   }
 
   public TbGoodsCategory getTbGoodsCategory() {

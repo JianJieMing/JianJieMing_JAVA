@@ -44,7 +44,6 @@ public class OrderMapperTest {
         List<OrderMoney> monies = mapper.queryOrderMoney();
         monies.forEach(System.out::println);
         System.out.println("***************");
-
     }
 
     @After

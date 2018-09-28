@@ -7,6 +7,8 @@
     <properties resource="db.properties"></properties>
 
     <typeAliases>
+        <!--扫描entity包,自动为实体类创建别名,默认的别名是小驼峰形式-->
+        <!--<package name="com.jianjieming.study.entity"/>-->
         <typeAlias type="com.jianjieming.study.entity.TbGoodsCategory" alias="Category"/>
         <typeAlias type="com.jianjieming.study.entity.TbGoods" alias="Goods"/>
         <typeAlias type="com.jianjieming.study.entity.TbUser" alias="User"/>
