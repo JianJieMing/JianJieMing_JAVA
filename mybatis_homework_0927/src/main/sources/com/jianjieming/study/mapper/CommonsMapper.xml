@@ -19,7 +19,7 @@
 
     <resultMap id="userMap" type="User">
         <id column="user_id" property="userId"/>
-        <result column="user_name" property="userName  11"/>
+        <result column="user_name" property="userName"/>
     </resultMap>
 
     <resultMap id="orderMap" type="Order">

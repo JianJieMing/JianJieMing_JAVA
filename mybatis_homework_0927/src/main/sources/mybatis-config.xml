@@ -13,6 +13,7 @@
         <typeAlias type="com.jianjieming.study.entity.TbOrder" alias="Order"/>
         <typeAlias type="com.jianjieming.study.entity.TbOrderItem" alias="OrderItem"/>
         <typeAlias type="com.jianjieming.study.entity.OrderMoney" alias="OrderMoney"/>
+        <typeAlias type="com.jianjieming.study.entity.UserMoney" alias="UserMoney"/>
     </typeAliases>
 
     <environments default="development">

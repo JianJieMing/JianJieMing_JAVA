@@ -5,6 +5,26 @@
 
 <mapper namespace="com.jianjieming.study.mapper.UserMapper">
 
+    <resultMap id="orderMap" type="Order" extends="commons.orderMap">
+        <collection property="tbOrderItemList" ofType="Order" resultMap="orderItemMap"/>
+    </resultMap>
 
+    <resultMap id="orderItemMap" type="OrderItem" extends="commons.orderItemMap">
+        <association property="goods" javaType="Goods" resultMap="commons.goodsMap"/>
+    </resultMap>
+
+    <resultMap id="userMoneyMap" type="UserMoney" extends="commons.userMap">
+        <result column="total" property="total"/>
+        <collection property="orderList" ofType="Order" resultMap="orderMap"/>
+    </resultMap>
+
+    <select id="userMoney" resultMap="userMoneyMap">
+        select tbu.user_id, tbu.user_name, sum(toi.goods_qty * good.goods_price) as total
+        from tb_user tbu
+                 left join tb_order to2 on tbu.user_id = to2.user_id
+                 left join tb_order_item toi on to2.order_id = toi.order_id
+                 left join tb_goods good on toi.goods_id = good.goods_id
+        group by tbu.user_id;
+    </select>
 
 </mapper>
