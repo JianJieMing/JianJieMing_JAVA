@@ -1,12 +1,13 @@
 package com.jianjieming.study.entity;
 
+import java.io.Serializable;
 import java.util.List;
 
 /**
  * @author 铭
  * 2018/9/27 23:18
  */
-public class UserMoney extends TbUser{
+public class UserMoney extends TbUser implements Serializable {
 
     private float total;
 

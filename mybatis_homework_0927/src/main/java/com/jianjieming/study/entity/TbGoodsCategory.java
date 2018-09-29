@@ -1,9 +1,10 @@
 package com.jianjieming.study.entity;
 
 
+import java.io.Serializable;
 import java.util.List;
 
-public class TbGoodsCategory {
+public class TbGoodsCategory implements Serializable {
 
   private long categoryId;
   private String categoryName;

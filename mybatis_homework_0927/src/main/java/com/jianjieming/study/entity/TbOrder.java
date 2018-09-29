@@ -1,9 +1,10 @@
 package com.jianjieming.study.entity;
 
 
+import java.io.Serializable;
 import java.util.List;
 
-public class TbOrder {
+public class TbOrder implements Serializable {
 
   private long orderId;
   private String orderCode;

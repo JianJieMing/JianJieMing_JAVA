@@ -3,9 +3,10 @@ package com.jianjieming.study.entity;
 
 import sun.dc.pr.PRError;
 
+import java.io.Serializable;
 import java.util.List;
 
-public class TbGoods {
+public class TbGoods implements Serializable {
 
   private long goodsId;
   private long categoryId;

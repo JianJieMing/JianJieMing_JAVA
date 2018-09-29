@@ -5,6 +5,14 @@
 
 <mapper namespace="com.jianjieming.study.mapper.GoodsMapper">
 
+    <resultMap id="goodsMap" type="Goods" extends="commons.goodsMap">
+        <association property="tbGoodsCategory" javaType="Category"
+                     select="com.jianjieming.study.mapper.GoodsCategoryMapper.findById"
+                     column="category_Id"/>
+    </resultMap>
 
+    <select id="findAll" resultMap="goodsMap">
+        select * from tb_goods
+    </select>
 
 </mapper>

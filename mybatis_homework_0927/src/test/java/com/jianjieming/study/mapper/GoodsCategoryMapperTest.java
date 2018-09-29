@@ -1,6 +1,8 @@
 package com.jianjieming.study.mapper;
 
 import com.jianjieming.study.entity.OrderMoney;
+import com.jianjieming.study.entity.TbGoods;
+import com.jianjieming.study.entity.TbGoodsCategory;
 import com.jianjieming.study.entity.TbOrder;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
@@ -14,11 +16,13 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.List;
 
+import static org.junit.Assert.*;
 
-public class OrderMapperTest {
+public class GoodsCategoryMapperTest {
+
     private SqlSessionFactory sqlSessionFactory;
     private SqlSession sqlSession;
-    private OrderMapper mapper;
+    private GoodsCategoryMapper goodsCategoryMapper;
 
 
     @Before
@@ -30,18 +34,23 @@ public class OrderMapperTest {
 
     @Test
     public void test() {
-        mapper = sqlSession.getMapper(OrderMapper.class);
-        List<TbOrder> tbOrders = mapper.queryOrderAndGoods();
-        tbOrders.forEach(System.out::println);
-        System.out.println("**************");
-        TbOrder tbOrder = new TbOrder();
-        tbOrder.setOrderId(2);
-        List<TbOrder> tbOrders1 = mapper.queryOrderAndOrderItemAndGoods(tbOrder);
-        tbOrders1.forEach(System.out::println);
-        System.out.println("****************");
-        List<OrderMoney> monies = mapper.queryOrderMoney();
-        monies.forEach(System.out::println);
-        System.out.println("***************");
+        GoodsMapper mapper = sqlSession.getMapper(GoodsMapper.class);
+        List<TbGoods> all = mapper.findAll();
+        all.forEach(System.out::println);
+    }
+
+    @Test
+    public void test2() {
+        goodsCategoryMapper = sqlSession.getMapper(GoodsCategoryMapper.class);
+        TbGoodsCategory byId = goodsCategoryMapper.findById(3);
+        System.out.println(byId);
+    }
+
+    @Test
+    public void test3() {
+        goodsCategoryMapper = sqlSession.getMapper(GoodsCategoryMapper.class);
+        List<TbGoodsCategory> allWithGoods = goodsCategoryMapper.findAllWithGoods();
+        allWithGoods.forEach(System.out::println);
     }
 
     @After
@@ -49,4 +58,5 @@ public class OrderMapperTest {
         sqlSession.commit();
         sqlSession.close();
     }
+
 }

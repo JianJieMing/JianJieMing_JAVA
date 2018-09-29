@@ -16,7 +16,7 @@ public interface OrderMapper {
     List<TbOrder> queryOrderAndGoods();
 
     // 2. 根据id查询某个订单, 并携带订单项和商品
-    List<TbOrder> queryOrderAndOrderitemAndGoods(TbOrder tbOrder);
+    List<TbOrder> queryOrderAndOrderItemAndGoods(TbOrder tbOrder);
 
     // 3. 查询所有订单和订单的总价
     List<OrderMoney> queryOrderMoney();

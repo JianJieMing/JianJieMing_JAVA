@@ -1,10 +1,11 @@
 package com.jianjieming.study.entity;
 
 
+import java.io.Serializable;
 import java.sql.Date;
 import java.util.List;
 
-public class TbUser {
+public class TbUser implements Serializable {
 
   private Long userId;
   private String userName;

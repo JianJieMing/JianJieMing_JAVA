@@ -27,6 +27,9 @@
         group by tbu.user_id;
     </select>
 
+    <!--默认值是true-->
+    <cache/>
+
     <select id="findAllCondition" resultMap="commons.userMap">
         select * from tb_user where delete_flag = 0
         <if test="userName != null and userName != ''">

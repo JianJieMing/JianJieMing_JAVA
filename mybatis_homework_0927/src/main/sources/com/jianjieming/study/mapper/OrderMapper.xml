@@ -14,7 +14,7 @@
 
     <resultMap id="orderMoneyMap" type="OrderMoney" extends="commons.orderMap">
         <result column="money" property="money"/>
-        <collection property="tbOrderItemList" ofType="Order" resultMap="orderItemMap"/>
+        <collection property="tbOrderItemList" ofType="OrderItem" resultMap="orderItemMap"/>
     </resultMap>
 
     <!--定义带参数的sql片段-->
@@ -47,7 +47,7 @@
         <include refid="sql-order"/>
     </select>
 
-    <select id="queryOrderAndOrderitemAndGoods" resultMap="orderMap">
+    <select id="queryOrderAndOrderItemAndGoods" resultMap="orderMap">
         <include refid="sql-order"/>
         where toi.order_id = #{orderId}
     </select>

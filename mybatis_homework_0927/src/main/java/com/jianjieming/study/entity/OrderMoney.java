@@ -1,12 +1,13 @@
 package com.jianjieming.study.entity;
 
+import java.io.Serializable;
 import java.util.List;
 
 /**
  * @author 铭
  * 2018/9/27 17:52
  */
-public class OrderMoney extends TbOrder{
+public class OrderMoney extends TbOrder implements Serializable {
 
     private float money;
 

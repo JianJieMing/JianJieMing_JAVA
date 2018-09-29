@@ -51,10 +51,14 @@ public class UserMapperTest {
         mapper = sqlSession.getMapper(UserMapper.class);
         Map<String, Object> objectMap = new HashMap<>();
 //        objectMap.put("userName","%小%");
-//        objectMap.put("gender","女");
-        objectMap.put("minHeight", 1.8);
-        List<TbUser> condition = mapper.findAllCondition(objectMap);
+        objectMap.put("gender","女");
+//        objectMap.put("maxHeight", 1.8);
+        System.out.println("第一次查询");
+        List<TbUser> condition = this.mapper.findAllCondition(objectMap);
         condition.forEach(System.out::println);
+        System.out.println("第二次查询");
+        List<TbUser> condition2 = this.mapper.findAllCondition(objectMap);
+        condition2.forEach(System.out::println);
     }
 
     @Test
@@ -62,10 +66,28 @@ public class UserMapperTest {
         mapper = sqlSession.getMapper(UserMapper.class);
         Map<String, Object> objectMap = new HashMap<>();
 //        objectMap.put("userName","%小%");
-//        objectMap.put("gender","女");
-        objectMap.put("minHeight", 1.8);
-        List<TbUser> all = mapper.findAll(objectMap);
+        objectMap.put("gender","女");
+//        objectMap.put("minHeight", 1.8);
+        System.out.println("第一次查询");
+        SqlSession sqlSession = sqlSessionFactory.openSession();
+        UserMapper mapper1 = sqlSession.getMapper(UserMapper.class);
+        List<TbUser> all = mapper1.findAll(objectMap);
         all.forEach(System.out::println);
+        sqlSession.close();
+
+        System.out.println("第二次查询");
+        SqlSession sqlSession2 = sqlSessionFactory.openSession();
+        UserMapper mapper2 = sqlSession2.getMapper(UserMapper.class);
+        List<TbUser> all2 = mapper2.findAll(objectMap);
+        all2.forEach(System.out::println);
+        sqlSession2.close();
+
+        System.out.println("第三次查询");
+        SqlSession sqlSession3 = sqlSessionFactory.openSession();
+        UserMapper mapper3 = sqlSession3.getMapper(UserMapper.class);
+        List<TbUser> all3 = mapper3.findAll(objectMap);
+        all3.forEach(System.out::println);
+        sqlSession3.close();
     }
 
     @Test
