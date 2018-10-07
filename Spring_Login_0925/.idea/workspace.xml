@@ -7,29 +7,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d4ce58e-2ef7-4f8e-9044-2f4f34f061b5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../SMM_0929/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SMM_0929/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_homework_0927/src/main/java/com/jianjieming/study/mapper/GoodsCategoryMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_homework_0927/src/test/java/com/jianjieming/study/mapper/GoodsCategoryMapperTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SMM_0929/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SMM_0929/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SMM_0929/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SMM_0929/src/main/java/com/jianjieming/study/controller/GoodsCategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SMM_0929/src/main/java/com/jianjieming/study/mapper/GoodsCategoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SMM_0929/src/main/java/com/jianjieming/study/service/GoodsCategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SMM_0929/src/main/java/com/jianjieming/study/service/IGoodsCategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SMM_0929/src/main/sources/com/jianjieming/study/mapper/GoodsCategoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SMM_0929/src/main/sources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SMM_0929/src/main/sources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SMM_0929/src/main/sources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SMM_0929/src/main/sources/spring-dao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SMM_0929/src/main/sources/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SMM_0929/src/main/sources/spring-service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SMM_0929/src/test/java/com/jianjieming/study/mapper/GoodsCategoryMapperTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mybatis_homework_0927/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis_homework_0927/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatis_homework_0927/src/main/java/com/jianjieming/study/entity/OrderMoney.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis_homework_0927/src/main/java/com/jianjieming/study/entity/OrderMoney.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatis_homework_0927/src/main/java/com/jianjieming/study/entity/TbGoods.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis_homework_0927/src/main/java/com/jianjieming/study/entity/TbGoods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatis_homework_0927/src/main/java/com/jianjieming/study/entity/TbGoodsCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis_homework_0927/src/main/java/com/jianjieming/study/entity/TbGoodsCategory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatis_homework_0927/src/main/java/com/jianjieming/study/entity/TbOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis_homework_0927/src/main/java/com/jianjieming/study/entity/TbOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatis_homework_0927/src/main/java/com/jianjieming/study/entity/TbOrderItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis_homework_0927/src/main/java/com/jianjieming/study/entity/TbOrderItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatis_homework_0927/src/main/java/com/jianjieming/study/entity/TbUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis_homework_0927/src/main/java/com/jianjieming/study/entity/TbUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatis_homework_0927/src/main/java/com/jianjieming/study/entity/UserMoney.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis_homework_0927/src/main/java/com/jianjieming/study/entity/UserMoney.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatis_homework_0927/src/main/java/com/jianjieming/study/mapper/GoodsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis_homework_0927/src/main/java/com/jianjieming/study/mapper/GoodsMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatis_homework_0927/src/main/java/com/jianjieming/study/mapper/OrderMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis_homework_0927/src/main/java/com/jianjieming/study/mapper/OrderMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatis_homework_0927/src/main/sources/com/jianjieming/study/mapper/CategoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis_homework_0927/src/main/sources/com/jianjieming/study/mapper/GoodsCategoryMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatis_homework_0927/src/main/sources/com/jianjieming/study/mapper/GoodsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis_homework_0927/src/main/sources/com/jianjieming/study/mapper/GoodsMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatis_homework_0927/src/main/sources/com/jianjieming/study/mapper/OrderMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis_homework_0927/src/main/sources/com/jianjieming/study/mapper/OrderMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatis_homework_0927/src/main/sources/com/jianjieming/study/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis_homework_0927/src/main/sources/com/jianjieming/study/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatis_homework_0927/src/main/sources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis_homework_0927/src/main/sources/mybatis-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatis_homework_0927/src/test/java/com/jianjieming/study/mapper/OrderMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis_homework_0927/src/test/java/com/jianjieming/study/mapper/OrderMapperTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatis_homework_0927/src/test/java/com/jianjieming/study/mapper/UserMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis_homework_0927/src/test/java/com/jianjieming/study/mapper/UserMapperTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -43,7 +37,7 @@
     <session id="20305235">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.5" value="1" />
@@ -97,7 +91,7 @@
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1836">
-              <caret line="51" column="36" lean-forward="true" selection-start-line="51" selection-start-column="36" selection-end-line="51" selection-end-column="36" />
+              <caret line="51" column="36" selection-start-line="51" selection-start-column="36" selection-end-line="51" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -178,11 +172,11 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="4" />
-    <option name="y" value="3" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-43" />
+    <option name="y" value="89" />
     <option name="width" value="1920" />
-    <option name="height" value="1047" />
+    <option name="height" value="977" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -433,7 +427,7 @@
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538205781528" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538218931731" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -568,7 +562,7 @@
       <updated>1537837646051</updated>
       <workItem from="1537837650886" duration="30633000" />
       <workItem from="1537919154508" duration="1320000" />
-      <workItem from="1538205312310" duration="469000" />
+      <workItem from="1538205312310" duration="728000" />
     </task>
     <task id="LOCAL-00001" summary="登录注册作业">
       <created>1537861531903</created>
@@ -602,7 +596,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32422000" />
+    <option name="totallyTimeSpent" value="32681000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -614,7 +608,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21481876" />
@@ -920,7 +914,7 @@
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1836">
-          <caret line="51" column="36" lean-forward="true" selection-start-line="51" selection-start-column="36" selection-end-line="51" selection-end-column="36" />
+          <caret line="51" column="36" selection-start-line="51" selection-start-column="36" selection-end-line="51" selection-end-column="36" />
         </state>
       </provider>
     </entry>

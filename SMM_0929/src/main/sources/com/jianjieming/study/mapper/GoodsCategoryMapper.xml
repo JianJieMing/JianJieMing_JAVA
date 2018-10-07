@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.jianjieming.study.mapper.GoodsCategoryMapper">
+
+    <!--<select id="findAll" resultType="tbGoodsCategory">-->
+        <!--select * from tb_goods_category-->
+    <!--</select>-->
+
+    <insert id="addOne">
+        insert into tb_goods_category value (null ,#{categoryName})
+    </insert>
+
+</mapper>
