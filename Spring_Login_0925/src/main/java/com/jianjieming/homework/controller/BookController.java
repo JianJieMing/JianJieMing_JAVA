@@ -47,8 +47,6 @@ public class BookController {
                         BindingResult result,
                         HttpServletRequest request,
                         Model model) {
-//        String username = request.getParameter("username");
-//        String password = request.getParameter("password");
         boolean b = userService.showAll(userBean);
         if (result.hasErrors()) {
             // 获取所有属性的所有校验错误信息.
