@@ -32,39 +32,19 @@
       <change afterPath="$PROJECT_DIR$/NETCTOSS/.idea/encodings.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/NETCTOSS/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/NETCTOSS/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NETCTOSS/.idea/webContexts.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/NETCTOSS/NETCTOSS.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/NETCTOSS/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NETCTOSS/src/main/java/com/lanou3g/netctoss/cost/controller/CostController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NETCTOSS/src/main/java/com/lanou3g/netctoss/cost/mapper/CostMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NETCTOSS/src/main/java/com/lanou3g/netctoss/cost/service/CostService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NETCTOSS/src/main/java/com/lanou3g/netctoss/cost/service/CostServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NETCTOSS/src/main/java/com/lanou3g/netctoss/login/controller/loginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NETCTOSS/src/main/java/com/lanou3g/netctoss/login/mapper/AdminInfoMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NETCTOSS/src/main/java/com/lanou3g/netctoss/login/service/AdminInfoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NETCTOSS/src/main/java/com/lanou3g/netctoss/login/service/AdminInfoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NETCTOSS/src/main/java/com/lanou3g/netctoss/utils/ValidateCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NETCTOSS/src/main/sources/com/lanou3g/netctoss/cost/mapper/CostMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NETCTOSS/src/main/sources/com/lanou3g/netctoss/login/mapper/AdminInfoMapper.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/NETCTOSS/src/main/sources/db.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/NETCTOSS/src/main/sources/log4j.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/NETCTOSS/src/main/sources/mybatis-config.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/NETCTOSS/src/main/sources/spring-dao.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/NETCTOSS/src/main/sources/spring-mvc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/NETCTOSS/src/main/sources/spring-service.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/fee/fee_add.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/fee/fee_detail.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/fee/fee_list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/fee/fee_modi.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NETCTOSS/src/test/com/lanou3g/netctoss/mapper/CostMapperTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/SMM_0929/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/SMM_0929/src/main/java/com/jianjieming/study/aspect/LoggerAspect.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/SMM_0929/src/main/java/com/jianjieming/study/aspect/TimeAspect.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/SMM_0929/src/main/java/com/jianjieming/study/exception/GlobalException.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/SMM_0929/src/main/java/com/jianjieming/study/interceptors/LoginInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ajax_0824/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Ajax_0824/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookStore_0831/src/admin/dao/CategoryDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore_0831/src/admin/dao/CategoryDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookStore_0831/src/admin/dao/impl/CategoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore_0831/src/admin/dao/impl/CategoryImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookStore_0831/src/admin/login/AdminLoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore_0831/src/admin/login/AdminLoginServlet.java" afterDir="false" />
@@ -212,50 +192,6 @@
       <change beforePath="$PROJECT_DIR$/NETCTOSS - 副本/src/main/webapp/bill/bill_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/NETCTOSS - 副本/src/main/webapp/bill/bill_list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NETCTOSS - 副本/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/NETCTOSS - 副本/src/main/webapp/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NETCTOSS - 副本/src/main/webapp/role/role_add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/NETCTOSS - 副本/src/main/webapp/role/role_add.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NETCTOSS/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/NETCTOSS/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NETCTOSS/src/main/java/com/lanou3g/netctoss/admin/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/NETCTOSS/src/main/java/com/lanou3g/netctoss/admin/controller/AdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NETCTOSS/src/main/java/com/lanou3g/netctoss/admin/mapper/AdminMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/NETCTOSS/src/main/java/com/lanou3g/netctoss/admin/mapper/AdminMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NETCTOSS/src/main/java/com/lanou3g/netctoss/admin/service/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/NETCTOSS/src/main/java/com/lanou3g/netctoss/admin/service/AdminService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NETCTOSS/src/main/java/com/lanou3g/netctoss/admin/service/AdminServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/NETCTOSS/src/main/java/com/lanou3g/netctoss/admin/service/AdminServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NETCTOSS/src/main/java/com/lanou3g/netctoss/entity/AdminInfoQx.java" beforeDir="false" afterPath="$PROJECT_DIR$/NETCTOSS/src/main/java/com/lanou3g/netctoss/entity/AdminInfoQx.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NETCTOSS/src/main/java/com/lanou3g/netctoss/entity/Cost.java" beforeDir="false" afterPath="$PROJECT_DIR$/NETCTOSS/src/main/java/com/lanou3g/netctoss/entity/Cost.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NETCTOSS/src/main/java/com/lanou3g/netctoss/entity/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/NETCTOSS/src/main/java/com/lanou3g/netctoss/entity/Service.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NETCTOSS/src/main/java/com/lanou3g/netctoss/entity/ServiceUpdateBak.java" beforeDir="false" afterPath="$PROJECT_DIR$/NETCTOSS/src/main/java/com/lanou3g/netctoss/entity/ServiceUpdateBak.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NETCTOSS/src/main/java/com/lanou3g/netctoss/interceptors/LoginInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/NETCTOSS/src/main/java/com/lanou3g/netctoss/interceptors/LoginInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NETCTOSS/src/main/java/com/lanou3g/netctoss/utils/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NETCTOSS/src/main/sources/com/lanou3g/netctoss/admin/mapper/AdminMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/NETCTOSS/src/main/sources/com/lanou3g/netctoss/admin/mapper/AdminMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NETCTOSS/src/main/sources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/NETCTOSS/src/main/sources/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NETCTOSS/src/main/sources/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/NETCTOSS/src/main/sources/spring-mvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NETCTOSS/src/main/sources/spring-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/NETCTOSS/src/main/sources/spring-service.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/account/account_add.html" beforeDir="false" afterPath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/account/account_add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/account/account_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/account/account_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/account/account_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/account/account_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/account/account_modi.html" beforeDir="false" afterPath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/account/account_modi.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/admin/admin_add.html" beforeDir="false" afterPath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/admin/admin_add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/admin/admin_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/admin/admin_list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/admin/admin_modi.html" beforeDir="false" afterPath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/admin/admin_modi.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/bill/bill_item.html" beforeDir="false" afterPath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/bill/bill_item.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/bill/bill_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/bill/bill_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/bill/bill_service_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/bill/bill_service_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/fee/fee_add.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/fee/fee_detail.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/fee/fee_list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/fee/fee_modi.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/nopower.html" beforeDir="false" afterPath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/nopower.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/report/report_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/report/report_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/role/role_add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/role/role_add.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/role/role_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/role/role_list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/role/role_modi.html" beforeDir="false" afterPath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/role/role_modi.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/service/service_add.html" beforeDir="false" afterPath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/service/service_add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/service/service_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/service/service_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/service/service_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/service/service_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/service/service_modi.html" beforeDir="false" afterPath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/service/service_modi.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/user/user_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/user/user_info.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/user/user_modi_pwd.html" beforeDir="false" afterPath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/user/user_modi_pwd.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NETCTOSS/src/test/java/com/lanou3g/netctoss/admin/mapper/AdminMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/NETCTOSS/src/test/java/com/lanou3g/netctoss/admin/mapper/AdminMapperTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SMM_0929/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SMM_0929/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SMM_0929/src/main/sources/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SMM_0929/src/main/sources/spring-mvc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SMM_0929/src/main/sources/spring-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SMM_0929/src/main/sources/spring-service.xml" afterDir="false" />
@@ -286,7 +222,7 @@
     <session id="836021226">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="14" />
+          <entry key="project.closed" value="15" />
           <entry key="project.open.time.0" value="11" />
           <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.13" value="1" />
@@ -1788,7 +1724,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="191" y="4" width="1648" height="1047" extended-state="1" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26133502" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />

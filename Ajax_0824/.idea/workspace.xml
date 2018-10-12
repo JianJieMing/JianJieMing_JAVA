@@ -26,9 +26,7 @@
       <change afterPath="$PROJECT_DIR$/../SMM_0929/src/main/java/com/jianjieming/study/aspect/TimeAspect.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../SMM_0929/src/main/java/com/jianjieming/study/exception/GlobalException.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../SMM_0929/src/main/java/com/jianjieming/study/interceptors/LoginInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SMM_0929/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SMM_0929/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SMM_0929/src/main/sources/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SMM_0929/src/main/sources/spring-mvc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SMM_0929/src/main/sources/spring-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SMM_0929/src/main/sources/spring-service.xml" afterDir="false" />
@@ -84,7 +82,7 @@
     <session id="-236023276">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.3" value="1" />
@@ -400,7 +398,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="89" y="23" width="1619" height="977" extended-state="1" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4982079" visible="true" weight="0.23220013" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
