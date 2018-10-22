@@ -6,7 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d4ce58e-2ef7-4f8e-9044-2f4f34f061b5" name="Default Changelist" comment="">
+    <list default="true" id="0d4ce58e-2ef7-4f8e-9044-2f4f34f061b5" name="Default Changelist" comment="登录注册作业最新版">
       <change afterPath="$PROJECT_DIR$/../NETCTOSS/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../NETCTOSS/.idea/compiler.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../NETCTOSS/.idea/encodings.xml" afterDir="false" />
@@ -21,14 +21,6 @@
       <change afterPath="$PROJECT_DIR$/../NETCTOSS/src/main/sources/spring-dao.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../NETCTOSS/src/main/sources/spring-mvc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../NETCTOSS/src/main/sources/spring-service.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SMM_0929/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SMM_0929/src/main/java/com/jianjieming/study/aspect/LoggerAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SMM_0929/src/main/java/com/jianjieming/study/aspect/TimeAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SMM_0929/src/main/java/com/jianjieming/study/exception/GlobalException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SMM_0929/src/main/java/com/jianjieming/study/interceptors/LoginInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SMM_0929/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SMM_0929/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SMM_0929/src/main/sources/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SMM_0929/src/main/sources/spring-mvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SMM_0929/src/main/sources/spring-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SMM_0929/src/main/sources/spring-service.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -56,33 +48,39 @@
     <session id="20305235">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.0" value="5" />
-          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.42" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.79" value="1" />
-          <entry key="project.opened" value="12" />
+          <entry key="project.opened" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="gitignore" value="1" />
           <entry key="html" value="1" />
+          <entry key="iml" value="1" />
           <entry key="java" value="136" />
           <entry key="jsp" value="25" />
           <entry key="md" value="2" />
-          <entry key="xml" value="16" />
+          <entry key="properties" value="2" />
+          <entry key="xml" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="Git file" value="1" />
           <entry key="HTML" value="1" />
+          <entry key="IDEA_MODULE" value="1" />
           <entry key="JAVA" value="136" />
           <entry key="JSP" value="25" />
           <entry key="Markdown" value="2" />
-          <entry key="XML" value="16" />
+          <entry key="Properties" value="2" />
+          <entry key="XML" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -109,98 +107,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application-servlet.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="15" column="69" lean-forward="true" selection-start-line="15" selection-start-column="69" selection-end-line="15" selection-end-column="69" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jianjieming/homework/aop/TimerAspect.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jianjieming/homework/service/UserService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jianjieming/homework/aop/LoggerAspect.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jianjieming/homework/aop/BaseAspect.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="7" column="47" lean-forward="true" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/main.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="4" selection-start-column="4" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="684">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/register.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="684">
-              <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/error.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jianjieming/homework/validator/IdCardUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -324,8 +231,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -446,7 +354,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -601,6 +508,7 @@
       <workItem from="1539746381647" duration="716000" />
       <workItem from="1539769790535" duration="497000" />
       <workItem from="1539834490811" duration="1253000" />
+      <workItem from="1540176512264" duration="237000" />
     </task>
     <task id="LOCAL-00001" summary="登录注册作业">
       <created>1537861531903</created>
@@ -634,7 +542,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43237000" />
+    <option name="totallyTimeSpent" value="43474000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -647,7 +555,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21641791" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -691,6 +598,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="SHOW_UNVERSIONED_FILES_WHILE_COMMIT" value="false" />
     <MESSAGE value="登录注册作业" />
     <MESSAGE value="登录注册作业最新版" />
     <option name="LAST_COMMIT_MESSAGE" value="登录注册作业最新版" />
@@ -838,9 +746,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="792">
           <caret line="28" column="26" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -855,10 +760,41 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-          <folding>
-            <element signature="e#294#295#0" expanded="true" />
-            <element signature="e#321#322#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jianjieming/homework/aop/TimerAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jianjieming/homework/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jianjieming/homework/aop/LoggerAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jianjieming/homework/aop/BaseAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -866,6 +802,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="4" selection-start-column="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
@@ -890,47 +833,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/../NETCTOSS/.idea/compiler.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jianjieming/homework/aop/TimerAspect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/../NETCTOSS/.idea/encodings.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jianjieming/homework/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/../NETCTOSS/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jianjieming/homework/aop/LoggerAspect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/../NETCTOSS/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jianjieming/homework/aop/BaseAspect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="7" column="47" lean-forward="true" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/../NETCTOSS/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="15" column="69" lean-forward="true" selection-start-line="15" selection-start-column="69" selection-end-line="15" selection-end-column="69" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/../NETCTOSS/src/main/sources/db.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../NETCTOSS/src/main/sources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../NETCTOSS/src/main/sources/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../NETCTOSS/src/main/sources/spring-dao.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../NETCTOSS/src/main/sources/spring-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../NETCTOSS/src/main/sources/spring-service.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../NETCTOSS/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../NETCTOSS/NETCTOSS.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../NETCTOSS/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
