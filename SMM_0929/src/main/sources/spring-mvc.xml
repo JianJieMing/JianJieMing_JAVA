@@ -32,4 +32,24 @@
         <property name="defaultEncoding" value="utf-8"/>
     </bean>
 
+    <!--统一异常-->
+    <bean class="com.jianjieming.study.exception.GlobalException">
+
+    </bean>
+
+    <!--拦截器-->
+    <bean class="com.jianjieming.study.interceptors.LoginInterceptor" id="loginInterceptor">
+
+    </bean>
+
+    <mvc:interceptors>
+        <mvc:interceptor>
+            <!--对所有的url进行过滤-->
+            <mvc:mapping path="/**"/>
+            <!--排除掉/user/login和user/register-->
+            <mvc:mapping path="/user/**"/>
+            <ref bean="loginInterceptor"/>
+        </mvc:interceptor>
+    </mvc:interceptors>
+
 </beans>
