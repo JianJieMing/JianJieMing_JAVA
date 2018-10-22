@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lanou3g.netctoss.account.mapper.AccountMapper">
+
+
+    <select id="findAll" resultMap="commons.accountAll">
+        select account_id,
+               real_name,
+               idcard_no,
+               login_name,
+               status,
+               create_date,
+               last_login_time,
+               pause_date
+        from account acc
+    </select>
+    <update id="updateStart">
+        update account
+        set status     = 1,
+            pause_date = now()
+        where account_id = #{accountId}
+    </update>
+
+    <update id="updateStop">
+        update account
+        set status     = 0,
+            close_date = now()
+        where account_id = #{accountId}
+    </update>
+
+    <select id="showMessage" resultMap="commons.accountAll">
+        select account_id,
+               real_name,
+               idcard_no,
+               login_name,
+               telephone,
+               recommender_id,
+               birthdate,
+               email,
+               gender,
+               occupation,
+               mailaddress,
+               zipcode,
+               qq,
+               status,
+               create_date,
+               pause_date
+        from account acc
+        where account_id = #{accountId};
+    </select>
+
+    <update id="updateOne">
+        update account
+        set account_id     = #{accountId},
+            real_name      = #{realName},
+            idcard_no      = #{idcardNo},
+            login_name     = #{loginName},
+            telephone      = #{telephone},
+            recommender_id = #{recommenderId},
+            birthdate      = #{birthdate},
+            email          = #{email},
+            occupation     = #{occupation},
+            gender         = #{gender},
+            mailaddress    = #{mailaddress},
+            zipcode        = #{zipcode},
+            qq             = #{qq}
+        where account_id = #{accountId}
+    </update>
+
+    <delete id="deleteOne">
+        delete
+        from account
+        where account_id = #{accountId};
+    </delete>
+
+    <insert id="insertOne">
+        insert into account (real_name, idcard_no, login_name, login_passwd,create_date,last_login_time,last_login_ip,
+        telephone,birthdate,
+        email,occupation,gender,mailaddress,zipcode,qq)
+        value (
+        #{realName},
+        #{idcardNo},
+        #{loginName},
+        #{loginPasswd},
+        now(),
+        now(),
+        '172.19.19.36',
+        #{telephone},
+        <!--<if test="birthdate!=null">-->
+        #{birthdate},
+        <!--</if>-->
+        <!--<if test="email!=null">-->
+        #{email},
+        <!--</if>-->
+        <!--<if test="occupation!=null">-->
+        #{occupation},
+        <!--</if>-->
+        <!--<if test="gender!=null">-->
+        #{gender},
+        <!--</if>-->
+        <!--<if test="mailaddress!=null">-->
+        #{mailaddress},
+        <!--</if>-->
+        <!--<if test="zipcode!=null">-->
+        #{zipcode},
+        <!--</if>-->
+        <!--<if test="qq!=null">-->
+        #{qq}
+        <!--</if>-->
+        )
+    </insert>
+
+    <select id="selectOne" resultMap="commons.accountAll">
+        select *
+        from account
+        <where>
+            <if test="idcardNo != null and idcardNo != '' ">
+                and idcard_no = #{idcardNo}
+            </if>
+            <if test="realName != null and realName != '' ">
+                and real_name = #{realName}
+            </if>
+            <if test="loginName != null and loginName != '' ">
+                and login_name = #{loginName}
+            </if>
+            <if test="status != null">
+                and status = #{status}
+            </if>
+        </where>
+    </select>
+
+    <select id="selectOneByMessage" resultMap="commons.accountAll">
+        select *
+        from account
+        <where>
+            <if test="idcardNo != null and idcardNo != '' ">
+                and idcard_no = #{idcardNo}
+            </if>
+            <if test="realName != null and realName != '' ">
+                and real_name = #{realName}
+            </if>
+            <if test="loginName != null and loginName != '' ">
+                and login_name = #{loginName}
+            </if>
+        </where>
+    </select>
+
+    <select id="selectOneById" resultMap="commons.accountAll">
+        select *
+        from account
+        where account_id = #{accountId}
+    </select>
+
+    <select id="selectPage" resultMap="commons.accountAll">
+        select *
+        from account
+        limit #{page},5
+    </select>
+
+
+</mapper>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lanou3g.netctoss.cost.mapper.CostMapper">
+
+    <resultMap id="findCost" type="cost">
+        <id column="cost_id" property="costId"/>
+        <result column="name" property="name"/>
+        <result column="base_duration" property="baseDuration"/>
+        <result column="base_cost" property="baseCost"/>
+        <result column="unit_cost" property="unitCost"/>
+        <result column="creatime" property="creatime"/>
+        <result column="startime" property="startime"/>
+        <result column="status" property="status"/>
+    </resultMap>
+    <select id="findAll" resultMap="findCost">
+        select *
+        from cost
+    </select>
+
+    <select id="findAllByid" resultMap="findCost">
+        select *
+        from cost
+        where cost_id = #{costId}
+    </select>
+
+    <insert id="insertOne">
+        insert into cost (name, cost_type, base_duration, base_cost, unit_cost, status, descr, creatime, startime)
+        VALUE (#{name}, #{costType}, #{baseDuration}, #{baseCost}, #{unitCost}, 0, #{descr}, now(), now())
+    </insert>
+
+    <update id="update">
+        update cost
+        set status   = 1,
+            startime = now()
+        where cost_id = #{costId};
+    </update>
+
+    <delete id="delete">
+        delete
+        from cost
+        where cost_id = #{costId};
+    </delete>
+
+    <update id="updateAll">
+        update cost
+        set name          = #{name},
+            cost_type     = #{costType},
+            base_duration = #{baseDuration},
+            base_cost     = #{baseCost},
+            unit_cost     = #{unitCost},
+            descr         = #{descr}
+        where cost_id = #{costId}
+    </update>
+
+    <select id="showAllBySortA" resultMap="findCost">
+        select * from cost order by base_cost asc
+    </select>
+
+    <select id="showAllBySortD" resultMap="findCost">
+        select * from cost order by base_cost desc
+    </select>
+
+    <select id="showAllBySorta" resultMap="findCost">
+        select * from cost order by base_duration asc
+    </select>
+
+    <select id="showAllBySortd" resultMap="findCost">
+        select * from cost order by base_duration desc
+    </select>
+
+    <select id="selectPage" resultMap="findCost">
+        select * from cost limit #{page},5
+    </select>
+
+
+</mapper>

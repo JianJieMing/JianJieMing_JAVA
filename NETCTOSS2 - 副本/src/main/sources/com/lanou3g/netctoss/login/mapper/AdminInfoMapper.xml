@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lanou3g.netctoss.login.mapper.AdminInfoMapper">
+
+
+    <resultMap id="adminInfoQxMap" type="com.lanou3g.netctoss.entity.AdminInfoQx" extends="commons.adminInfoMap">
+        <result column="qx" property="qx"/>
+        <association property="adminRole" javaType="adminRole" resultMap="adminRoleMap"/>
+    </resultMap>
+
+    <resultMap id="adminRoleMap" type="adminRole" extends="commons.adminRoleMap">
+        <collection property="roleInfoList" ofType="roleInfo" resultMap="roleInfoMap"/>
+    </resultMap>
+
+    <resultMap id="roleInfoMap" type="roleInfo" extends="commons.roleInfoMap">
+        <association property="roleModule" javaType="roleModule" resultMap="roleModuleMap"/>
+    </resultMap>
+
+    <resultMap id="roleModuleMap" type="roleModule" extends="commons.roleModuleMap">
+        <collection property="moduleInfoList" ofType="moduleInfo" resultMap="commons.moduleInfoMap"/>
+    </resultMap>
+
+    <select id="findOne" resultType="admininfo">
+        select *
+        from admin_info
+        where admin_code = #{adminCode}
+    </select>
+
+    <select id="showModule" resultMap="adminInfoQxMap">
+        select admin_info.admin_code,group_concat(module_info.module_id) qx
+        from admin_info
+                 left join admin_role on admin_info.admin_id = admin_role.admin_id
+                 left join role_info on admin_role.role_id = role_info.role_id
+                 left join role_module on role_info.role_id = role_module.role_id
+                 left join module_info on role_module.module_id = module_info.module_id
+        group by admin_info.admin_id having admin_code = #{adminCode}
+    </select>
+</mapper>

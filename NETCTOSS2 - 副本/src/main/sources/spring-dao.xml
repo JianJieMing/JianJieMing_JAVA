@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd
+       http://www.springframework.org/schema/tx
+       http://www.springframework.org/schema/tx/spring-tx.xsd">
+
+    <!--引入数据库的配置文件-->
+    <context:property-placeholder location="classpath:db.properties"/>
+
+    <!--创建c3p0数据源对象-->
+    <bean class="com.mchange.v2.c3p0.ComboPooledDataSource" id="dataSource">
+        <property name="driverClass" value="${db.driver}"/>
+        <property name="jdbcUrl" value="${db.url}"/>
+        <property name="user" value="${db.username}"/>
+        <property name="password" value="${db.password}"/>
+        <!--数据库连接池的配置-->
+        <property name="maxPoolSize" value="20"/>
+        <property name="initialPoolSize" value="5"/>
+    </bean>
+
+    <!--创建SqlSessionFactory-->
+    <bean class="org.mybatis.spring.SqlSessionFactoryBean" id="sessionFactory">
+        <!--加载数据源-->
+        <property name="dataSource" ref="dataSource"/>
+        <!--加载mybatis的配置文件-->
+        <property name="configLocation" value="classpath:mybatis-config.xml"/>
+        <!--自动扫描实体类,配置别名-->
+        <property name="typeAliasesPackage" value="com.lanou3g.netctoss.entity"/>
+    </bean>
+
+    <!--
+    mapper映射配置器：
+        mybatis会根据mapper.xml文件,使用动态代理的方式,自动创建出mapper接口的实现类.
+        下面这个配置,实际上就是将这些实现类的对象放入到spring容器中,
+        所以,我们只需要告诉spring这些mapper接口在哪,使用哪个SqlSessionFactory来创建这些接口的实现类.
+    -->
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <!--关联上面的SqlSessionFactoryBean 注意: 是value,不是ref-->
+        <property name="sqlSessionFactoryBeanName" value="sessionFactory"/>
+        <!--Mapper的接口所在的包-->
+        <property name="basePackage" value="com.lanou3g.netctoss.*.mapper"/>
+    </bean>
+
+</beans>

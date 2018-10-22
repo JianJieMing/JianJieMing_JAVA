@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+    <settings>
+        <!--
+        这个开关表示是否开启二级缓存,默认值为true,
+        二级缓存表示同一个mapper中的同一个查询是有缓存的,
+        与是否是同一个SqlSession无关.
+        注意事项:
+            1. SqlSession关闭的时候(close)才会向二级缓存中缓存数据.
+            2. 实体类需要序列化.
+        在select中可以使用useCache属性单独控制该statement是否使用缓存.
+
+        可以自定义二级缓存的框架 ehcache oscache
+        -->
+        <setting name="cacheEnabled" value="true"/>
+        <!--
+        懒加载开关默认值为false,如果为false,在查询的时候,会把所有关联的sql都会进行查询.
+        如果设置为true,关联的sql会根据需要的时候才会进行查询.
+        -->
+        <setting name="lazyLoadingEnabled" value="true"/>
+        <!--
+        积极的懒加载,默认值是false,调用某个对象的任意方法,都会把它关联的其他sql进行调用,
+        例如,获取goods的名字属性,也会查询该商品的类别.
+        -->
+        <setting name="aggressiveLazyLoading" value="true"/>
+        <!--默认是false,下划线形式的列名与小驼峰形式的属性名自动映射.-->
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
+        <!--
+        自动映射适用于单表查询,一对一的多表查询,
+        但是一对多查询很容易出现与预计的结果不一致的情况.
+        -->
+        <!--<setting name="autoMappingBehavior" value="FULL"/>-->
+        <setting name="logImpl" value="LOG4J"/>
+    </settings>
+
+    <mappers>
+        <mapper resource="com/lanou3g/netctoss/CommonsMapper.xml"/>
+    </mappers>
+
+</configuration>

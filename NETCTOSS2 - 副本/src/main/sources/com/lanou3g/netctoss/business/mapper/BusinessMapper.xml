@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.lanou3g.netctoss.business.mapper.BusinessMapper">
+
+    <resultMap id="serviceMap" type="service" extends="commons.serviceMap">
+        <association property="account" javaType="account" resultMap="commons.accountAll"/>
+        <association property="cost" javaType="cost" resultMap="commons.costMap"/>
+    </resultMap>
+
+    <sql id="accountAndServiceAndCost">
+        select s.service_id,
+               a.account_id,
+               a.idcard_no,
+               a.real_name,
+               s.os_username,
+               s.status,
+               s.unix_host,
+               c.name,
+               c.descr
+        from account a
+                 left join service s on a.account_id = s.account_id
+                 left join cost c on c.cost_id = s.cost_id
+    </sql>
+
+    <select id="queryBusiness" resultMap="serviceMap">
+        <include refid="accountAndServiceAndCost"/>
+    </select>
+
+    <select id="queryOsUsernameOrUnixHostOrIdCardNo" resultMap="serviceMap">
+        <include refid="accountAndServiceAndCost"/>
+        <where>
+            <if test="osUsername != null and osUsername != ''">
+                s.os_username like CONCAT('%',#{osUsername},'%')
+            </if>
+            <if test="unixHost != null and unixHost != ''">
+                and s.unix_host like CONCAT('%',#{unixHost},'%')
+            </if>
+            <if test="idcardNo != null and idcardNo != ''">
+                and a.idcard_no like CONCAT('%',#{idcardNo},'%')
+            </if>
+            <if test="status != null">
+                and s.status = #{status}
+            </if>
+        </where>
+    </select>
+
+    <select id="queryIdCardNo" resultMap="commons.accountAll">
+        select a.account_id, a.login_name, a.idcard_no
+        from account a
+        <where>
+            <if test="idcardNo != null and idcardNo != ''">
+                a.idcard_no = #{idcardNo}
+            </if>
+        </where>
+    </select>
+
+    <select id="queryCostName" resultMap="commons.costMap">
+        select *
+        from cost;
+    </select>
+
+    <insert id="insertService">
+        insert into service (account_id, unix_host, os_username, login_passwd, create_date, cost_id)
+        VALUE (#{accountId}, #{unixHost}, #{osUsername}, #{loginPasswd}, now(), #{costId})
+    </insert>
+
+    <delete id="deleteAccount">
+        delete
+        from account
+        where account_id = #{accountId}
+    </delete>
+
+    <delete id="deleteService">
+        delete
+        from service
+        where account_id = #{accountId}
+    </delete>
+
+    <update id="updateServiceCostId">
+        update service
+        <set>
+            service.cost_id = #{costId}
+        </set>
+        where service_id = #{serviceId}
+    </update>
+
+    <update id="updateStatus">
+        update service
+        <set>
+            service.status = #{status}
+        </set>
+        where service_id = #{serviceId}
+    </update>
+
+    <select id="queryDetails" resultMap="serviceMap">
+        select s.service_id,
+        a.account_id,
+        a.idcard_no,
+        a.real_name,
+        s.os_username,
+        s.status,
+        s.unix_host,
+        s.create_date,
+        s.cost_id,
+        c.name,
+        c.descr
+        from account a
+        left join service s on a.account_id = s.account_id
+        left join cost c on c.cost_id = s.cost_id
+        <where>
+            <if test="serviceId != null">
+                s.service_id = #{serviceId}
+            </if>
+        </where>
+    </select>
+
+</mapper>

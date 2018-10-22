@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<mapper namespace="com.lanou3g.netctoss.information.mapper.InformationMapper">
+
+    <resultMap id="adminInfoImplMap" type="com.lanou3g.netctoss.information.controller.params.AdminInfoImpl" extends="commons.adminInfoMap">
+        <result column="rNames" property="rNames"/>
+    </resultMap>
+
+    <update id="modify">
+        update admin_info
+        <set>
+            <if test="name != null and name != '' ">
+                name = #{name},
+            </if>
+            <if test="telephone != null and telephone != '' ">
+                telephone = #{telephone},
+            </if>
+            <if test="email != null and email != '' ">
+                email = #{email},
+            </if>
+        </set>
+        where admin_info.admin_code = #{adminCode}
+    </update>
+
+    <select id="selectAll" resultMap="adminInfoImplMap">
+        select ai.admin_code, ifnull(group_concat(ri.name), '其他') rNames,
+               ai.name, ai.telephone, ai.email, ai.enrolldate
+        from admin_info ai
+                 left join admin_role ar on ar.admin_id = ai.admin_id
+                 left join role_info ri on ri.role_id = ar.role_id
+        where ai.admin_code = #{adminCode}
+        group by ai.admin_id;
+    </select>
+
+</mapper>

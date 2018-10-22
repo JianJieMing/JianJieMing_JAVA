@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.lanou3g.netctoss.role.mapper.RoleMapper">
+
+    <resultMap id="roleInfoQxMap" type="com.lanou3g.netctoss.entity.RoleInfoQx">
+        <id column="role_id" property="roleId"/>
+        <result column="name" property="name"/>
+        <result column="qx" property="qx"/>
+        <association property="roleModule" javaType="roleModule" resultMap="roleModuleMap"/>
+    </resultMap>
+
+    <resultMap id="roleModuleMap" type="roleModule" extends="commons.roleModuleMap">
+        <collection property="moduleInfoList" ofType="moduleInfo" resultMap="commons.moduleInfoMap"/>
+    </resultMap>
+
+    <select id="queryUserAndPermissions" resultMap="roleInfoQxMap">
+        select role.role_id, role.name, group_concat(module.name) as qx
+        from role_info role
+                 left join role_module rm on rm.role_id = role.role_id
+                 left join module_info module on module.module_id = rm.module_id
+        group by role.role_id
+    </select>
+
+    <insert id="addRoleInfo" useGeneratedKeys="true" keyColumn="role_id" keyProperty="roleId">
+        insert into role_info (name)
+        value (#{name});
+    </insert>
+
+    <insert id="addRoleModule">
+        insert into role_module (role_id, module_id) values
+        <foreach collection="list" separator="," item="item">
+            (#{item.roleId}, #{item.moduleId})
+        </foreach>
+    </insert>
+
+    <select id="queryModuleName" resultMap="commons.moduleInfoMap">
+        select *
+        from module_info as m
+    </select>
+
+    <update id="updateRoleData">
+        update role_info
+        <set>
+            <if test="name != null and name != ''">
+                name = #{name}
+            </if>
+        </set>
+        where role_id = #{roleId}
+    </update>
+
+    <delete id="deleteRoleModule">
+        delete from role_module
+        <where>
+            <if test="roleId != null and roleId != ''">
+                role_id = #{roleId}
+            </if>
+        </where>
+    </delete>
+
+    <insert id="insertRoleModule">
+        insert into role_module (role_id, module_id)
+        values
+        <foreach collection="list" item="item" separator=",">
+            (#{item.roleId},#{item.moduleId})
+        </foreach>
+    </insert>
+
+    <select id="queryModule" resultMap="commons.moduleInfoMap">
+        select *
+        from module_info;
+    </select>
+
+    <delete id="deleteRoleInfo">
+        delete from role_info
+        <where>
+            <if test="roleId != null and roleId != ''">
+                role_id = #{roleId}
+            </if>
+        </where>
+    </delete>
+
+</mapper>

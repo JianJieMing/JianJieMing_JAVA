@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.lanou3g.netctoss.admin.mapper.AdminMapper">
+
+    <resultMap id="adminInfoQxMap" type="com.lanou3g.netctoss.entity.AdminInfoQx" extends="commons.adminInfoMap">
+        <result column="qx" property="qx"/>
+        <association property="adminRole" javaType="adminRole" resultMap="adminRoleMap"/>
+    </resultMap>
+
+    <resultMap id="adminRoleMap" type="adminRole" extends="commons.adminRoleMap">
+        <collection property="roleInfoList" ofType="roleInfo" resultMap="roleInfoMap"/>
+    </resultMap>
+
+    <resultMap id="roleInfoMap" type="roleInfo" extends="commons.roleInfoMap">
+        <association property="roleModule" javaType="roleModule" resultMap="roleModuleMap"/>
+    </resultMap>
+
+    <resultMap id="roleModuleMap" type="roleModule" extends="commons.roleModuleMap">
+        <collection property="moduleInfoList" ofType="moduleInfo" resultMap="commons.moduleInfoMap"/>
+    </resultMap>
+
+    <sql id="adminAndRoleAndModule">
+        select admin.admin_id,
+               admin.name,
+               admin.admin_code,
+               admin.telephone,
+               admin.email,
+               admin.enrolldate,
+               group_concat(role.name) as qx
+        from admin_info admin
+                 left join admin_role ar on admin.admin_id = ar.admin_id
+                 left join role_info role on role.role_id = ar.role_id
+                 left join role_module rm on rm.role_id = role.role_id
+                 left join module_info module on module.module_id = rm.module_id
+    </sql>
+
+    <select id="queryAdminAndRole" resultMap="adminInfoQxMap">
+        <include refid="adminAndRoleAndModule"/>
+        <where>
+            <if test="moduleId != null and moduleId != ''">
+                module.module_id = #{moduleId}
+            </if>
+        </where>
+        group by admin.admin_id
+    </select>
+
+    <select id="queryModuleName" resultMap="commons.moduleInfoMap">
+        select *
+        from module_info
+    </select>
+
+    <select id="queryRoleName" resultMap="adminInfoQxMap">
+        <include refid="adminAndRoleAndModule"/>
+        <where>
+            <if test="name != null and name != ''">
+                role.name like CONCAT('%',#{name},'%')
+            </if>
+        </where>
+        group by admin.admin_id
+    </select>
+
+    <update id="updatePassword">
+        update admin_info
+        <set>
+            password = "00000"
+        </set>
+        where admin_id in
+        <foreach collection="list" item="item" separator="," open="(" close=")">
+            #{item}
+        </foreach>
+    </update>
+
+    <insert id="insertAdminUserMessages" useGeneratedKeys="true" keyColumn="admin_id" keyProperty="adminId">
+        insert into admin_info (admin_code, `password`, name, telephone, email, enrolldate)
+        VALUE (#{adminCode}, #{password}, #{name}, #{telephone}, #{email}, now())
+    </insert>
+
+    <insert id="insertAdminRole">
+        insert into admin_role (admin_id, role_id)
+        VALUES
+        <foreach collection="list" item="item" separator=",">
+            (#{item.adminId},#{item.roleId})
+        </foreach>
+    </insert>
+
+    <select id="queryRoleInfoName" resultMap="commons.roleInfoMap">
+        select *
+        from role_info;
+    </select>
+
+    <delete id="deleteAdminInfo">
+        delete
+        from admin_info
+        where admin_id = #{adminId}
+    </delete>
+
+    <delete id="deleteAdminAndRole">
+        delete
+        from admin_role
+        where admin_id = #{adminId}
+    </delete>
+
+    <select id="queryAdminInfo" resultMap="commons.adminInfoMap">
+        select * from admin_info
+        <where>
+            <if test="adminId != null and adminId != ''">
+                admin_id = #{adminId}
+            </if>
+        </where>
+    </select>
+
+    <select id="queryRoleInof" resultMap="commons.roleInfoMap">
+        select *
+        from role_info;
+    </select>
+
+    <update id="updateAdminData">
+        update admin_info
+        <set>
+            <if test="name != null and name != ''">
+                name = #{name}
+            </if>
+            <if test="telephone != null and telephone != ''">
+                ,telephone = #{telephone}
+            </if>
+            <if test="email != null and email != ''">
+                ,email = #{email}
+            </if>
+        </set>
+        where admin_id = #{adminId}
+    </update>
+
+    <delete id="deleteAdminRole">
+        delete from admin_role
+        <where>
+            <if test="adminId != null and adminId != ''">
+                admin_id = #{adminId}
+            </if>
+        </where>
+    </delete>
+
+    <insert id="insertAdminRoles">
+        insert into admin_role (admin_id, role_id)
+        values
+        <foreach collection="list" item="item" separator=",">
+            (#{item.adminId},#{item.roleId})
+        </foreach>
+    </insert>
+
+</mapper>

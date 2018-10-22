@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd">
+
+    <context:component-scan base-package="com.lanou3g.netctoss.*.controller"/>
+
+    <!--规则校验器-->
+    <bean class="org.springframework.validation.beanvalidation.LocalValidatorFactoryBean"
+          id="factoryBean">
+        <property name="providerClass" value="org.hibernate.validator.HibernateValidator"/>
+    </bean>
+
+    <!--规则校验器-->
+    <mvc:annotation-driven validator="factoryBean"/>
+
+    <!--读取静态资源(REST风格)-->
+    <mvc:default-servlet-handler/>
+
+    <!--视图解析器-->
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <property name="prefix" value="/"/>
+        <property name="suffix" value=".jsp"/>
+    </bean>
+
+    <!--文件上传-->
+    <bean class="org.springframework.web.multipart.commons.CommonsMultipartResolver"
+          id="multipartFile">
+        <property name="maxUploadSize" value="1024000"/>
+        <property name="defaultEncoding" value="utf-8"/>
+    </bean>
+
+    <!--统一异常-->
+    <bean class="com.lanou3g.netctoss.exception.GlobalException">
+
+    </bean>
+
+    <!--拦截器-->
+    <bean class="com.lanou3g.netctoss.interceptor.LoginInterceptor" id="loginInterceptor">
+
+    </bean>
+
+    <mvc:interceptors>
+        <mvc:interceptor>
+            <!--对所有的url进行过滤-->
+            <mvc:mapping path="/**"/>
+            <mvc:exclude-mapping path="/styles/**"/>
+            <mvc:exclude-mapping path="/images/**"/>
+            <mvc:exclude-mapping path="/js/**"/>
+            <mvc:exclude-mapping path="/admin/code"/>
+            <mvc:exclude-mapping path="/admin/login"/>
+            <mvc:exclude-mapping path="/login.html"/>
+            <ref bean="loginInterceptor"/>
+        </mvc:interceptor>
+    </mvc:interceptors>
+
+</beans>

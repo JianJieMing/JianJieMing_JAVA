@@ -1,0 +1,31 @@
+package com.lanou3g.netctoss.cost.service;
+
+import com.lanou3g.netctoss.entity.Cost;
+
+import java.util.List;
+
+public interface CostService {
+
+    List<Cost> findAll();
+
+    int insertOne(Cost cost);
+
+    int update(Integer integer);
+
+    int delete(Integer integer);
+
+    int updateAll(Cost cost);
+
+    Cost findAllByid(Long costId);
+
+    List<Cost> showAllBySortA();
+
+    List<Cost> showAllBySortD();
+
+    List<Cost> showAllBySorta();
+
+    List<Cost> showAllBySortd();
+
+    List<Cost> selectPage (Integer page);
+
+}

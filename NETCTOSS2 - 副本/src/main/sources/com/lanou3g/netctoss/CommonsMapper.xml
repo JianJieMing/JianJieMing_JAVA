@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="commons">
+
+    <resultMap id="adminInfoMap" type="adminInfo">
+        <id column="admin_id" property="adminId"/>
+        <result column="admin_code" property="adminCode"/>
+        <result column="password" property="password"/>
+        <result column="name" property="name"/>
+        <result column="telephone" property="telephone"/>
+        <result column="email" property="email"/>
+        <result column="enrolldate" property="enrolldate"/>
+    </resultMap>
+
+    <resultMap id="adminRoleMap" type="adminRole">
+        <result column="admin_id" property="adminId"/>
+        <result column="role_id" property="roleId"/>
+    </resultMap>
+
+    <resultMap id="roleInfoMap" type="roleInfo">
+        <id column="role_id" property="roleId"/>
+        <result column="name" property="name"/>
+    </resultMap>
+
+    <resultMap id="roleModuleMap" type="roleModule">
+        <result column="role_id" property="roleId"/>
+        <result column="module_id" property="moduleId"/>
+    </resultMap>
+
+    <resultMap id="moduleInfoMap" type="moduleInfo">
+        <id column="module_id" property="moduleId"/>
+        <result column="name" property="name"/>
+    </resultMap>
+
+    <resultMap id="accountAll" type="account">
+        <id column="account_id" property="accountId"/>
+        <result column="recommender_id" property="recommenderId"/>
+        <result column="login_name" property="loginName"/>
+        <result column="login_passwd" property="loginPasswd"/>
+        <result column="status" property="status"/>
+        <result column="create_date" property="createDate"/>
+        <result column="pause_date" property="pauseDate"/>
+        <result column="close_date" property="closeDate"/>
+        <result column="real_name" property="realName"/>
+        <result column="idcard_no" property="idcardNo"/>
+        <result column="birthdate" property="birthdate"/>
+        <result column="gender" property="gender"/>
+        <result column="occupation" property="occupation"/>
+        <result column="telephone" property="telephone"/>
+        <result column="email" property="email"/>
+        <result column="mailaddress" property="mailaddress"/>
+        <result column="zipcode" property="zipcode"/>
+        <result column="qq" property="qq"/>
+        <result column="last_login_time" property="lastLoginTime"/>
+        <result column="last_login_ip" property="lastLoginIp"/>
+    </resultMap>
+    
+    <resultMap id="costMap" type="cost">
+        <id column="cost_id" property="costId"/>
+        <result column="name" property="name"/>
+        <result column="base_duration" property="baseDuration"/>
+        <result column="base_cost" property="baseCost"/>
+        <result column="unit_cost" property="unitCost"/>
+        <result column="status" property="status"/>
+        <result column="descr" property="descr"/>
+        <result column="creatime" property="creatime"/>
+        <result column="startime" property="startime"/>
+        <result column="cost_type" property="costType"/>
+    </resultMap>
+
+    <resultMap id="serviceMap" type="service">
+        <id column="service_id" property="serviceId"/>
+        <result column="account_id" property="accountId"/>
+        <result column="unix_host" property="unixHost"/>
+        <result column="os_username" property="osUsername"/>
+        <result column="login_passwd" property="loginPasswd"/>
+        <result column="status" property="status"/>
+        <result column="create_date" property="createDate"/>
+        <result column="pause_date" property="pauseDate"/>
+        <result column="close_date" property="closeDate"/>
+        <result column="cost_id" property="costId"/>
+    </resultMap>
+
+
+</mapper>
