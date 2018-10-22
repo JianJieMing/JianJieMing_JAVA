@@ -25,7 +25,6 @@ public class DruidConfiguration {
         //是否可以重置数据
         servletRegistrationBean.addInitParameter("resetEnable","false");
         return servletRegistrationBean;
-
     }
 
     @Bean
