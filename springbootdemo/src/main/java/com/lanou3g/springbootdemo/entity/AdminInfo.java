@@ -13,7 +13,7 @@ import java.io.Serializable;
 public class AdminInfo extends BaseEntity implements Serializable {
 
   @Id
-  private Long adminId;
+  private long adminId;
   private String adminCode;
   private String password;
   private String name;
@@ -22,11 +22,11 @@ public class AdminInfo extends BaseEntity implements Serializable {
   private java.sql.Timestamp enrolldate;
 
 
-  public Long getAdminId() {
+  public long getAdminId() {
     return adminId;
   }
 
-  public void setAdminId(Long adminId) {
+  public void setAdminId(long adminId) {
     this.adminId = adminId;
   }
 

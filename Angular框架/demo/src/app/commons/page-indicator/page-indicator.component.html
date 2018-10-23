@@ -1,0 +1,10 @@
+<div id="pages">
+  <a href="javascript:void(0)" (click)="onPreClick()">上一页</a>
+  <!-- class="current_page"-->
+  <a *ngFor="let i of array"
+     href="javascript:void(0)"
+     [ngClass]="currentIndex == i ? 'current_page' : ''"
+     (click)="onPageSelected(i)">{{i}}
+  </a>
+  <a href="javascript:void(0)" (click)="onNextClick()">下一页</a>
+</div>

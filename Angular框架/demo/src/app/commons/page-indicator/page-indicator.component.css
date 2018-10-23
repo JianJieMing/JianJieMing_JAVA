@@ -1,0 +1,32 @@
+a {
+  text-decoration: none;
+}
+
+#pages {
+  width: 940px;
+  text-align: center;
+  height: 28px;
+  line-height: 28px;
+  margin-top: 5px;
+}
+
+#pages a, #pages a.current_page:hover {
+  padding: 5px 10px;
+}
+
+#pages a {
+  color: #000;
+}
+
+#pages a:hover {
+  padding: 5px 9px;
+  background: #cddde4;
+  border: #97b9c9 solid 1px;
+  color: #067db5;
+}
+
+#pages a.current_page {
+  background: #FFF;
+  border: #89bdd8 solid 1px;
+  color: #067db5;
+}

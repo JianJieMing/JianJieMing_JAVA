@@ -11,7 +11,7 @@
     <title>Title</title>
 </head>
 <body>
-<form action="/admin/login" method="get">
+<form action="/login" method="get">
     用户名: <input type="text" name="name"><br>
     密码: <input type="text" name="pwd"><br>
     <input type="submit" value="登录">

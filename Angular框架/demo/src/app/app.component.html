@@ -1,0 +1,33 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+  <!--把循环的代码写到需要循环的标签属性位置-->
+  <!--给属性动态赋值的时候,需要给属性加[]-->
+  <!--*ngIf="module.selected"-->
+  <ul>
+    <li *ngFor="let module of modules">
+      <label>
+        <input type="checkbox"
+               name="moduleIds"
+               [value]="module.moduleId"
+               [checked]="module.selected" (change)="module.selected = !module.selected">{{module.moduleName}}
+      </label>
+    </li>
+  </ul>
+
+  <button (click)="onSaveClick()">保存</button>
+  <br>
+  <!--用小括号()包裹起来的属性,对应的是某个函数-->
+  <button (click)="onTestClick()">{{flag ? '全选' : '取消'}}</button>
+  <br>
+  <input type="text" [(ngModel)]="text">
+  <br>
+  <p>{{text}}</p>
+
+  <app-test [title]="text" (childClick)="onParentClick($event)"></app-test>
+
+  <app-page-indicator [pageSize]="pageSize" (pageSelected)="onPageSelected($event)"></app-page-indicator>
+
+</div>
