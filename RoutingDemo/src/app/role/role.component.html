@@ -1,0 +1,17 @@
+<div>
+  <button routerLink="/role/add">添加</button>
+  <table>
+    <tr>
+      <th>角色id</th>
+      <th>角色名称</th>
+    </tr>
+    <tr *ngFor="let role of dataSource">
+      <td>{{role.roleId}}</td>
+      <td>{{role.roleName}}</td>
+      <td>
+        <button routerLink="/role/modify/{{role.roleId}}">修改</button>
+        <button>删除</button>
+      </td>
+    </tr>
+  </table>
+</div>
