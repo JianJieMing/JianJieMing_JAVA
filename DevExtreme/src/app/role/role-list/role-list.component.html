@@ -1,0 +1,16 @@
+<dx-data-grid id="gridContainer"
+              [dataSource]="datasource"
+              [showBorders]="true">
+  <dxi-column dataField="roleId" caption="角色ID"></dxi-column>
+  <dxi-column dataField="name" caption="角色名称"></dxi-column>
+  <dxo-remote-operations
+    [sorting]="false"
+    [paging]="true">
+  </dxo-remote-operations>
+  <dxo-paging [pageSize]="3"></dxo-paging>
+  <dxo-pager
+    [showPageSizeSelector]="true"
+    [allowedPageSizes]="[8, 12, 20]">
+  </dxo-pager>
+</dx-data-grid>
+
