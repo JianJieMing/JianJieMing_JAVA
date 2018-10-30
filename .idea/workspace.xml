@@ -17,15 +17,26 @@
       <change afterPath="$PROJECT_DIR$/BookStore_0831/web/js/yinghua.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/BookStore_0831/web/jsps/order/kefu.jsp" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/BookStore_0831/web/test/樱花雨背景.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NETCTOSS/src/main/java/com/lanou3g/netctoss/interceptor/LoginInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/js/jquery.validate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/js/messages_zh.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SMM_0929/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SMM_0929/src/main/java/com/jianjieming/study/aspect/LoggerAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SMM_0929/src/main/java/com/jianjieming/study/aspect/TimeAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SMM_0929/src/main/java/com/jianjieming/study/exception/GlobalException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SMM_0929/src/main/java/com/jianjieming/study/interceptors/LoginInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NETCTOSS/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NETCTOSS/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NETCTOSS/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NETCTOSS/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NETCTOSS/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NETCTOSS/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NETCTOSS/NETCTOSS.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NETCTOSS/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NETCTOSS/src/main/java/com/lanou3g/netctoss/admin/controller/AdminList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NETCTOSS/src/main/java/com/lanou3g/netctoss/interceptor/CorsInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NETCTOSS/src/main/java/com/lanou3g/netctoss/role/controller/RoleList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NETCTOSS/src/main/java/com/lanou3g/netctoss/utils/ReturnStatusMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NETCTOSS/src/main/sources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NETCTOSS/src/main/sources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NETCTOSS/src/main/sources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NETCTOSS/src/main/sources/spring-dao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NETCTOSS/src/main/sources/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NETCTOSS/src/main/sources/spring-service.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ajax_0824/web/ajax.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ajax_0824/web/ajax.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookStore_0831/src/admin/dao/CategoryDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore_0831/src/admin/dao/CategoryDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookStore_0831/src/admin/dao/impl/CategoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore_0831/src/admin/dao/impl/CategoryImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookStore_0831/src/admin/login/AdminLoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore_0831/src/admin/login/AdminLoginServlet.java" afterDir="false" />
@@ -149,39 +160,17 @@
       <change beforePath="$PROJECT_DIR$/BookStore_0831/web/menu/mymenu.css" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore_0831/web/menu/mymenu.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookStore_0831/web/menu/mymenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore_0831/web/menu/mymenu.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookStore_0831/web/sql/bookstore.sql" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore_0831/web/sql/bookstore.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NETCTOSS/src/main/java/com/lanou3g/netctoss/admin/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/NETCTOSS/src/main/java/com/lanou3g/netctoss/admin/controller/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NETCTOSS/src/main/java/com/lanou3g/netctoss/admin/mapper/AdminMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/NETCTOSS/src/main/java/com/lanou3g/netctoss/admin/mapper/AdminMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NETCTOSS/src/main/java/com/lanou3g/netctoss/admin/service/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/NETCTOSS/src/main/java/com/lanou3g/netctoss/admin/service/AdminService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NETCTOSS/src/main/java/com/lanou3g/netctoss/exception/GlobalException.java" beforeDir="false" afterPath="$PROJECT_DIR$/NETCTOSS/src/main/java/com/lanou3g/netctoss/exception/GlobalException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NETCTOSS/src/main/java/com/lanou3g/netctoss/admin/service/AdminServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/NETCTOSS/src/main/java/com/lanou3g/netctoss/admin/service/AdminServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NETCTOSS/src/main/java/com/lanou3g/netctoss/role/mapper/RoleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/NETCTOSS/src/main/java/com/lanou3g/netctoss/role/mapper/RoleMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NETCTOSS/src/main/java/com/lanou3g/netctoss/role/service/RoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/NETCTOSS/src/main/java/com/lanou3g/netctoss/role/service/RoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NETCTOSS/src/main/java/com/lanou3g/netctoss/role/service/RoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/NETCTOSS/src/main/java/com/lanou3g/netctoss/role/service/RoleServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NETCTOSS/src/main/sources/com/lanou3g/netctoss/admin/mapper/AdminMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/NETCTOSS/src/main/sources/com/lanou3g/netctoss/admin/mapper/AdminMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NETCTOSS/src/main/sources/com/lanou3g/netctoss/role/mapper/RoleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/NETCTOSS/src/main/sources/com/lanou3g/netctoss/role/mapper/RoleMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NETCTOSS/src/main/sources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/NETCTOSS/src/main/sources/db.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NETCTOSS/src/main/sources/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/NETCTOSS/src/main/sources/spring-mvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/account/account_add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/account/account_add.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/account/account_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/account/account_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/account/account_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/account/account_list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/account/account_modi.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/account/account_modi.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/admin/admin_add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/admin/admin_add.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/admin/admin_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/admin/admin_list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/admin/admin_modi.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/admin/admin_modi.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/error.html" beforeDir="false" afterPath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/error.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/fee/fee_add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/fee/fee_add.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/fee/fee_detail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/fee/fee_detail.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/fee/fee_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/fee/fee_list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/fee/fee_modi.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/fee/fee_modi.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/role/role_add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/role/role_add.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/role/role_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/role/role_list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/role/role_modi.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/role/role_modi.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/service/service_add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/service/service_add.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/service/service_detail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/service/service_detail.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/service/service_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/service/service_list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/service/service_modi.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/service/service_modi.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/user/user_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/user/user_info.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/user/user_modi_pwd.html" beforeDir="false" afterPath="$PROJECT_DIR$/NETCTOSS/src/main/webapp/user/user_modi_pwd.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SMM_0929/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SMM_0929/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SMM_0929/src/main/java/com/jianjieming/study/exception/GlobalException.java" beforeDir="false" afterPath="$PROJECT_DIR$/SMM_0929/src/main/java/com/jianjieming/study/exception/GlobalException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SMM_0929/src/main/sources/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SMM_0929/src/main/sources/spring-mvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SMM_0929/src/main/sources/spring-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SMM_0929/src/main/sources/spring-service.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring_Login_0925/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring_Login_0925/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RoutingDemo/src/app/role/role-editor/role-editor.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/RoutingDemo/src/app/role/role-editor/role-editor.component.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -209,25 +198,28 @@
     <session id="836021226">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="17" />
+          <entry key="project.closed" value="18" />
           <entry key="project.open.time.0" value="13" />
           <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.45" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="20" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="2" />
-          <entry key="html" value="14" />
+          <entry key="html" value="15" />
           <entry key="iml" value="1" />
-          <entry key="java" value="512" />
+          <entry key="java" value="519" />
           <entry key="js" value="1" />
           <entry key="jsp" value="58" />
-          <entry key="md" value="2" />
+          <entry key="md" value="3" />
           <entry key="properties" value="3" />
           <entry key="rnc" value="2" />
           <entry key="txt" value="1" />
@@ -237,12 +229,12 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="2" />
-          <entry key="HTML" value="14" />
+          <entry key="HTML" value="15" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="512" />
+          <entry key="JAVA" value="519" />
           <entry key="JSP" value="58" />
           <entry key="JavaScript" value="1" />
-          <entry key="Markdown" value="2" />
+          <entry key="Markdown" value="3" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Properties" value="3" />
           <entry key="RNG Compact" value="2" />
@@ -269,58 +261,77 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpringMVC_02_0914/target/SpringMVC_02_0914/index.jsp">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpringMVC_02_0914/target/SpringMVC_02_0914/WEB-INF/jsp/login.jsp">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpringMVC_02_0914/target/SpringMVC_02_0914/WEB-INF/jsp/register.jsp">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpringMVC_0914/src/main/webapp/WEB-INF/jsp/first.jsp">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpringMVC_0914/src/main/webapp/WEB-INF/jsp/login.jsp">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpringMVC_0914/src/main/webapp/WEB-INF/jsp/register.jsp">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpringMVC_0914/src/main/webapp/WEB-INF/jsp/second.jsp">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SpringMVC_0914/src/main/webapp/WEB-INF/jsp/success.jsp">
+        <entry file="file://$PROJECT_DIR$/Ajax_0824/src/com/jianjieming/study/AjaxServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
-              <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+            <state relative-caret-position="1440">
+              <caret line="53" column="20" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpringMVC_0914/src/main/java/com/jianjieming/study/controller/UserAction.java">
+        <entry file="file://$PROJECT_DIR$/Ajax_0824/src/com/jianjieming/Test/Ajax2Servlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1080" />
+            <state relative-caret-position="360">
+              <caret line="23" column="44" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
+            </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpringMVC_0914/src/main/java/com/jianjieming/study/model/vo/User.java">
+        <entry file="file://$PROJECT_DIR$/Ajax_0824/web/ajax.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3744">
+              <caret line="104" column="49" selection-start-line="104" selection-start-column="49" selection-end-line="104" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AOP_0918/src/main/java/com/jianjieming/study/aop/LoggerAspect.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1980">
+              <caret line="59" column="5" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BookstoreSpring_0912/src/main/java/com/jianjieming/study/controller/UserAction.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BookstoreSpring_0912/src/main/java/com/jianjieming/study/App.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BookstoreSpring_0912/src/main/java/com/jianjieming/Test01/controller/PersonAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="683">
+              <caret line="54" selection-start-line="54" selection-end-line="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Documents/Tencent Files/1434640043/FileRecv/Redis.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Ajax_0824/web/ajax2.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Abstract_0713/src/com/jianjieming/robot/WoodRobot.java">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
@@ -348,6 +359,8 @@
         <option value="$PROJECT_DIR$/Spring_Login_0925/src/main/java/com/jianjieming/homework/controller/BookController.java" />
         <option value="$PROJECT_DIR$/mybatis_0926/src/main/resources/com/jianjieming/study/mapper/PersonMapper.xml" />
         <option value="$PROJECT_DIR$/mybatis_homework_0927/src/test/java/com/jianjieming/study/mapper/UserMapperTest.java" />
+        <option value="$PROJECT_DIR$/Ajax_0824/web/ajax.html" />
+        <option value="$PROJECT_DIR$/BookstoreSpring_0912/src/main/java/com/jianjieming/Test01/controller/PersonAction.java" />
       </list>
     </option>
   </component>
@@ -377,15 +390,27 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/AOP_0918/AngularTest01/node_modules" />
+    <handled-path value="$PROJECT_DIR$/AngularTest01/node_modules" />
+    <handled-path value="$PROJECT_DIR$/Angular框架/demo/node_modules" />
+    <handled-path value="$PROJECT_DIR$/DevExtreme/node_modules" />
+    <handled-path value="$PROJECT_DIR$/RoutingDemo/node_modules" />
+  </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
+      <path value="$PROJECT_DIR$/AOP_0918/AngularTest01/package.json" />
+      <path value="$PROJECT_DIR$/AngularTest01/package.json" />
+      <path value="$PROJECT_DIR$/Angular框架/demo/package.json" />
+      <path value="$PROJECT_DIR$/DevExtreme/package.json" />
+      <path value="$PROJECT_DIR$/RoutingDemo/package.json" />
       <path value="$PROJECT_DIR$/Test_0818/out/production/Test_0818/cn/jquery-validation-1/package.json" />
       <path value="$PROJECT_DIR$/Test_0818/src/cn/jquery-validation-1/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="191" />
-    <option name="y" value="4" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1648" />
     <option name="height" value="1047" />
   </component>
@@ -436,7 +461,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -474,6 +499,24 @@
               <item name="SpringAOP_0919" type="b2602c69:ProjectViewProjectNode" />
               <item name="课堂代码" type="462c0819:PsiDirectoryNode" />
               <item name="Ajax_0824" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="jianjieming" type="462c0819:PsiDirectoryNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringAOP_0919" type="b2602c69:ProjectViewProjectNode" />
+              <item name="课堂代码" type="462c0819:PsiDirectoryNode" />
+              <item name="Ajax_0824" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="jianjieming" type="462c0819:PsiDirectoryNode" />
+              <item name="Test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringAOP_0919" type="b2602c69:ProjectViewProjectNode" />
+              <item name="课堂代码" type="462c0819:PsiDirectoryNode" />
+              <item name="Ajax_0824" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -482,6 +525,21 @@
               <item name="Ajax_0824" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringAOP_0919" type="b2602c69:ProjectViewProjectNode" />
+              <item name="课堂代码" type="462c0819:PsiDirectoryNode" />
+              <item name="Ajax_0824" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringAOP_0919" type="b2602c69:ProjectViewProjectNode" />
+              <item name="课堂代码" type="462c0819:PsiDirectoryNode" />
+              <item name="Ajax_0824" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringAOP_0919" type="b2602c69:ProjectViewProjectNode" />
@@ -554,43 +612,113 @@
             <path>
               <item name="SpringAOP_0919" type="b2602c69:ProjectViewProjectNode" />
               <item name="课堂代码" type="462c0819:PsiDirectoryNode" />
-              <item name="AOP_0918" type="462c0819:PsiDirectoryNode" />
+              <item name="BookstoreSpring_0912" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringAOP_0919" type="b2602c69:ProjectViewProjectNode" />
+              <item name="课堂代码" type="462c0819:PsiDirectoryNode" />
+              <item name="BookstoreSpring_0912" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringAOP_0919" type="b2602c69:ProjectViewProjectNode" />
+              <item name="课堂代码" type="462c0819:PsiDirectoryNode" />
+              <item name="BookstoreSpring_0912" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringAOP_0919" type="b2602c69:ProjectViewProjectNode" />
+              <item name="课堂代码" type="462c0819:PsiDirectoryNode" />
+              <item name="BookstoreSpring_0912" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringAOP_0919" type="b2602c69:ProjectViewProjectNode" />
+              <item name="课堂代码" type="462c0819:PsiDirectoryNode" />
+              <item name="BookstoreSpring_0912" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringAOP_0919" type="b2602c69:ProjectViewProjectNode" />
+              <item name="课堂代码" type="462c0819:PsiDirectoryNode" />
+              <item name="BookstoreSpring_0912" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="jianjieming" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringAOP_0919" type="b2602c69:ProjectViewProjectNode" />
+              <item name="课堂代码" type="462c0819:PsiDirectoryNode" />
+              <item name="BookstoreSpring_0912" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="jianjieming" type="462c0819:PsiDirectoryNode" />
               <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringAOP_0919" type="b2602c69:ProjectViewProjectNode" />
               <item name="课堂代码" type="462c0819:PsiDirectoryNode" />
-              <item name="AOP_0918" type="462c0819:PsiDirectoryNode" />
+              <item name="BookstoreSpring_0912" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="jianjieming" type="462c0819:PsiDirectoryNode" />
               <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringAOP_0919" type="b2602c69:ProjectViewProjectNode" />
               <item name="课堂代码" type="462c0819:PsiDirectoryNode" />
-              <item name="AOP_0918" type="462c0819:PsiDirectoryNode" />
+              <item name="BookstoreSpring_0912" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="jianjieming" type="462c0819:PsiDirectoryNode" />
+              <item name="Test01" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringAOP_0919" type="b2602c69:ProjectViewProjectNode" />
               <item name="课堂代码" type="462c0819:PsiDirectoryNode" />
-              <item name="AOP_0918" type="462c0819:PsiDirectoryNode" />
+              <item name="BookstoreSpring_0912" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="jianjieming" type="462c0819:PsiDirectoryNode" />
+              <item name="Test01" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringAOP_0919" type="b2602c69:ProjectViewProjectNode" />
+              <item name="课堂代码" type="462c0819:PsiDirectoryNode" />
+              <item name="BookstoreSpring_0912" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="jianjieming" type="462c0819:PsiDirectoryNode" />
+              <item name="Test01" type="462c0819:PsiDirectoryNode" />
+              <item name="Modle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringAOP_0919" type="b2602c69:ProjectViewProjectNode" />
+              <item name="课堂代码" type="462c0819:PsiDirectoryNode" />
+              <item name="BookstoreSpring_0912" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringAOP_0919" type="b2602c69:ProjectViewProjectNode" />
@@ -784,6 +912,16 @@
               <item name="课堂代码" type="462c0819:PsiDirectoryNode" />
               <item name="Pageable_0825" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringAOP_0919" type="b2602c69:ProjectViewProjectNode" />
+              <item name="课堂代码" type="462c0819:PsiDirectoryNode" />
+              <item name="Reflect_0727" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringAOP_0919" type="b2602c69:ProjectViewProjectNode" />
+              <item name="课堂代码" type="462c0819:PsiDirectoryNode" />
+              <item name="SMM_0929" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringAOP_0919" type="b2602c69:ProjectViewProjectNode" />
@@ -1400,12 +1538,17 @@
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
               <item name="jsp" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="SpringAOP_0919" type="b2602c69:ProjectViewProjectNode" />
+              <item name="课堂代码" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringMVC_0917" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1548,17 +1691,20 @@
       <workItem from="1539261676734" duration="761000" />
       <workItem from="1539734458289" duration="2300000" />
       <workItem from="1539757752718" duration="1726000" />
+      <workItem from="1540775424844" duration="3697000" />
+      <workItem from="1540810043618" duration="595000" />
+      <workItem from="1540858031082" duration="597000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48249000" />
+    <option name="totallyTimeSpent" value="53138000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="191" y="4" width="1648" height="1047" extended-state="0" />
+    <frame x="191" y="4" width="1648" height="1047" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22355163" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16624685" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1598,74 +1744,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mybatis_homework_0927/src/main/sources/com/jianjieming/study/mapper/GoodsCategoryMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-216" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis_homework_0927/src/main/sources/com/jianjieming/study/mapper/GoodsMapper.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis_homework_0927/src/main/sources/com/jianjieming/study/mapper/OrderMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis_homework_0927/src/main/java/com/jianjieming/study/entity/TbUser.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis_homework_0927/src/main/java/com/jianjieming/study/entity/UserMoney.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis_homework_0927/src/main/java/com/jianjieming/study/entity/TbOrderItem.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis_homework_0927/src/main/java/com/jianjieming/study/entity/TbGoodsCategory.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis_homework_0927/src/main/java/com/jianjieming/study/entity/TbGoods.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis_homework_0927/src/main/java/com/jianjieming/study/entity/OrderMoney.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis_homework_0927/src/main/sources/com/jianjieming/study/mapper/CommonsMapper.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis_homework_0927/src/main/java/com/jianjieming/study/mapper/CategoryMapper.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis_homework_0927/src/main/java/com/jianjieming/study/mapper/GoodsCategoryMapper.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/web-forms2.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="943">
-          <caret line="86" column="18" selection-start-line="86" selection-start-column="18" selection-end-line="86" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis_homework_0927/src/main/java/com/jianjieming/study/mapper/GoodsMapper.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis_homework_0927/src/main/java/com/jianjieming/study/mapper/OrderMapper.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis_homework_0927/src/main/java/com/jianjieming/study/mapper/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis_homework_0927/src/test/java/com/jianjieming/study/mapper/UserMapperTest.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CookieSession_0829/web/login.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/HelloServlet_0821/web/login.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1789,14 +1867,6 @@
     <entry file="file://$PROJECT_DIR$/SpringMVC_0914/src/main/webapp/WEB-INF/jsp/first.jsp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/SpringMVC_0914/src/main/java/com/jianjieming/study/model/vo/User.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpringMVC_0914/src/main/java/com/jianjieming/study/controller/UserAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1080" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SpringMVC_0914/src/main/webapp/WEB-INF/jsp/login.jsp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1806,10 +1876,112 @@
     <entry file="file://$PROJECT_DIR$/SpringMVC_0914/src/main/webapp/WEB-INF/jsp/second.jsp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/SpringMVC_0914/src/main/java/com/jianjieming/study/controller/UserAction.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringMVC_0914/src/main/java/com/jianjieming/study/model/vo/User.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/SpringMVC_0914/src/main/webapp/WEB-INF/jsp/success.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
+        <state relative-caret-position="589">
           <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spring_Login_0925/homework.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringAOP_0919/AOP.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="432">
+            <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/String_0709/String.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AOP_0918/src/main/java/com/jianjieming/study/service/UserServiceLog.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ajax_0824/web/js/canvas-particle.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ajax_0824/web/js/easying.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Abstract_0713/src/com/jianjieming/robot/Main.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Abstract_0713/src/com/jianjieming/robot/Robot.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ajax_0824/src/com/jianjieming/study/AjaxServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1440">
+          <caret line="53" column="20" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ajax_0824/src/com/jianjieming/Test/Ajax2Servlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="23" column="44" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ajax_0824/web/ajax.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3744">
+          <caret line="104" column="49" selection-start-line="104" selection-start-column="49" selection-end-line="104" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AOP_0918/src/main/java/com/jianjieming/study/aop/LoggerAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1980">
+          <caret line="59" column="5" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BookstoreSpring_0912/src/main/java/com/jianjieming/study/controller/UserAction.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BookstoreSpring_0912/src/main/java/com/jianjieming/study/App.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/Tencent Files/1434640043/FileRecv/Redis.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ajax_0824/web/ajax2.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Abstract_0713/src/com/jianjieming/robot/WoodRobot.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BookstoreSpring_0912/src/main/java/com/jianjieming/Test01/controller/PersonAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="683">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
         </state>
       </provider>
     </entry>
