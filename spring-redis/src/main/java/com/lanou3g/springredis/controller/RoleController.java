@@ -2,7 +2,6 @@ package com.lanou3g.springredis.controller;
 
 import com.lanou3g.springredis.RoleService.RoleService;
 import com.lanou3g.springredis.entity.RoleInfo;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

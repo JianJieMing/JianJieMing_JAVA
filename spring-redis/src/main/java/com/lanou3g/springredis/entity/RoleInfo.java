@@ -1,8 +1,11 @@
 package com.lanou3g.springredis.entity;
 
+import com.fasterxml.jackson.annotation.JsonInclude;
+
 import javax.persistence.*;
 import java.io.Serializable;
 
+//@JsonInclude(JsonInclude.Include.NON_NULL)
 @Entity
 @Table(name = "role_info")
 public class RoleInfo implements Serializable {

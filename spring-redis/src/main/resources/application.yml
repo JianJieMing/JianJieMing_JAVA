@@ -32,6 +32,7 @@ spring:
   jackson:
     serialization:
       indent_output: true
+#      default-property-inclusion: non_null # 全局jackson配置
 #  redis:
 #    host: 172.16.16.227
 #    port: 6379

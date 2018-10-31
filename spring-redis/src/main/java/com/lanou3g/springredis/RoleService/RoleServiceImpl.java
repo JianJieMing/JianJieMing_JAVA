@@ -37,7 +37,7 @@ public class RoleServiceImpl implements RoleService {
 
     @Cacheable(value = "roleService", key = "#roleId")
     @Override
-    public RoleInfo findOne(Long l) {
+     public RoleInfo findOne(Long l) {
         System.out.println("RoleServiceImpl.findOne");
         RoleInfo one = this.mapper.findById(l).get();
         return one;

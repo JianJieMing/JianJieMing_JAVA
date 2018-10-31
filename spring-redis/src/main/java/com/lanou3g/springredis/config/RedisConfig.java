@@ -1,12 +1,12 @@
 package com.lanou3g.springredis.config;
 
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.redis.connection.RedisConnectionFactory;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.serializer.Jackson2JsonRedisSerializer;
-import org.springframework.data.redis.serializer.StringRedisSerializer;
 
 import java.text.SimpleDateFormat;
 
@@ -25,6 +25,12 @@ public class RedisConfig {
         // 定制Jackson,关于更多配置,自己查,比如对象的null属性是否序列化,比如是否转出更美观的json格式.
         ObjectMapper mapper = new ObjectMapper();
         mapper.setDateFormat(new SimpleDateFormat("yyyy-MM-dd hh:mm:ss"));
+        //通过该方法对mapper对象进行设置，所有序列化的对象都将按改规则进行系列化
+        //Include.Include.ALWAYS 默认
+        //Include.NON_DEFAULT 属性为默认值不序列化
+        //Include.NON_EMPTY 属性为 空（“”） 或者为 NULL 都不序列化
+        //Include.NON_NULL 属性为NULL 不序列化
+//        mapper.setSerializationInclusion(JsonInclude.Include.NON_NULL);
         Jackson2JsonRedisSerializer serializer = new Jackson2JsonRedisSerializer<Object>(Object.class);
         // 把value序列化成json格式.
         template.setValueSerializer(serializer);
