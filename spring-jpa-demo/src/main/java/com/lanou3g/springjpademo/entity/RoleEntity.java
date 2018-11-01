@@ -38,7 +38,7 @@ public class RoleEntity {
             inverseJoinColumns = @JoinColumn(name = "temp_module_id")
     )
 
-    @JsonManagedReference
+//    @JsonManagedReference
     private List<ModuleEntity> moduleEntityList = new ArrayList<>();
 
     public Integer getDeleteFlag() {

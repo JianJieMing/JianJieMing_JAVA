@@ -4,7 +4,6 @@ import com.fasterxml.jackson.annotation.JsonBackReference;
 import lombok.*;
 
 import javax.persistence.*;
-import java.util.List;
 
 /**
  * @author 铭
@@ -25,7 +24,7 @@ public class ModuleEntity {
     @Column(name = "module_name", unique = true, nullable = false, length = 50)
     private String moduleName;
 
-    @JsonBackReference
-    private List<RoleEntity> roleEntityList;
+//    @JsonBackReference
+//    private List<RoleEntity> roleEntityList;
 
 }

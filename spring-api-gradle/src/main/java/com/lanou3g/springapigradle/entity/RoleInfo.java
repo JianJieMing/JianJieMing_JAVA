@@ -2,10 +2,6 @@ package com.lanou3g.springapigradle.entity;
 
 import javax.persistence.*;
 
-/**
- * @author 铭
- * 2018/10/31 10:18
- */
 @Entity
 @Table(name = "role_info")
 public class RoleInfo {

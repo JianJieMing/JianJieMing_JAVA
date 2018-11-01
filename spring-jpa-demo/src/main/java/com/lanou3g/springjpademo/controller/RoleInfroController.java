@@ -1,7 +1,8 @@
 package com.lanou3g.springjpademo.controller;
 
 import com.lanou3g.springjpademo.entity.RoleEntity;
-import com.lanou3g.springjpademo.repository.RoleRepository;
+import com.lanou3g.springjpademo.repository.RoleInfoRepository;
+import com.lanou3g.springjpademo.repository.temp.RoleEx;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -16,11 +17,21 @@ import java.util.List;
 public class RoleInfroController {
 
     @Resource
-    private RoleRepository roleRepository;
+    private RoleInfoRepository roleRepository;
 
     @RequestMapping("/list")
     public List<RoleEntity> list() {
         return roleRepository.findAll();
+    }
+
+    @RequestMapping("/listGroup")
+    public List<RoleEx> listGroup() {
+        return roleRepository.roleGroup();
+    }
+
+    @RequestMapping("/autoList")
+    public List<?> queryTest() {
+        return roleRepository.queryTest();
     }
 
 }
