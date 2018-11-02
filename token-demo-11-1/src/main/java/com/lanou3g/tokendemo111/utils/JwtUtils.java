@@ -20,6 +20,7 @@ public class JwtUtils {
      * @return token
      */
     public static String newToken(Long userId) {
+        // 为一个用户设置token并设置默认到期时间
         return newToken(userId, Constants.DEFAULT_EXPIRED_SECONDS);
     }
 
@@ -46,9 +47,10 @@ public class JwtUtils {
      * @return 是否合法
      */
     public static boolean checkToken(String token) {
-        JWTVerifier verifier = JWT.require(Algorithm.HMAC256(Constants.SECRET_KEY))
-                .build();
+        // 根据校验规则HMAC256生成校验对象
+        JWTVerifier verifier = JWT.require(Algorithm.HMAC256(Constants.SECRET_KEY)).build();
         try {
+            // 校验token是否合法
             verifier.verify(token);
             return true;
         } catch (JWTVerificationException e) {
@@ -64,13 +66,21 @@ public class JwtUtils {
      * @return 新token
      */
     public static String refreshToken(String token) {
+        // 进行Base64解码
         DecodedJWT jwt = JWT.decode(token);
+        // 获得解码后token里的负载中的用户ID
         Long userId = jwt.getClaim("userId").asLong();
+        // 调用上面的创建token的方法创建新的token
         return newToken(userId);
     }
 
-
+    /**
+     * token到期时间高于80%,就返回给他一个新的token,并做校验
+     * @param token
+     * @return
+     */
     public static String autoRequire(String token) {
+        // 校验token
         boolean check = checkToken(token);
         if (check) {
             // 解码

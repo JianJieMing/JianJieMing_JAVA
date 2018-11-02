@@ -59,11 +59,12 @@ public class TokenTest {
     }
 
 
+    // token到期时间高于80%,就返回给他一个新的token,并做校验
     @Test
     public void json() throws InterruptedException {
         String token = JwtUtils.newToken(1001L, 10);
         System.out.println(token);
-        Thread.sleep(6000);
+        Thread.sleep(8000);
         String newToken = JwtUtils.autoRequire(token);
         System.out.println(newToken);
     }
