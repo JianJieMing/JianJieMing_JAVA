@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cloud-demo_main" target="1.8" />
+      <module name="cloud-demo_test" target="1.8" />
+      <module name="config-module_main" target="1.8" />
+      <module name="config-module_test" target="1.8" />
+      <module name="eureka-server_main" target="1.8" />
+      <module name="eureka-server_test" target="1.8" />
+      <module name="order-module_main" target="1.8" />
+      <module name="order-module_test" target="1.8" />
+      <module name="order-ribb-module_main" target="1.8" />
+      <module name="order-ribb-module_test" target="1.8" />
+      <module name="user-module_main" target="1.8" />
+      <module name="user-module_test" target="1.8" />
+      <module name="user-rib_main" target="1.8" />
+      <module name="user-rib_test" target="1.8" />
+      <module name="user-ribbon-module_main" target="1.8" />
+      <module name="user-ribbon-module_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

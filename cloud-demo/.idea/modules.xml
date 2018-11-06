@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cloud-demo.iml" filepath="$PROJECT_DIR$/.idea/modules/cloud-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cloud-demo_main.iml" filepath="$PROJECT_DIR$/.idea/modules/cloud-demo_main.iml" group="cloud-demo" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cloud-demo_test.iml" filepath="$PROJECT_DIR$/.idea/modules/cloud-demo_test.iml" group="cloud-demo" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/config-module/config-module.iml" filepath="$PROJECT_DIR$/.idea/modules/config-module/config-module.iml" group="config-module" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/config-module/config-module_main.iml" filepath="$PROJECT_DIR$/.idea/modules/config-module/config-module_main.iml" group="config-module" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/config-module/config-module_test.iml" filepath="$PROJECT_DIR$/.idea/modules/config-module/config-module_test.iml" group="config-module" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/.idea/modules/eureka-server/eureka-server.iml" group="eureka-server" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/eureka-server/eureka-server_main.iml" filepath="$PROJECT_DIR$/.idea/modules/eureka-server/eureka-server_main.iml" group="eureka-server" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/eureka-server/eureka-server_test.iml" filepath="$PROJECT_DIR$/.idea/modules/eureka-server/eureka-server_test.iml" group="eureka-server" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/order-module/order-module.iml" filepath="$PROJECT_DIR$/.idea/modules/order-module/order-module.iml" group="order-module" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/order-module/order-module_main.iml" filepath="$PROJECT_DIR$/.idea/modules/order-module/order-module_main.iml" group="order-module" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/order-module/order-module_test.iml" filepath="$PROJECT_DIR$/.idea/modules/order-module/order-module_test.iml" group="order-module" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/user-module/user-module.iml" filepath="$PROJECT_DIR$/.idea/modules/user-module/user-module.iml" group="user-module" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/user-module/user-module_main.iml" filepath="$PROJECT_DIR$/.idea/modules/user-module/user-module_main.iml" group="user-module" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/user-module/user-module_test.iml" filepath="$PROJECT_DIR$/.idea/modules/user-module/user-module_test.iml" group="user-module" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/user-ribbon-module/user-ribbon-module.iml" filepath="$PROJECT_DIR$/.idea/modules/user-ribbon-module/user-ribbon-module.iml" group="user-ribbon-module" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/user-ribbon-module/user-ribbon-module_main.iml" filepath="$PROJECT_DIR$/.idea/modules/user-ribbon-module/user-ribbon-module_main.iml" group="user-ribbon-module" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/user-ribbon-module/user-ribbon-module_test.iml" filepath="$PROJECT_DIR$/.idea/modules/user-ribbon-module/user-ribbon-module_test.iml" group="user-ribbon-module" />
+    </modules>
+  </component>
+</project>
