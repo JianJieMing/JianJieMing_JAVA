@@ -6,7 +6,7 @@ import javax.persistence.*;
 import java.util.List;
 
 /**
- * 创建人: 武奇
+ * 创建人: 铭
  * 创建事件: 2018/11/2
  */
 @Entity

@@ -10,4 +10,6 @@ public interface UserInfoService {
 
     UserInfo login(String username, String password);
 
+    UserInfo findById(Integer integer);
+
 }

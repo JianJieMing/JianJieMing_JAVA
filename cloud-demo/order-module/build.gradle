@@ -1,0 +1,8 @@
+// 自己的依赖
+dependencies {
+    implementation("org.springframework.boot:spring-boot-starter-web")
+//    连接config模块,相当于这个模块是客户端
+    implementation('org.springframework.cloud:spring-cloud-starter-config')
+//    连接eureka模块,相当于这个模块是客户端
+    implementation('org.springframework.cloud:spring-cloud-starter-netflix-eureka-client')
+}

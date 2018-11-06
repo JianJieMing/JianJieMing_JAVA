@@ -5,6 +5,7 @@ import com.auth0.jwt.JWTVerifier;
 import com.auth0.jwt.algorithms.Algorithm;
 import com.auth0.jwt.exceptions.JWTVerificationException;
 import com.auth0.jwt.interfaces.DecodedJWT;
+
 import java.util.Date;
 
 /**
@@ -19,7 +20,7 @@ public class JwtUtils {
      * @param userId 用户ID
      * @return token
      */
-    public static String newToken(Long userId) {
+    public static String newToken(Integer userId) {
         // 为一个用户设置token并设置默认到期时间
         return newToken(userId, Constants.DEFAULT_EXPIRED_SECONDS);
     }
@@ -29,7 +30,7 @@ public class JwtUtils {
      * @param expiredSeconds 过期时长
      * @return token
      */
-    public static String newToken(Long userId, long expiredSeconds) {
+    public static String newToken(Integer userId, long expiredSeconds) {
         return JWT.create()
                 .withClaim("userId", userId)
                 // 发布时间
@@ -69,13 +70,14 @@ public class JwtUtils {
         // 进行Base64解码
         DecodedJWT jwt = JWT.decode(token);
         // 获得解码后token里的负载中的用户ID
-        Long userId = jwt.getClaim("userId").asLong();
+        Integer userId = jwt.getClaim("userId").asInt();
         // 调用上面的创建token的方法创建新的token
         return newToken(userId);
     }
 
     /**
      * token到期时间高于80%,就返回给他一个新的token,并做校验
+     *
      * @param token
      * @return
      */
@@ -85,7 +87,7 @@ public class JwtUtils {
         if (check) {
             // 解码
             DecodedJWT jwt = JWT.decode(token);
-            // 计算时间是否超过80%
+            // 获取现在的时间按秒算
             long current = System.currentTimeMillis() / 1000;
             // 获取开始时间
             Long start = jwt.getClaim("iat").asLong();
@@ -101,6 +103,10 @@ public class JwtUtils {
         } else {
             throw new JWTVerificationException("token不合法");
         }
+    }
+
+    public static Integer getUserId(String jwtToken) {
+        return JWT.decode(jwtToken).getClaim("userId").asInt();
     }
 
 }

@@ -1,0 +1,5 @@
+// 这里加的是自己模块需要的依赖
+dependencies {
+//    相当于服务器
+    implementation('org.springframework.cloud:spring-cloud-config-server')
+}

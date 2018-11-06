@@ -1,7 +1,8 @@
 package com.lanou3g.tokendemo111.interceptor;
 
-import com.auth0.jwt.exceptions.JWTVerificationException;
+import com.lanou3g.tokendemo111.shiro.JwtToken;
 import com.lanou3g.tokendemo111.utils.JwtUtils;
+import org.apache.shiro.SecurityUtils;
 import org.springframework.web.servlet.HandlerInterceptor;
 
 import javax.servlet.http.HttpServletRequest;
@@ -17,8 +18,13 @@ public class MyInterceptor implements HandlerInterceptor {
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
         String token = request.getHeader("Authentication");
         try {
-            String newtoken = JwtUtils.autoRequire(token);
-            response.addHeader("Authentication", newtoken);
+//            String newtoken = JwtUtils.autoRequire(token);
+
+            JwtToken jwtToken = new JwtToken(token);
+            SecurityUtils.getSubject().login(jwtToken);
+            String netToken = (String) SecurityUtils.getSubject().getPrincipal();
+
+            response.addHeader("Authentication", netToken);
             return true;
         } catch (Exception e) {
             e.printStackTrace();

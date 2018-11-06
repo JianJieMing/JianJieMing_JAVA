@@ -1,0 +1,7 @@
+dependencies {
+    // 读取文件的客户端
+    implementation('org.springframework.cloud:spring-cloud-starter-config')
+    // 服务器
+    implementation('org.springframework.cloud:spring-cloud-starter-netflix-eureka-server')
+    testCompile("junit:junit:4.12")
+}

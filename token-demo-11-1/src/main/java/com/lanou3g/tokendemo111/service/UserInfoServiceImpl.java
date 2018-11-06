@@ -25,4 +25,9 @@ public class UserInfoServiceImpl implements UserInfoService {
         }
         return null;
     }
+
+    @Override
+    public UserInfo findById(Integer userId) {
+        return userInfoRepository.getOne(userId);
+    }
 }

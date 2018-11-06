@@ -1,0 +1,15 @@
+# 自己的端口
+server:
+  port: 8760
+spring:
+  cloud:
+    config:
+      server:
+        native:
+#          去哪个路径去搜索配置文件
+          search-locations: classpath:/shared
+  profiles:
+    active: native
+#    微服务的名字
+  application:
+    name: config-module

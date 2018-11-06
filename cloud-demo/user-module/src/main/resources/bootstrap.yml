@@ -1,0 +1,13 @@
+# 启动顺序在application.yml之前加载
+spring:
+#  给自己模块起名字,需要和其他模块的shared文件夹下的文件同名
+  application:
+    name: user-module
+  cloud:
+    config:
+#      要去哪个地址寻找配置文件
+      uri: http://localhost:8760
+      fail-fast: true
+  profiles:
+#    配置文件
+    active: dev

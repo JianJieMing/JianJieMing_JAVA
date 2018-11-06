@@ -38,6 +38,7 @@ public class TokenTest {
         // 生成后的token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1NDEwNDEzNDksInVzZXJJZCI6MTAwMSwiaWF0IjoxNTQxMDQxMzM5LCJ1c2VybmFtZSI6Imt0bG42NjYifQ.tU_kElllOPZq4A67VEJCODlwD3OFi6ntC4V8ARO60Q0
     }
 
+
     @Test
     public void require() {
         // 根据校验规则HMAC256生成校验对象
@@ -47,7 +48,7 @@ public class TokenTest {
             // 如果合法会返回一个解码后的jwt对象
             // 如果不合法,会抛出xxx异常
             // verify参数填写上面方法生成的token
-            DecodedJWT jwt = verifier.verify("eyJ0e313XAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1NDEwNzQxOTcsInVzZXJJZCI6MTAwMSwiaWF0IjoxNTQxMDczMTk3LCJ1c2VybmFtZSI6ImFkbWluIn0.kp9lMYril6HPyE6r-Ro8guNoaEsmMfZIIFh5Om05kpM");
+            DecodedJWT jwt = verifier.verify("eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1NDEzNzg2MjUsInVzZXJJZCI6MTAwMSwiaWF0IjoxNTQxMzc3NjI1LCJ1c2VybmFtZSI6ImFkbWluIn0.IvEffBdxQ8lkFp08TSXgF10iNYjFiYBxy1WZAkusoSA");
             System.out.println(jwt.getToken());
         } catch (TokenExpiredException e) {
             System.out.println("Token已经过期");

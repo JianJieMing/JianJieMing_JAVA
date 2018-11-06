@@ -1,0 +1,56 @@
+buildscript {
+
+    ext {
+        // 统一下载jar的版本
+        springBootVersion = '2.1.0.RELEASE'
+    }
+
+    repositories {
+        // 下载jar包的地址
+        maven {url 'http://maven.aliyun.com/nexus/content/groups/public/'}
+        mavenCentral()
+        maven { url "https://repo.spring.io/milestone" }
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+    }
+
+}
+
+// 这里面配置,在所有模块下有效
+allprojects {
+
+    repositories {
+        maven {url 'http://maven.aliyun.com/nexus/content/groups/public/'}
+        mavenCentral()
+        maven { url "https://repo.spring.io/milestone" }
+    }
+
+    // 插件
+    apply plugin: 'java'
+    apply plugin: 'idea'
+    apply plugin: 'org.springframework.boot'
+    apply plugin: 'io.spring.dependency-management'
+
+    sourceCompatibility = 1.8
+    targetCompatibility = 1.8
+
+    ext {
+        // 声明了一个变量
+        springCloudVersion = 'Greenwich.M1'
+    }
+
+    dependencyManagement {
+        imports {
+            mavenBom "org.springframework.cloud:spring-cloud-dependencies:${springCloudVersion}"
+        }
+    }
+
+    // 添加依赖,所有模块生效
+    dependencies {
+        runtimeOnly('org.springframework.boot:spring-boot-devtools')
+        compileOnly('org.projectlombok:lombok')
+        testImplementation('org.springframework.boot:spring-boot-starter-test')
+    }
+
+}
