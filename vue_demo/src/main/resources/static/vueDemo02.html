@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="./js/vue.js"></script>
+</head>
+<body>
+<div id="root">
+    <!--两种属性绑定方式-->
+    <!--<div v-bind:title="'JianJieMing ' + title">hello world</div>-->
+    <div :title="'JianJieMing ' + title">hello world</div>
+
+    <!--双向绑定-->
+    <input v-model="content"/>
+    <div>{{content}}</div>
+</div>
+<script>
+    new Vue({
+        el: '#root',
+        data: {
+            title: 'this is hello world',
+            content: 'this is content'
+        }
+    })
+</script>
+</body>
+</html>

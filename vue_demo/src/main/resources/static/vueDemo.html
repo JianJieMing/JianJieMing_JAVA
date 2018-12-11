@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:v-on="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="./js/vue.js"></script>
+</head>
+<body>
+<!--这个div就是挂载点-->
+<!--挂载点里面的内容就是模板,模板也可以在vue实例中使用template去声明-->
+<div id="root">
+    <!--<h1>{{number}}</h1>-->
+    <!--<div v-html="content">{{content}}</div>-->
+    <!--设置点击事件的两种方式-->
+    <!--<div v-on:click="handleClick">{{content}}</div>-->
+    <div @click="handleClick">{{content}}</div>
+</div>
+<script>
+    // 实例
+    new Vue({
+        // 指定对应的挂载点ID
+        el: "#root",
+        // 模板
+        // template: '<h1>{{msg}}</h1>',
+        // 需要显示的内容
+        data: {
+            msg: "hello word",
+            // 插值表达式
+            number: 123,
+            content: 'hello'
+        },
+        methods: {
+            handleClick: function () {
+                this.content = 'word'
+            }
+        }
+    })
+</script>
+</body>
+</html>
